@@ -1,0 +1,37 @@
+import React, { Component, PropTypes } from 'react';
+import classnames from 'classnames';
+
+const propTypes = {
+  type: PropTypes.string
+  
+};
+/**
+ *  badge 默认显示内容1
+ */
+const defaultProps = {
+	clsPrefix: 'uf'
+};
+
+class Icon extends Component {
+	constructor(props) {
+		super(props);
+	}
+	render(){
+		let {type,className,clsPrefix} = this.props;
+		let clsObj = {};
+		
+		if(type) {
+			type=type.replace(/-/g,"");
+			clsObj[`${clsPrefix}-${type}`] = true;
+		}
+		let classNames = classnames(clsPrefix,clsObj);
+
+		return(
+			<i className={classnames(classNames,className)}></i> 
+		)
+	}
+}
+Icon.defaultProps = defaultProps;
+Icon.PropTypes = PropTypes;
+
+export default Icon;
