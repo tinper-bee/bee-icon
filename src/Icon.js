@@ -17,7 +17,7 @@ class Icon extends Component {
 		super(props);
 	}
 	render(){
-		let {type,className,clsPrefix} = this.props;
+		let {type,className,clsPrefix, ...others} = this.props;
 		let clsObj = {};
 		
 		if(type) {
@@ -27,7 +27,7 @@ class Icon extends Component {
 		let classNames = classnames(clsPrefix,clsObj);
 
 		return(
-			<i className={classnames(classNames,className)}></i> 
+			<i {...others} className={classnames(classNames,className)}></i> 
 		)
 	}
 }
