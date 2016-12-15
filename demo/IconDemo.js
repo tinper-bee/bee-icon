@@ -5,7 +5,10 @@ import ReactDOM from 'react-dom';
 class Demo extends Component {
 	render(){
 		return(
-		 <Icon type="add-square-button"/> 
+			<div className="tinper-icon-demo">
+				<Icon type="add-square-button"/> 
+				<Icon type="adjust-contrast" />
+			</div>
 		)
 	}
 }

@@ -12,24 +12,7 @@ const CARET = <i className="uf uf-chevronarrowdown"></i>;
 const CARETUP = <i className="uf uf-chevronarrowup"></i>;
 
 
-/**
- * @title Icon
- * @description 在iuap字符库，`type`参数值均以-分隔。
- */
-class Demo1 extends Component {
-	render () {
-		return (
-			<div className="tinper-icon-demo">
-				<Icon type="add-square-button"/> 
-				<Icon type="adjust-contrast" />
-				<Icon type="align-justify" />
-				<Icon type="align-to-left" />
-				<Icon type="align-to-right" />
-			</div>
-		)
-	}
-}var DemoArray = [{"example":<Demo1 />,"title":" Icon","code":"/**\n * @title Icon\n * @description 在iuap字符库，`type`参数值均以-分隔。\n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<div className=\"tinper-icon-demo\">\n\t\t\t\t<Icon type=\"add-square-button\"/> \n\t\t\t\t<Icon type=\"adjust-contrast\" />\n\t\t\t\t<Icon type=\"align-justify\" />\n\t\t\t\t<Icon type=\"align-to-left\" />\n\t\t\t\t<Icon type=\"align-to-right\" />\n\t\t\t</div>\n\t\t)\n\t}\n}","desc":" 在iuap字符库，`type`参数值均以-分隔。"}]
-
+{demolist}
 
 class Demo extends Component {
     constructor(props){
