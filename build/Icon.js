@@ -47,12 +47,11 @@ var Icon = function (_Component) {
 	}
 
 	Icon.prototype.render = function render() {
-		var _props = this.props;
-		var type = _props.type;
-		var className = _props.className;
-		var clsPrefix = _props.clsPrefix;
-
-		var others = _objectWithoutProperties(_props, ['type', 'className', 'clsPrefix']);
+		var _props = this.props,
+		    type = _props.type,
+		    className = _props.className,
+		    clsPrefix = _props.clsPrefix,
+		    others = _objectWithoutProperties(_props, ['type', 'className', 'clsPrefix']);
 
 		var clsObj = {};
 
