@@ -20,11 +20,7 @@ class Icon extends Component {
 		let {type,className,clsPrefix, ...others} = this.props;
 		let clsObj = {};
 		
-		if(type) {
-			type=type.replace(/-/g,"");
-			clsObj[`${clsPrefix}-${type}`] = true;
-		}
-		let classNames = classnames(clsPrefix,clsObj);
+		let classNames = classnames(clsPrefix,type);
 
 		return(
 			<i {...others} className={classnames(classNames,className)}></i> 

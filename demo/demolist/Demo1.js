@@ -6,11 +6,16 @@ class Demo1 extends Component {
 	render () {
 		return (
 			<div className="tinper-icon-demo">
-				<Icon type="add-square-button"/> 
-				<Icon type="adjust-contrast" />
-				<Icon type="align-justify" />
-				<Icon type="align-to-left" />
-				<Icon type="align-to-right" />
+				<ul className="icon_lists">
+					<li>
+						<Icon type="uf-arrow-down-2"/> 
+						<div className="fontclass">uf-arrow-down-2</div>
+					</li>
+					<li>
+						<Icon type="uf-download"/> 
+						<div className="fontclass">uf-download</div>
+					</li>
+				</ul>
 			</div>
 		)
 	}

@@ -4,6 +4,21 @@
 @import "../node_modules/bee-button/src/Button.scss";
 @import "../src/Icon.scss";
 .tinper-icon-demo .uf{
-	font-size: 30px;
-	padding: 5px 10px;;
+	font-size: 42px;
+    line-height: 100px;
+    margin: 10px 0;
+    color: #333;
+    -webkit-transition: font-size 0.25s ease-out 0s;
+    -moz-transition: font-size 0.25s ease-out 0s;
+    transition: font-size 0.25s ease-out 0s;
+}
+.tinper-icon-demo .uf:hover{
+	font-size: 80px;
+}
+.icon_lists li {
+    float: left;
+    width: 100px;
+    height: 180px;
+    text-align: center;
+    list-style: none !important;
 }

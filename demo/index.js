@@ -20,15 +20,20 @@ class Demo1 extends Component {
 	render () {
 		return (
 			<div className="tinper-icon-demo">
-				<Icon type="add-square-button"/> 
-				<Icon type="adjust-contrast" />
-				<Icon type="align-justify" />
-				<Icon type="align-to-left" />
-				<Icon type="align-to-right" />
+				<ul className="icon_lists">
+					<li>
+						<Icon type="uf-arrow-down-2"/> 
+						<div className="fontclass">uf-arrow-down-2</div>
+					</li>
+					<li>
+						<Icon type="uf-download"/> 
+						<div className="fontclass">uf-download</div>
+					</li>
+				</ul>
 			</div>
 		)
 	}
-}var DemoArray = [{"example":<Demo1 />,"title":" Icon","code":"/**\n * @title Icon\n * @description 在iuap字符库，`type`参数值均以-分隔。\n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<div className=\"tinper-icon-demo\">\n\t\t\t\t<Icon type=\"add-square-button\"/> \n\t\t\t\t<Icon type=\"adjust-contrast\" />\n\t\t\t\t<Icon type=\"align-justify\" />\n\t\t\t\t<Icon type=\"align-to-left\" />\n\t\t\t\t<Icon type=\"align-to-right\" />\n\t\t\t</div>\n\t\t)\n\t}\n}","desc":" 在iuap字符库，`type`参数值均以-分隔。"}]
+}var DemoArray = [{"example":<Demo1 />,"title":" Icon","code":"/**\n * @title Icon\n * @description 在iuap字符库，`type`参数值均以-分隔。\n */\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<div className=\"tinper-icon-demo\">\n\t\t\t\t<ul className=\"icon_lists\">\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-down-2\"/> \n\t\t\t\t\t\t<div className=\"fontclass\">uf-arrow-down-2</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-download\"/> \n\t\t\t\t\t\t<div className=\"fontclass\">uf-download</div>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t)\n\t}\n}","desc":" 在iuap字符库，`type`参数值均以-分隔。"}]
 
 
 class Demo extends Component {
