@@ -55,11 +55,7 @@ var Icon = function (_Component) {
 
 		var clsObj = {};
 
-		if (type) {
-			type = type.replace(/-/g, "");
-			clsObj[clsPrefix + '-' + type] = true;
-		}
-		var classNames = (0, _classnames2["default"])(clsPrefix, clsObj);
+		var classNames = (0, _classnames2["default"])(clsPrefix, type);
 
 		return _react2["default"].createElement('i', _extends({}, others, { className: (0, _classnames2["default"])(classNames, className) }));
 	};
