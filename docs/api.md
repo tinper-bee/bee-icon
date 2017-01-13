@@ -1,6 +1,14 @@
 ## Icon
 
 字体
+字体默认前缀`uf`,
+
+## 用法
+```
+<Icon type="uf-bell" />
+```
+最终渲染成`<i class="uf uf-bell"></i>`
+
 
 ## 代码演示
 
