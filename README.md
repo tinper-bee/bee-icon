@@ -15,8 +15,11 @@ npm install --save bee-icon
 ```
 组件调用
 ```js
+import ReactDom from 'react-dom';
 import InputGroup from 'bee-icon';
-<Icon type="uf-bell"></Icon>, document.getElementById('target'));
+
+ReactDom.render(<Icon type="uf-bell"></Icon>, document.getElementById('target'))
+
 ```
 
 
