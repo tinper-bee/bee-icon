@@ -15,6 +15,12 @@
 .tinper-icon-demo .uf:hover{
 	font-size: 80px;
 }
+.icon_lists:after {
+    clear:both;
+    display:block;
+    visibility: hidden;
+    content:'.';
+}
 .icon_lists li {
     float: left;
     width: 100px;

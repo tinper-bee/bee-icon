@@ -2,6 +2,10 @@
  * @title Icon
  * @description 在iuap字符库，`type`参数值均以-分隔。
  */
+
+import React, { Component } from 'react';
+import Icon from '../../src';
+
 class Demo1 extends Component {
 	render () {
 		return (
@@ -1836,3 +1840,5 @@ class Demo1 extends Component {
 		)
 	}
 }
+
+export default Demo1;
