@@ -29,6 +29,6 @@ class Icon extends Component {
 	}
 }
 Icon.defaultProps = defaultProps;
-Icon.PropTypes = PropTypes;
+Icon.propTypes = propTypes;
 
 export default Icon;
