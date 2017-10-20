@@ -68,7 +68,7 @@ var Icon = function (_Component) {
 }(_react.Component);
 
 Icon.defaultProps = defaultProps;
-Icon.PropTypes = _propTypes2["default"];
+Icon.propTypes = propTypes;
 
 exports["default"] = Icon;
 module.exports = exports['default'];
