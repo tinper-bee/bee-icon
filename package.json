@@ -1,6 +1,6 @@
 {
  "name": "bee-icon",
- "version": "1.0.3",
+ "version": "1.0.4",
  "description": "icon ui component for react",
  "keywords": [
   "react",
@@ -33,7 +33,7 @@
   "chrome": "bee-tools-test run chrome",
   "browsers": "bee-tools-test run browsers",
   "pub": "bee-tools run pub",
-  "changelog":"conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
  },
  "dependencies": {
   "classnames": "^2.2.5",
