@@ -50,7 +50,7 @@
 	
 	var _beePanel = __webpack_require__(8);
 	
-	var _beeButton = __webpack_require__(103);
+	var _beeButton = __webpack_require__(77);
 	
 	var _beeButton2 = _interopRequireDefault(_beeButton);
 	
@@ -76,7 +76,7 @@
 	
 	var CARETUP = _react2['default'].createElement('i', { className: 'uf uf-arrow-up' });
 	
-	var Demo1 = __webpack_require__(105);var DemoArray = [{ "example": _react2['default'].createElement(Demo1, null), "title": " Icon", "code": "/**\n * @title Icon\n * @description 在iuap字符库，`type`参数值均以-分隔。\n */\n\nimport React, { Component } from 'react';\nimport { Icon } from 'tinper-bee';\n\nclass Demo1 extends Component {\n\trender () {\n\t\treturn (\n\t\t\t<div className=\"tinper-icon-demo\">\n\t\t\t\t<ul className=\"icon_lists\">\n            \n\t                <li>\n\t                <Icon type=\"uf-wechat\"></Icon>\n\t                    <div className=\"name\">微信</div>\n\t                    <div className=\"fontclass\">.uf-wechat</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-add-c-o\"></Icon>\n\t                    <div className=\"name\">加</div>\n\t                    <div className=\"fontclass\">.uf-add-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-search\"></Icon>\n\t                    <div className=\"name\">搜索</div>\n\t                    <div className=\"fontclass\">.uf-search</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-histogram-arrow-up\"></Icon>\n\t                    <div className=\"name\">图表 折线图</div>\n\t                    <div className=\"fontclass\">.uf-histogram-arrow-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-close-bold\"></Icon>\n\t                    <div className=\"name\">关闭</div>\n\t                    <div className=\"fontclass\">.uf-close-bold</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-umbrella\"></Icon>\n\t                    <div className=\"name\">雨伞</div>\n\t                    <div className=\"fontclass\">.uf-umbrella</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-qq\"></Icon>\n\t                    <div className=\"name\">QQ</div>\n\t                    <div className=\"fontclass\">.uf-qq</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-4square-3\"></Icon>\n\t                    <div className=\"name\">分类</div>\n\t                    <div className=\"fontclass\">.uf-4square-3</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-send\"></Icon>\n\t                    <div className=\"name\">发送</div>\n\t                    <div className=\"fontclass\">.uf-send</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-map\"></Icon>\n\t                    <div className=\"name\">地图</div>\n\t                    <div className=\"fontclass\">.uf-map</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-9square-2\"></Icon>\n\t                    <div className=\"name\">标定</div>\n\t                    <div className=\"fontclass\">.uf-9square-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-navmenu\"></Icon>\n\t                    <div className=\"name\">汉堡包</div>\n\t                    <div className=\"fontclass\">.uf-navmenu</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pc-2\"></Icon>\n\t                    <div className=\"name\">显示器</div>\n\t                    <div className=\"fontclass\">.uf-pc-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-search-light-2\"></Icon>\n\t                    <div className=\"name\">zoom</div>\n\t                    <div className=\"fontclass\">.uf-search-light-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-check-s-2\"></Icon>\n\t                    <div className=\"name\">任务</div>\n\t                    <div className=\"fontclass\">.uf-check-s-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pencil\"></Icon>\n\t                    <div className=\"name\">编辑</div>\n\t                    <div className=\"fontclass\">.uf-pencil</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-repeat\"></Icon>\n\t                    <div className=\"name\">撤销</div>\n\t                    <div className=\"fontclass\">.uf-repeat</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-security-2\"></Icon>\n\t                    <div className=\"name\">安全</div>\n\t                    <div className=\"fontclass\">.uf-security-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-lexi\"></Icon>\n\t                    <div className=\"name\">女</div>\n\t                    <div className=\"fontclass\">.uf-lexi</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pencil-s\"></Icon>\n\t                    <div className=\"name\">编辑</div>\n\t                    <div className=\"fontclass\">.uf-pencil-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-del\"></Icon>\n\t                    <div className=\"name\">删除</div>\n\t                    <div className=\"fontclass\">.uf-del</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bi-o\"></Icon>\n\t                    <div className=\"name\">比价</div>\n\t                    <div className=\"fontclass\">.uf-bi-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pencil-c\"></Icon>\n\t                    <div className=\"name\">编辑</div>\n\t                    <div className=\"fontclass\">.uf-pencil-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-qrcode\"></Icon>\n\t                    <div className=\"name\">二维码</div>\n\t                    <div className=\"fontclass\">.uf-qrcode</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rmb-c-o\"></Icon>\n\t                    <div className=\"name\">免费报价</div>\n\t                    <div className=\"fontclass\">.uf-rmb-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-search-c-o\"></Icon>\n\t                    <div className=\"name\">搜索</div>\n\t                    <div className=\"fontclass\">.uf-search-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bell\"></Icon>\n\t                    <div className=\"name\">铃铛</div>\n\t                    <div className=\"fontclass\">.uf-bell</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pass-3\"></Icon>\n\t                    <div className=\"name\">机检通过</div>\n\t                    <div className=\"fontclass\">.uf-pass-3</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-treearrow-down\"></Icon>\n\t                    <div className=\"name\">树形线</div>\n\t                    <div className=\"fontclass\">.uf-treearrow-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-training\"></Icon>\n\t                    <div className=\"name\">培训</div>\n\t                    <div className=\"fontclass\">.uf-training</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-group-2\"></Icon>\n\t                    <div className=\"name\">组织架构</div>\n\t                    <div className=\"fontclass\">.uf-group-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-zoom-in\"></Icon>\n\t                    <div className=\"name\">zoom-in</div>\n\t                    <div className=\"fontclass\">.uf-zoom-in</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-security-o\"></Icon>\n\t                    <div className=\"name\">安全</div>\n\t                    <div className=\"fontclass\">.uf-security-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-baojia-c\"></Icon>\n\t                    <div className=\"name\">报价</div>\n\t                    <div className=\"fontclass\">.uf-baojia-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rulerpen\"></Icon>\n\t                    <div className=\"name\">定制</div>\n\t                    <div className=\"fontclass\">.uf-rulerpen</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-erpsearch\"></Icon>\n\t                    <div className=\"name\">erp</div>\n\t                    <div className=\"fontclass\">.uf-erpsearch</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-group-o\"></Icon>\n\t                    <div className=\"name\">组织机构</div>\n\t                    <div className=\"fontclass\">.uf-group-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud-o-updown\"></Icon>\n\t                    <div className=\"name\">同步中2-同步</div>\n\t                    <div className=\"fontclass\">.uf-cloud-o-updown</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-close-c-o\"></Icon>\n\t                    <div className=\"name\">关闭</div>\n\t                    <div className=\"fontclass\">.uf-close-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-add-s\"></Icon>\n\t                    <div className=\"name\">加</div>\n\t                    <div className=\"fontclass\">.uf-add-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pc\"></Icon>\n\t                    <div className=\"name\">工作台</div>\n\t                    <div className=\"fontclass\">.uf-pc</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rain\"></Icon>\n\t                    <div className=\"name\">空气_雨天</div>\n\t                    <div className=\"fontclass\">.uf-rain</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-nodata\"></Icon>\n\t                    <div className=\"name\">无数据</div>\n\t                    <div className=\"fontclass\">.uf-nodata</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-close-c\"></Icon>\n\t                    <div className=\"name\">关闭</div>\n\t                    <div className=\"fontclass\">.uf-close-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bohui-s-o\"></Icon>\n\t                    <div className=\"name\">审批-驳回</div>\n\t                    <div className=\"fontclass\">.uf-bohui-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud\"></Icon>\n\t                    <div className=\"name\">天气</div>\n\t                    <div className=\"fontclass\">.uf-cloud</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bag-s\"></Icon>\n\t                    <div className=\"name\">商品</div>\n\t                    <div className=\"fontclass\">.uf-bag-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-table-2\"></Icon>\n\t                    <div className=\"name\">made</div>\n\t                    <div className=\"fontclass\">.uf-table-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-anglearrowpointingtoright\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-anglearrowpointingtoright</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-exc-c-o\"></Icon>\n\t                    <div className=\"name\">叹号</div>\n\t                    <div className=\"fontclass\">.uf-exc-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-group\"></Icon>\n\t                    <div className=\"name\">组织机构</div>\n\t                    <div className=\"fontclass\">.uf-group</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-personin-o\"></Icon>\n\t                    <div className=\"name\">认证激活</div>\n\t                    <div className=\"fontclass\">.uf-personin-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-calendar\"></Icon>\n\t                    <div className=\"name\">gm_日历</div>\n\t                    <div className=\"fontclass\">.uf-calendar</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-add-s-o\"></Icon>\n\t                    <div className=\"name\">加</div>\n\t                    <div className=\"fontclass\">.uf-add-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sync-c-o\"></Icon>\n\t                    <div className=\"name\">同步</div>\n\t                    <div className=\"fontclass\">.uf-sync-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-grid\"></Icon>\n\t                    <div className=\"name\">grid</div>\n\t                    <div className=\"fontclass\">.uf-grid</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-anglepointingtoleft\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-anglepointingtoleft</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-activate-3\"></Icon>\n\t                    <div className=\"name\">激活</div>\n\t                    <div className=\"fontclass\">.uf-activate-3</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-caven\"></Icon>\n\t                    <div className=\"name\">男</div>\n\t                    <div className=\"fontclass\">.uf-caven</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-back\"></Icon>\n\t                    <div className=\"name\">返回</div>\n\t                    <div className=\"fontclass\">.uf-back</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pass-2\"></Icon>\n\t                    <div className=\"name\">授权</div>\n\t                    <div className=\"fontclass\">.uf-pass-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-reduce-s-o\"></Icon>\n\t                    <div className=\"name\">显示树</div>\n\t                    <div className=\"fontclass\">.uf-reduce-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-area\"></Icon>\n\t                    <div className=\"name\">图表图标-面积图</div>\n\t                    <div className=\"fontclass\">.uf-area</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-flag\"></Icon>\n\t                    <div className=\"name\">旗帜</div>\n\t                    <div className=\"fontclass\">.uf-flag</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-box-o-2\"></Icon>\n\t                    <div className=\"name\">购买盒子</div>\n\t                    <div className=\"fontclass\">.uf-box-o-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-s-o-down\"></Icon>\n\t                    <div className=\"name\">下架</div>\n\t                    <div className=\"fontclass\">.uf-arrow-s-o-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-s-o-up\"></Icon>\n\t                    <div className=\"name\">上架</div>\n\t                    <div className=\"fontclass\">.uf-arrow-s-o-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-building\"></Icon>\n\t                    <div className=\"name\">企业信息</div>\n\t                    <div className=\"fontclass\">.uf-building</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tapp\"></Icon>\n\t                    <div className=\"name\">天气</div>\n\t                    <div className=\"fontclass\">.uf-tapp</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-treefolder\"></Icon>\n\t                    <div className=\"name\">搜索</div>\n\t                    <div className=\"fontclass\">.uf-treefolder</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-advice\"></Icon>\n\t                    <div className=\"name\">咨询</div>\n\t                    <div className=\"fontclass\">.uf-advice</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-2collayout\"></Icon>\n\t                    <div className=\"name\">序列布局</div>\n\t                    <div className=\"fontclass\">.uf-2collayout</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-check-s\"></Icon>\n\t                    <div className=\"name\">审批</div>\n\t                    <div className=\"fontclass\">.uf-check-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sign\"></Icon>\n\t                    <div className=\"name\">采购合同</div>\n\t                    <div className=\"fontclass\">.uf-sign</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-listsearch\"></Icon>\n\t                    <div className=\"name\">查看详情</div>\n\t                    <div className=\"fontclass\">.uf-listsearch</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-gridcaretarrowup\"></Icon>\n\t                    <div className=\"name\">必填</div>\n\t                    <div className=\"fontclass\">.uf-gridcaretarrowup</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-eye-c-o\"></Icon>\n\t                    <div className=\"name\">查看</div>\n\t                    <div className=\"fontclass\">.uf-eye-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-check-c-o\"></Icon>\n\t                    <div className=\"name\">许可</div>\n\t                    <div className=\"fontclass\">.uf-check-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-seal\"></Icon>\n\t                    <div className=\"name\">审批</div>\n\t                    <div className=\"fontclass\">.uf-seal</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-erpbox\"></Icon>\n\t                    <div className=\"name\">erp</div>\n\t                    <div className=\"fontclass\">.uf-erpbox</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rulerpen-o\"></Icon>\n\t                    <div className=\"name\">定制</div>\n\t                    <div className=\"fontclass\">.uf-rulerpen-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-role\"></Icon>\n\t                    <div className=\"name\">角色</div>\n\t                    <div className=\"fontclass\">.uf-role</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-exc-c-2\"></Icon>\n\t                    <div className=\"name\">提示叹号</div>\n\t                    <div className=\"fontclass\">.uf-exc-c-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pad\"></Icon>\n\t                    <div className=\"name\">pad</div>\n\t                    <div className=\"fontclass\">.uf-pad</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-treefolder-closed\"></Icon>\n\t                    <div className=\"name\">tree-new-sbling-node</div>\n\t                    <div className=\"fontclass\">.uf-treefolder-closed</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-reduce-c-o\"></Icon>\n\t                    <div className=\"name\">减号</div>\n\t                    <div className=\"fontclass\">.uf-reduce-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pass-s-o\"></Icon>\n\t                    <div className=\"name\">通过</div>\n\t                    <div className=\"fontclass\">.uf-pass-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-setting\"></Icon>\n\t                    <div className=\"name\">维护</div>\n\t                    <div className=\"fontclass\">.uf-setting</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-close-s\"></Icon>\n\t                    <div className=\"name\">ZSX号</div>\n\t                    <div className=\"fontclass\">.uf-close-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-map-o\"></Icon>\n\t                    <div className=\"name\">地图</div>\n\t                    <div className=\"fontclass\">.uf-map-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-move\"></Icon>\n\t                    <div className=\"name\">移动</div>\n\t                    <div className=\"fontclass\">.uf-move</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-2arrow-down\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-2arrow-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-2arrow-right\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-2arrow-right</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-c-o-left\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-left</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-plus\"></Icon>\n\t                    <div className=\"name\">plus</div>\n\t                    <div className=\"fontclass\">.uf-plus</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-c-o-right\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-right</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-c-o-down\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-list-s-o\"></Icon>\n\t                    <div className=\"name\">暂无数据</div>\n\t                    <div className=\"fontclass\">.uf-list-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud-o-down\"></Icon>\n\t                    <div className=\"name\">云下载</div>\n\t                    <div className=\"fontclass\">.uf-cloud-o-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-nodata-2\"></Icon>\n\t                    <div className=\"name\">无效数据</div>\n\t                    <div className=\"fontclass\">.uf-nodata-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-file-s\"></Icon>\n\t                    <div className=\"name\">文档文件-01</div>\n\t                    <div className=\"fontclass\">.uf-file-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-2arrow-up\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-2arrow-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-notification\"></Icon>\n\t                    <div className=\"name\">消息喇叭</div>\n\t                    <div className=\"fontclass\">.uf-notification</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-piechart\"></Icon>\n\t                    <div className=\"name\">图表_饼</div>\n\t                    <div className=\"fontclass\">.uf-piechart</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud-o-up\"></Icon>\n\t                    <div className=\"name\">云_上传</div>\n\t                    <div className=\"fontclass\">.uf-cloud-o-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-close\"></Icon>\n\t                    <div className=\"name\">取消</div>\n\t                    <div className=\"fontclass\">.uf-close</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-correct\"></Icon>\n\t                    <div className=\"name\">对号</div>\n\t                    <div className=\"fontclass\">.uf-correct</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-histogram-s-o-2\"></Icon>\n\t                    <div className=\"name\">图表切换</div>\n\t                    <div className=\"fontclass\">.uf-histogram-s-o-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-4square-2\"></Icon>\n\t                    <div className=\"name\">应用中心</div>\n\t                    <div className=\"fontclass\">.uf-4square-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sunny\"></Icon>\n\t                    <div className=\"name\">天气 </div>\n\t                    <div className=\"fontclass\">.uf-sunny</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-link\"></Icon>\n\t                    <div className=\"name\">复制链接</div>\n\t                    <div className=\"fontclass\">.uf-link</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-eye\"></Icon>\n\t                    <div className=\"name\">查看</div>\n\t                    <div className=\"fontclass\">.uf-eye</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-eye-o\"></Icon>\n\t                    <div className=\"name\">查看</div>\n\t                    <div className=\"fontclass\">.uf-eye-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-qian\"></Icon>\n\t                    <div className=\"name\">签</div>\n\t                    <div className=\"fontclass\">.uf-qian</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-widgetab\"></Icon>\n\t                    <div className=\"name\">小部件授权</div>\n\t                    <div className=\"fontclass\">.uf-widgetab</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rmb-s\"></Icon>\n\t                    <div className=\"name\">报价</div>\n\t                    <div className=\"fontclass\">.uf-rmb-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-link-off\"></Icon>\n\t                    <div className=\"name\">断开链接</div>\n\t                    <div className=\"fontclass\">.uf-link-off</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-shang-s\"></Icon>\n\t                    <div className=\"name\">上架</div>\n\t                    <div className=\"fontclass\">.uf-shang-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-xia-s\"></Icon>\n\t                    <div className=\"name\">下架</div>\n\t                    <div className=\"fontclass\">.uf-xia-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-box-2\"></Icon>\n\t                    <div className=\"name\">盒子full</div>\n\t                    <div className=\"fontclass\">.uf-box-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pass-o\"></Icon>\n\t                    <div className=\"name\">授权</div>\n\t                    <div className=\"fontclass\">.uf-pass-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-down\"></Icon>\n\t                    <div className=\"name\">angle-arrow-down</div>\n\t                    <div className=\"fontclass\">.uf-arrow-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-right\"></Icon>\n\t                    <div className=\"name\">angle-arrow-pointing-to-right</div>\n\t                    <div className=\"fontclass\">.uf-arrow-right</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-left\"></Icon>\n\t                    <div className=\"name\">angle-pointing-to-left</div>\n\t                    <div className=\"fontclass\">.uf-arrow-left</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-box\"></Icon>\n\t                    <div className=\"name\">archive-black-box</div>\n\t                    <div className=\"fontclass\">.uf-box</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-triangle-right\"></Icon>\n\t                    <div className=\"name\">arrowhead-pointing-to-the-right</div>\n\t                    <div className=\"fontclass\">.uf-triangle-right</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-histogram-s-o\"></Icon>\n\t                    <div className=\"name\">bar-graph-on-a-rectangle</div>\n\t                    <div className=\"fontclass\">.uf-histogram-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-book\"></Icon>\n\t                    <div className=\"name\">book</div>\n\t                    <div className=\"fontclass\">.uf-book</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bookmark-o\"></Icon>\n\t                    <div className=\"name\">bookmark-white</div>\n\t                    <div className=\"fontclass\">.uf-bookmark-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-leaf\"></Icon>\n\t                    <div className=\"name\">branch-with-leaves-black-shape</div>\n\t                    <div className=\"fontclass\">.uf-leaf</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bullseye\"></Icon>\n\t                    <div className=\"name\">bullseye</div>\n\t                    <div className=\"fontclass\">.uf-bullseye</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-gridcaretdown\"></Icon>\n\t                    <div className=\"name\">camera-retro</div>\n\t                    <div className=\"fontclass\">.uf-gridcaretdown</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-triangle-up\"></Icon>\n\t                    <div className=\"name\">caret-arrow-up</div>\n\t                    <div className=\"fontclass\">.uf-triangle-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-triangle-down\"></Icon>\n\t                    <div className=\"name\">caret-down</div>\n\t                    <div className=\"fontclass\">.uf-triangle-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud-down\"></Icon>\n\t                    <div className=\"name\">cloud-storage-download</div>\n\t                    <div className=\"fontclass\">.uf-cloud-down</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud-up\"></Icon>\n\t                    <div className=\"name\">cloud-storage-uploading-option</div>\n\t                    <div className=\"fontclass\">.uf-cloud-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bubble\"></Icon>\n\t                    <div className=\"name\">comment-black-oval-bubble-shape</div>\n\t                    <div className=\"fontclass\">.uf-bubble</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bubble-o\"></Icon>\n\t                    <div className=\"name\">comment-white-oval-bubble</div>\n\t                    <div className=\"fontclass\">.uf-bubble-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-copy\"></Icon>\n\t                    <div className=\"name\">copy-document</div>\n\t                    <div className=\"fontclass\">.uf-copy</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-correct-2\"></Icon>\n\t                    <div className=\"name\">correct-symbol</div>\n\t                    <div className=\"fontclass\">.uf-correct-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-2arrow-left\"></Icon>\n\t                    <div className=\"name\">double-left-chevron</div>\n\t                    <div className=\"fontclass\">.uf-2arrow-left</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-down-2\"></Icon>\n\t                    <div className=\"name\">down-arrow</div>\n\t                    <div className=\"fontclass\">.uf-arrow-down-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-download\"></Icon>\n\t                    <div className=\"name\">download-to-storage-drive</div>\n\t                    <div className=\"fontclass\">.uf-download</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-earth\"></Icon>\n\t                    <div className=\"name\">earth-globe</div>\n\t                    <div className=\"fontclass\">.uf-earth</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mail-o\"></Icon>\n\t                    <div className=\"name\">envelope-of-white-paper</div>\n\t                    <div className=\"fontclass\">.uf-mail-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mail\"></Icon>\n\t                    <div className=\"name\">envelope</div>\n\t                    <div className=\"fontclass\">.uf-mail</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-exc\"></Icon>\n\t                    <div className=\"name\">exclamation</div>\n\t                    <div className=\"fontclass\">.uf-exc</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-externallink\"></Icon>\n\t                    <div className=\"name\">external-link-symbol</div>\n\t                    <div className=\"fontclass\">.uf-externallink</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-video\"></Icon>\n\t                    <div className=\"name\">facetime-button</div>\n\t                    <div className=\"fontclass\">.uf-video</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-films\"></Icon>\n\t                    <div className=\"name\">film-strip-with-two-photograms</div>\n\t                    <div className=\"fontclass\">.uf-films</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-folder\"></Icon>\n\t                    <div className=\"name\">folder-closed-black-shape</div>\n\t                    <div className=\"fontclass\">.uf-folder</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-folder-o\"></Icon>\n\t                    <div className=\"name\">folder-white-shape</div>\n\t                    <div className=\"fontclass\">.uf-folder-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-4square\"></Icon>\n\t                    <div className=\"name\">four-black-squares</div>\n\t                    <div className=\"fontclass\">.uf-4square</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-gift\"></Icon>\n\t                    <div className=\"name\">gift-box</div>\n\t                    <div className=\"fontclass\">.uf-gift</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-github-c\"></Icon>\n\t                    <div className=\"name\">github-logo</div>\n\t                    <div className=\"fontclass\">.uf-github-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-github-s\"></Icon>\n\t                    <div className=\"name\">github-sign</div>\n\t                    <div className=\"fontclass\">.uf-github-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-heart-o\"></Icon>\n\t                    <div className=\"name\">heart-shape-outline</div>\n\t                    <div className=\"fontclass\">.uf-heart-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-heart\"></Icon>\n\t                    <div className=\"name\">heart-shape-silhouette</div>\n\t                    <div className=\"fontclass\">.uf-heart</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-home\"></Icon>\n\t                    <div className=\"name\">home</div>\n\t                    <div className=\"fontclass\">.uf-home</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-i-c-2\"></Icon>\n\t                    <div className=\"name\">information-button</div>\n\t                    <div className=\"fontclass\">.uf-i-c-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-i\"></Icon>\n\t                    <div className=\"name\">information-symbol</div>\n\t                    <div className=\"fontclass\">.uf-i</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-triangle-left\"></Icon>\n\t                    <div className=\"name\">left-arrow</div>\n\t                    <div className=\"fontclass\">.uf-triangle-left</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-symlist\"></Icon>\n\t                    <div className=\"name\">listing-option</div>\n\t                    <div className=\"fontclass\">.uf-symlist</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-left-2\"></Icon>\n\t                    <div className=\"name\">long-arrow-pointing-to-left</div>\n\t                    <div className=\"fontclass\">.uf-arrow-left-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-right-2\"></Icon>\n\t                    <div className=\"name\">long-arrow-pointing-to-the-right</div>\n\t                    <div className=\"fontclass\">.uf-arrow-right-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-up-2\"></Icon>\n\t                    <div className=\"name\">long-arrow-pointing-up</div>\n\t                    <div className=\"fontclass\">.uf-arrow-up-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-reduce-c\"></Icon>\n\t                    <div className=\"name\">minus-sign-inside-a-black-circle</div>\n\t                    <div className=\"fontclass\">.uf-reduce-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-reduce-s\"></Icon>\n\t                    <div className=\"name\">minus-sign-inside-a-black-rounded-square-shape</div>\n\t                    <div className=\"fontclass\">.uf-reduce-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-minus\"></Icon>\n\t                    <div className=\"name\">minus-symbol</div>\n\t                    <div className=\"fontclass\">.uf-minus</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mobile\"></Icon>\n\t                    <div className=\"name\">mobile-phone</div>\n\t                    <div className=\"fontclass\">.uf-mobile</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bell-o\"></Icon>\n\t                    <div className=\"name\">musical-bell-outline</div>\n\t                    <div className=\"fontclass\">.uf-bell-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-9square\"></Icon>\n\t                    <div className=\"name\">nine-black-tiles</div>\n\t                    <div className=\"fontclass\">.uf-9square</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-numlist\"></Icon>\n\t                    <div className=\"name\">numbered-list</div>\n\t                    <div className=\"fontclass\">.uf-numlist</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-folderopen-o\"></Icon>\n\t                    <div className=\"name\">open-folder-outline</div>\n\t                    <div className=\"fontclass\">.uf-folderopen-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-treefolderopen\"></Icon>\n\t                    <div className=\"name\">open-folder</div>\n\t                    <div className=\"fontclass\">.uf-treefolderopen</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mac\"></Icon>\n\t                    <div className=\"name\">open-laptop-computer</div>\n\t                    <div className=\"fontclass\">.uf-mac</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-camera\"></Icon>\n\t                    <div className=\"name\">photo-camera</div>\n\t                    <div className=\"fontclass\">.uf-camera</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-picture\"></Icon>\n\t                    <div className=\"name\">picture</div>\n\t                    <div className=\"fontclass\">.uf-picture</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-play\"></Icon>\n\t                    <div className=\"name\">play-sign</div>\n\t                    <div className=\"fontclass\">.uf-play</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-play-o\"></Icon>\n\t                    <div className=\"name\">play-video-button</div>\n\t                    <div className=\"fontclass\">.uf-play-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-qm-c\"></Icon>\n\t                    <div className=\"name\">question-mark-on-a-circular-black-background</div>\n\t                    <div className=\"fontclass\">.uf-qm-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-qm\"></Icon>\n\t                    <div className=\"name\">question-sign</div>\n\t                    <div className=\"fontclass\">.uf-qm</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-navmenu-light\"></Icon>\n\t                    <div className=\"name\">reorder-option</div>\n\t                    <div className=\"fontclass\">.uf-navmenu-light</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-settings\"></Icon>\n\t                    <div className=\"name\">settings</div>\n\t                    <div className=\"fontclass\">.uf-settings</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cart\"></Icon>\n\t                    <div className=\"name\">shopping-cart-black-shape</div>\n\t                    <div className=\"fontclass\">.uf-cart</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-histogram\"></Icon>\n\t                    <div className=\"name\">signal-bars</div>\n\t                    <div className=\"fontclass\">.uf-histogram</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-finetune\"></Icon>\n\t                    <div className=\"name\">sort-arrows-couple-pointing-up-and-down</div>\n\t                    <div className=\"fontclass\">.uf-finetune</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sortup\"></Icon>\n\t                    <div className=\"name\">sort-by-attributes-interface-button-option</div>\n\t                    <div className=\"fontclass\">.uf-sortup</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sortdown\"></Icon>\n\t                    <div className=\"name\">sort-by-attributes</div>\n\t                    <div className=\"fontclass\">.uf-sortdown</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sort19\"></Icon>\n\t                    <div className=\"name\">sort-by-numeric-order</div>\n\t                    <div className=\"fontclass\">.uf-sort19</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sort91\"></Icon>\n\t                    <div className=\"name\">sort-by-order</div>\n\t                    <div className=\"fontclass\">.uf-sort91</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-za\"></Icon>\n\t                    <div className=\"name\">sort-reverse-alphabetical-order</div>\n\t                    <div className=\"fontclass\">.uf-za</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-star-o\"></Icon>\n\t                    <div className=\"name\">star-1</div>\n\t                    <div className=\"fontclass\">.uf-star-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-star-2\"></Icon>\n\t                    <div className=\"name\">star-half-empty</div>\n\t                    <div className=\"fontclass\">.uf-star-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-star\"></Icon>\n\t                    <div className=\"name\">star</div>\n\t                    <div className=\"fontclass\">.uf-star</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-luggage\"></Icon>\n\t                    <div className=\"name\">suitcase-with-white-details</div>\n\t                    <div className=\"fontclass\">.uf-luggage</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-table\"></Icon>\n\t                    <div className=\"name\">table-grid</div>\n\t                    <div className=\"fontclass\">.uf-table</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tel\"></Icon>\n\t                    <div className=\"name\">telephone-handle-silhouette</div>\n\t                    <div className=\"fontclass\">.uf-tel</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tel-s\"></Icon>\n\t                    <div className=\"name\">telephone-symbol-button</div>\n\t                    <div className=\"fontclass\">.uf-tel-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-terminal\"></Icon>\n\t                    <div className=\"name\">terminal</div>\n\t                    <div className=\"fontclass\">.uf-terminal</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-file\"></Icon>\n\t                    <div className=\"name\">text-file-1</div>\n\t                    <div className=\"fontclass\">.uf-file</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-file-o\"></Icon>\n\t                    <div className=\"name\">text-file</div>\n\t                    <div className=\"fontclass\">.uf-file-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-3dot-h\"></Icon>\n\t                    <div className=\"name\">three-small-square-shapes</div>\n\t                    <div className=\"fontclass\">.uf-3dot-h</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-time-c-o\"></Icon>\n\t                    <div className=\"name\">time</div>\n\t                    <div className=\"fontclass\">.uf-time-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-upload\"></Icon>\n\t                    <div className=\"name\">upload</div>\n\t                    <div className=\"fontclass\">.uf-upload</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-3dot-v\"></Icon>\n\t                    <div className=\"name\">vertical-ellipsis</div>\n\t                    <div className=\"fontclass\">.uf-3dot-v</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rmb\"></Icon>\n\t                    <div className=\"name\">yen-symbol</div>\n\t                    <div className=\"fontclass\">.uf-rmb</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-c-o-up\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-reject-2\"></Icon>\n\t                    <div className=\"name\">驳回</div>\n\t                    <div className=\"fontclass\">.uf-reject-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-barcode\"></Icon>\n\t                    <div className=\"name\">barcode-1</div>\n\t                    <div className=\"fontclass\">.uf-barcode</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-zoom-out\"></Icon>\n\t                    <div className=\"name\">zoom-out</div>\n\t                    <div className=\"fontclass\">.uf-zoom-out</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-exc-t-o\"></Icon>\n\t                    <div className=\"name\">三角叹号</div>\n\t                    <div className=\"fontclass\">.uf-exc-t-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-pass\"></Icon>\n\t                    <div className=\"name\">通过</div>\n\t                    <div className=\"fontclass\">.uf-pass</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-flow\"></Icon>\n\t                    <div className=\"name\">关系网络</div>\n\t                    <div className=\"fontclass\">.uf-flow</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-add-c\"></Icon>\n\t                    <div className=\"name\">加</div>\n\t                    <div className=\"fontclass\">.uf-add-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-c-o-right-2\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-right-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-shelf-on\"></Icon>\n\t                    <div className=\"name\">上架</div>\n\t                    <div className=\"fontclass\">.uf-shelf-on</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-shelf-off\"></Icon>\n\t                    <div className=\"name\">下架</div>\n\t                    <div className=\"fontclass\">.uf-shelf-off</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-file-o-2\"></Icon>\n\t                    <div className=\"name\">文件</div>\n\t                    <div className=\"fontclass\">.uf-file-o-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-truck-o\"></Icon>\n\t                    <div className=\"name\">到货确认</div>\n\t                    <div className=\"fontclass\">.uf-truck-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-super\"></Icon>\n\t                    <div className=\"name\">功能强大</div>\n\t                    <div className=\"fontclass\">.uf-super</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-equipment\"></Icon>\n\t                    <div className=\"name\">设备</div>\n\t                    <div className=\"fontclass\">.uf-equipment</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-c-o-left-2\"></Icon>\n\t                    <div className=\"name\">箭头</div>\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-left-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-files-o\"></Icon>\n\t                    <div className=\"name\">资源文件</div>\n\t                    <div className=\"fontclass\">.uf-files-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cloud-o\"></Icon>\n\t                    <div className=\"name\">云</div>\n\t                    <div className=\"fontclass\">.uf-cloud-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rmb-s-o-2\"></Icon>\n\t                    <div className=\"name\">对账</div>\n\t                    <div className=\"fontclass\">.uf-rmb-s-o-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-3dot-c-o\"></Icon>\n\t                    <div className=\"name\">管理中心</div>\n\t                    <div className=\"fontclass\">.uf-3dot-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-dafeng\"></Icon>\n\t                    <div className=\"name\">天气_大风</div>\n\t                    <div className=\"fontclass\">.uf-dafeng</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-baoxue\"></Icon>\n\t                    <div className=\"name\">天气_暴雪</div>\n\t                    <div className=\"fontclass\">.uf-baoxue</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bingbao\"></Icon>\n\t                    <div className=\"name\">天气_冰雹</div>\n\t                    <div className=\"fontclass\">.uf-bingbao</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-fengbao\"></Icon>\n\t                    <div className=\"name\">天气_风暴</div>\n\t                    <div className=\"fontclass\">.uf-fengbao</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-xiaoyu\"></Icon>\n\t                    <div className=\"name\">天气_小雨</div>\n\t                    <div className=\"fontclass\">.uf-xiaoyu</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-zhenxue\"></Icon>\n\t                    <div className=\"name\">天气_阵雪</div>\n\t                    <div className=\"fontclass\">.uf-zhenxue</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-zhongyu\"></Icon>\n\t                    <div className=\"name\">天气_中雨</div>\n\t                    <div className=\"fontclass\">.uf-zhongyu</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-es\"></Icon>\n\t                    <div className=\"name\">ES</div>\n\t                    <div className=\"fontclass\">.uf-es</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-flow-o-2\"></Icon>\n\t                    <div className=\"name\">流程</div>\n\t                    <div className=\"fontclass\">.uf-flow-o-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-activate-2\"></Icon>\n\t                    <div className=\"name\">激活-01</div>\n\t                    <div className=\"fontclass\">.uf-activate-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-flow-o\"></Icon>\n\t                    <div className=\"name\">流程</div>\n\t                    <div className=\"fontclass\">.uf-flow-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bulb-2\"></Icon>\n\t                    <div className=\"name\">技术支持</div>\n\t                    <div className=\"fontclass\">.uf-bulb-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mi-c\"></Icon>\n\t                    <div className=\"name\">必填</div>\n\t                    <div className=\"fontclass\">.uf-mi-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-top-up\"></Icon>\n\t                    <div className=\"name\">返回顶部</div>\n\t                    <div className=\"fontclass\">.uf-top-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-creditcard\"></Icon>\n\t                    <div className=\"name\">credit-card</div>\n\t                    <div className=\"fontclass\">.uf-creditcard</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-align-center\"></Icon>\n\t                    <div className=\"name\">align-center</div>\n\t                    <div className=\"fontclass\">.uf-align-center</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-align-justify\"></Icon>\n\t                    <div className=\"name\">align-justify</div>\n\t                    <div className=\"fontclass\">.uf-align-justify</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-align-left\"></Icon>\n\t                    <div className=\"name\">align-left</div>\n\t                    <div className=\"fontclass\">.uf-align-left</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-align-right\"></Icon>\n\t                    <div className=\"name\">align-right</div>\n\t                    <div className=\"fontclass\">.uf-align-right</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-ju-c-o\"></Icon>\n\t                    <div className=\"name\">拒</div>\n\t                    <div className=\"fontclass\">.uf-ju-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-truck\"></Icon>\n\t                    <div className=\"name\">货到付款</div>\n\t                    <div className=\"fontclass\">.uf-truck</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-setting-c-o\"></Icon>\n\t                    <div className=\"name\">流程</div>\n\t                    <div className=\"fontclass\">.uf-setting-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-users-o\"></Icon>\n\t                    <div className=\"name\">楼宇图标_用户组</div>\n\t                    <div className=\"fontclass\">.uf-users-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bag-s-o\"></Icon>\n\t                    <div className=\"name\">商品</div>\n\t                    <div className=\"fontclass\">.uf-bag-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cai-s\"></Icon>\n\t                    <div className=\"name\">采购</div>\n\t                    <div className=\"fontclass\">.uf-cai-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-listcheck\"></Icon>\n\t                    <div className=\"name\">定标</div>\n\t                    <div className=\"fontclass\">.uf-listcheck</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-users\"></Icon>\n\t                    <div className=\"name\">群</div>\n\t                    <div className=\"fontclass\">.uf-users</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-i-c\"></Icon>\n\t                    <div className=\"name\">查看详情</div>\n\t                    <div className=\"fontclass\">.uf-i-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-building-o\"></Icon>\n\t                    <div className=\"name\">企业信息</div>\n\t                    <div className=\"fontclass\">.uf-building-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rmb-s-o\"></Icon>\n\t                    <div className=\"name\">报价管理</div>\n\t                    <div className=\"fontclass\">.uf-rmb-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-reject\"></Icon>\n\t                    <div className=\"name\">已驳回</div>\n\t                    <div className=\"fontclass\">.uf-reject</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-9dot\"></Icon>\n\t                    <div className=\"name\">菜单</div>\n\t                    <div className=\"fontclass\">.uf-9dot</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-loadingstate\"></Icon>\n\t                    <div className=\"name\">loading</div>\n\t                    <div className=\"fontclass\">.uf-loadingstate</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-gateway\"></Icon>\n\t                    <div className=\"name\">网关</div>\n\t                    <div className=\"fontclass\">.uf-gateway</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-ticket-s-o\"></Icon>\n\t                    <div className=\"name\">发票</div>\n\t                    <div className=\"fontclass\">.uf-ticket-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-userset\"></Icon>\n\t                    <div className=\"name\">管理中心</div>\n\t                    <div className=\"fontclass\">.uf-userset</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-puzzle-o\"></Icon>\n\t                    <div className=\"name\">组件</div>\n\t                    <div className=\"fontclass\">.uf-puzzle-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-box-o\"></Icon>\n\t                    <div className=\"name\">物料管理</div>\n\t                    <div className=\"fontclass\">.uf-box-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bulb\"></Icon>\n\t                    <div className=\"name\">激活</div>\n\t                    <div className=\"fontclass\">.uf-bulb</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-exc-t\"></Icon>\n\t                    <div className=\"name\">感叹号_icon</div>\n\t                    <div className=\"fontclass\">.uf-exc-t</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-rmb-c\"></Icon>\n\t                    <div className=\"name\">报价</div>\n\t                    <div className=\"fontclass\">.uf-rmb-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-table-s-o\"></Icon>\n\t                    <div className=\"name\">发票</div>\n\t                    <div className=\"fontclass\">.uf-table-s-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-umbrella-o\"></Icon>\n\t                    <div className=\"name\">伞</div>\n\t                    <div className=\"fontclass\">.uf-umbrella-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-dropbox\"></Icon>\n\t                    <div className=\"name\">dropbox</div>\n\t                    <div className=\"fontclass\">.uf-dropbox</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-search-light\"></Icon>\n\t                    <div className=\"name\">搜索-搜索</div>\n\t                    <div className=\"fontclass\">.uf-search-light</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-cart-o\"></Icon>\n\t                    <div className=\"name\">shopping-cart-black-shape</div>\n\t                    <div className=\"fontclass\">.uf-cart-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-kero-col\"></Icon>\n\t                    <div className=\"name\">kero</div>\n\t                    <div className=\"fontclass\">.uf-kero-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-uba-col\"></Icon>\n\t                    <div className=\"name\">uba</div>\n\t                    <div className=\"fontclass\">.uf-uba-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tinperzc-col\"></Icon>\n\t                    <div className=\"name\">tinperzc</div>\n\t                    <div className=\"fontclass\">.uf-tinperzc-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tinperzch-col\"></Icon>\n\t                    <div className=\"name\">tinperzch</div>\n\t                    <div className=\"fontclass\">.uf-tinperzch-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-iuap-col\"></Icon>\n\t                    <div className=\"name\">iuap</div>\n\t                    <div className=\"fontclass\">.uf-iuap-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-iuapdesign-col\"></Icon>\n\t                    <div className=\"name\">iuapdesignz</div>\n\t                    <div className=\"fontclass\">.uf-iuapdesign-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-bee-col\"></Icon>\n\t                    <div className=\"name\">bee</div>\n\t                    <div className=\"fontclass\">.uf-bee-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-neoui-col\"></Icon>\n\t                    <div className=\"name\">neoui</div>\n\t                    <div className=\"fontclass\">.uf-neoui-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-sparrow-col\"></Icon>\n\t                    <div className=\"name\">sparrow</div>\n\t                    <div className=\"fontclass\">.uf-sparrow-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tinpercn-col\"></Icon>\n\t                    <div className=\"name\">tinpercn</div>\n\t                    <div className=\"fontclass\">.uf-tinpercn-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-tinperen-col\"></Icon>\n\t                    <div className=\"name\">tinperen</div>\n\t                    <div className=\"fontclass\">.uf-tinperen-col</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-arrow-up\"></Icon>\n\t                    <div className=\"name\">angle-arrow-down</div>\n\t                    <div className=\"fontclass\">.uf-arrow-up</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mailsym\"></Icon>\n\t                    <div className=\"name\">webmail</div>\n\t                    <div className=\"fontclass\">.uf-mailsym</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-print\"></Icon>\n\t                    <div className=\"name\">办公用品</div>\n\t                    <div className=\"fontclass\">.uf-print</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-ticket-3\"></Icon>\n\t                    <div className=\"name\">报销</div>\n\t                    <div className=\"fontclass\">.uf-ticket-3</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-loan\"></Icon>\n\t                    <div className=\"name\">借款</div>\n\t                    <div className=\"fontclass\">.uf-loan</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-ticket-2\"></Icon>\n\t                    <div className=\"name\">凭证中心</div>\n\t                    <div className=\"fontclass\">.uf-ticket-2</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-offwork\"></Icon>\n\t                    <div className=\"name\">请假</div>\n\t                    <div className=\"fontclass\">.uf-offwork</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-todolist\"></Icon>\n\t                    <div className=\"name\">待办</div>\n\t                    <div className=\"fontclass\">.uf-todolist</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-personin\"></Icon>\n\t                    <div className=\"name\">员工入职</div>\n\t                    <div className=\"fontclass\">.uf-personin</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-ticket\"></Icon>\n\t                    <div className=\"name\">票务</div>\n\t                    <div className=\"fontclass\">.uf-ticket</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-linechart\"></Icon>\n\t                    <div className=\"name\">小icon-图表</div>\n\t                    <div className=\"fontclass\">.uf-linechart</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-4leaf\"></Icon>\n\t                    <div className=\"name\">应用中心</div>\n\t                    <div className=\"fontclass\">.uf-4leaf</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-listset\"></Icon>\n\t                    <div className=\"name\">信息维护</div>\n\t                    <div className=\"fontclass\">.uf-listset</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-qi-c-o\"></Icon>\n\t                    <div className=\"name\">企业认证</div>\n\t                    <div className=\"fontclass\">.uf-qi-c-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-exc-c\"></Icon>\n\t                    <div className=\"name\">叹号</div>\n\t                    <div className=\"fontclass\">.uf-exc-c</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-code\"></Icon>\n\t                    <div className=\"name\">集成开发</div>\n\t                    <div className=\"fontclass\">.uf-code</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-plug-o\"></Icon>\n\t                    <div className=\"name\">热拔插</div>\n\t                    <div className=\"fontclass\">.uf-plug-o</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-search-s\"></Icon>\n\t                    <div className=\"name\">搜索</div>\n\t                    <div className=\"fontclass\">.uf-search-s</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-treeadd\"></Icon>\n\t                    <div className=\"name\">tree-new-sbling-node</div>\n\t                    <div className=\"fontclass\">.uf-treeadd</div>\n\t                </li>\n\t            \n\t                <li>\n\t                <Icon type=\"uf-mi\"></Icon>\n\t                    <div className=\"name\">必填</div>\n\t                    <div className=\"fontclass\">.uf-mi</div>\n\t                </li>\n\t       \t\t</ul>\n\t\t\t</div>\n\t\t)\n\t}\n}\n\n", "desc": " 在iuap字符库，`type`参数值均以-分隔。" }];
+	var Demo1 = __webpack_require__(79);var DemoArray = [{ "example": _react2['default'].createElement(Demo1, null), "title": " Icon", "code": "/**\r\n * @title Icon\r\n * @description 在iuap字符库，`type`参数值均以-分隔。\r\n */\r\n\r\nimport React, { Component } from 'react';\r\nimport { Icon } from 'tinper-bee';\r\n\r\nclass Demo1 extends Component {\r\n\trender () {\r\n\t\treturn (\r\n\t\t\t<div className=\"tinper-icon-demo\">\r\n\t\t\t\t<ul className=\"icon_lists\">\r\n            \r\n\t                <li>\r\n\t                <Icon type=\"uf-wechat\"></Icon>\r\n\t                    <div className=\"name\">微信</div>\r\n\t                    <div className=\"fontclass\">.uf-wechat</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-add-c-o\"></Icon>\r\n\t                    <div className=\"name\">加</div>\r\n\t                    <div className=\"fontclass\">.uf-add-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-search\"></Icon>\r\n\t                    <div className=\"name\">搜索</div>\r\n\t                    <div className=\"fontclass\">.uf-search</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-histogram-arrow-up\"></Icon>\r\n\t                    <div className=\"name\">图表 折线图</div>\r\n\t                    <div className=\"fontclass\">.uf-histogram-arrow-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-close-bold\"></Icon>\r\n\t                    <div className=\"name\">关闭</div>\r\n\t                    <div className=\"fontclass\">.uf-close-bold</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-umbrella\"></Icon>\r\n\t                    <div className=\"name\">雨伞</div>\r\n\t                    <div className=\"fontclass\">.uf-umbrella</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-qq\"></Icon>\r\n\t                    <div className=\"name\">QQ</div>\r\n\t                    <div className=\"fontclass\">.uf-qq</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-4square-3\"></Icon>\r\n\t                    <div className=\"name\">分类</div>\r\n\t                    <div className=\"fontclass\">.uf-4square-3</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-send\"></Icon>\r\n\t                    <div className=\"name\">发送</div>\r\n\t                    <div className=\"fontclass\">.uf-send</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-map\"></Icon>\r\n\t                    <div className=\"name\">地图</div>\r\n\t                    <div className=\"fontclass\">.uf-map</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-9square-2\"></Icon>\r\n\t                    <div className=\"name\">标定</div>\r\n\t                    <div className=\"fontclass\">.uf-9square-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-navmenu\"></Icon>\r\n\t                    <div className=\"name\">汉堡包</div>\r\n\t                    <div className=\"fontclass\">.uf-navmenu</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pc-2\"></Icon>\r\n\t                    <div className=\"name\">显示器</div>\r\n\t                    <div className=\"fontclass\">.uf-pc-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-search-light-2\"></Icon>\r\n\t                    <div className=\"name\">zoom</div>\r\n\t                    <div className=\"fontclass\">.uf-search-light-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-check-s-2\"></Icon>\r\n\t                    <div className=\"name\">任务</div>\r\n\t                    <div className=\"fontclass\">.uf-check-s-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pencil\"></Icon>\r\n\t                    <div className=\"name\">编辑</div>\r\n\t                    <div className=\"fontclass\">.uf-pencil</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-repeat\"></Icon>\r\n\t                    <div className=\"name\">撤销</div>\r\n\t                    <div className=\"fontclass\">.uf-repeat</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-security-2\"></Icon>\r\n\t                    <div className=\"name\">安全</div>\r\n\t                    <div className=\"fontclass\">.uf-security-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-lexi\"></Icon>\r\n\t                    <div className=\"name\">女</div>\r\n\t                    <div className=\"fontclass\">.uf-lexi</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pencil-s\"></Icon>\r\n\t                    <div className=\"name\">编辑</div>\r\n\t                    <div className=\"fontclass\">.uf-pencil-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-del\"></Icon>\r\n\t                    <div className=\"name\">删除</div>\r\n\t                    <div className=\"fontclass\">.uf-del</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bi-o\"></Icon>\r\n\t                    <div className=\"name\">比价</div>\r\n\t                    <div className=\"fontclass\">.uf-bi-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pencil-c\"></Icon>\r\n\t                    <div className=\"name\">编辑</div>\r\n\t                    <div className=\"fontclass\">.uf-pencil-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-qrcode\"></Icon>\r\n\t                    <div className=\"name\">二维码</div>\r\n\t                    <div className=\"fontclass\">.uf-qrcode</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rmb-c-o\"></Icon>\r\n\t                    <div className=\"name\">免费报价</div>\r\n\t                    <div className=\"fontclass\">.uf-rmb-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-search-c-o\"></Icon>\r\n\t                    <div className=\"name\">搜索</div>\r\n\t                    <div className=\"fontclass\">.uf-search-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bell\"></Icon>\r\n\t                    <div className=\"name\">铃铛</div>\r\n\t                    <div className=\"fontclass\">.uf-bell</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pass-3\"></Icon>\r\n\t                    <div className=\"name\">机检通过</div>\r\n\t                    <div className=\"fontclass\">.uf-pass-3</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-treearrow-down\"></Icon>\r\n\t                    <div className=\"name\">树形线</div>\r\n\t                    <div className=\"fontclass\">.uf-treearrow-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-training\"></Icon>\r\n\t                    <div className=\"name\">培训</div>\r\n\t                    <div className=\"fontclass\">.uf-training</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-group-2\"></Icon>\r\n\t                    <div className=\"name\">组织架构</div>\r\n\t                    <div className=\"fontclass\">.uf-group-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-zoom-in\"></Icon>\r\n\t                    <div className=\"name\">zoom-in</div>\r\n\t                    <div className=\"fontclass\">.uf-zoom-in</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-security-o\"></Icon>\r\n\t                    <div className=\"name\">安全</div>\r\n\t                    <div className=\"fontclass\">.uf-security-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-baojia-c\"></Icon>\r\n\t                    <div className=\"name\">报价</div>\r\n\t                    <div className=\"fontclass\">.uf-baojia-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rulerpen\"></Icon>\r\n\t                    <div className=\"name\">定制</div>\r\n\t                    <div className=\"fontclass\">.uf-rulerpen</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-erpsearch\"></Icon>\r\n\t                    <div className=\"name\">erp</div>\r\n\t                    <div className=\"fontclass\">.uf-erpsearch</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-group-o\"></Icon>\r\n\t                    <div className=\"name\">组织机构</div>\r\n\t                    <div className=\"fontclass\">.uf-group-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud-o-updown\"></Icon>\r\n\t                    <div className=\"name\">同步中2-同步</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud-o-updown</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-close-c-o\"></Icon>\r\n\t                    <div className=\"name\">关闭</div>\r\n\t                    <div className=\"fontclass\">.uf-close-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-add-s\"></Icon>\r\n\t                    <div className=\"name\">加</div>\r\n\t                    <div className=\"fontclass\">.uf-add-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pc\"></Icon>\r\n\t                    <div className=\"name\">工作台</div>\r\n\t                    <div className=\"fontclass\">.uf-pc</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rain\"></Icon>\r\n\t                    <div className=\"name\">空气_雨天</div>\r\n\t                    <div className=\"fontclass\">.uf-rain</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-nodata\"></Icon>\r\n\t                    <div className=\"name\">无数据</div>\r\n\t                    <div className=\"fontclass\">.uf-nodata</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-close-c\"></Icon>\r\n\t                    <div className=\"name\">关闭</div>\r\n\t                    <div className=\"fontclass\">.uf-close-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bohui-s-o\"></Icon>\r\n\t                    <div className=\"name\">审批-驳回</div>\r\n\t                    <div className=\"fontclass\">.uf-bohui-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud\"></Icon>\r\n\t                    <div className=\"name\">天气</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bag-s\"></Icon>\r\n\t                    <div className=\"name\">商品</div>\r\n\t                    <div className=\"fontclass\">.uf-bag-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-table-2\"></Icon>\r\n\t                    <div className=\"name\">made</div>\r\n\t                    <div className=\"fontclass\">.uf-table-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-anglearrowpointingtoright\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-anglearrowpointingtoright</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-exc-c-o\"></Icon>\r\n\t                    <div className=\"name\">叹号</div>\r\n\t                    <div className=\"fontclass\">.uf-exc-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-group\"></Icon>\r\n\t                    <div className=\"name\">组织机构</div>\r\n\t                    <div className=\"fontclass\">.uf-group</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-personin-o\"></Icon>\r\n\t                    <div className=\"name\">认证激活</div>\r\n\t                    <div className=\"fontclass\">.uf-personin-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-calendar\"></Icon>\r\n\t                    <div className=\"name\">gm_日历</div>\r\n\t                    <div className=\"fontclass\">.uf-calendar</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-add-s-o\"></Icon>\r\n\t                    <div className=\"name\">加</div>\r\n\t                    <div className=\"fontclass\">.uf-add-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sync-c-o\"></Icon>\r\n\t                    <div className=\"name\">同步</div>\r\n\t                    <div className=\"fontclass\">.uf-sync-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-grid\"></Icon>\r\n\t                    <div className=\"name\">grid</div>\r\n\t                    <div className=\"fontclass\">.uf-grid</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-anglepointingtoleft\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-anglepointingtoleft</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-activate-3\"></Icon>\r\n\t                    <div className=\"name\">激活</div>\r\n\t                    <div className=\"fontclass\">.uf-activate-3</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-caven\"></Icon>\r\n\t                    <div className=\"name\">男</div>\r\n\t                    <div className=\"fontclass\">.uf-caven</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-back\"></Icon>\r\n\t                    <div className=\"name\">返回</div>\r\n\t                    <div className=\"fontclass\">.uf-back</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pass-2\"></Icon>\r\n\t                    <div className=\"name\">授权</div>\r\n\t                    <div className=\"fontclass\">.uf-pass-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-reduce-s-o\"></Icon>\r\n\t                    <div className=\"name\">显示树</div>\r\n\t                    <div className=\"fontclass\">.uf-reduce-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-area\"></Icon>\r\n\t                    <div className=\"name\">图表图标-面积图</div>\r\n\t                    <div className=\"fontclass\">.uf-area</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-flag\"></Icon>\r\n\t                    <div className=\"name\">旗帜</div>\r\n\t                    <div className=\"fontclass\">.uf-flag</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-box-o-2\"></Icon>\r\n\t                    <div className=\"name\">购买盒子</div>\r\n\t                    <div className=\"fontclass\">.uf-box-o-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-s-o-down\"></Icon>\r\n\t                    <div className=\"name\">下架</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-s-o-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-s-o-up\"></Icon>\r\n\t                    <div className=\"name\">上架</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-s-o-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-building\"></Icon>\r\n\t                    <div className=\"name\">企业信息</div>\r\n\t                    <div className=\"fontclass\">.uf-building</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tapp\"></Icon>\r\n\t                    <div className=\"name\">天气</div>\r\n\t                    <div className=\"fontclass\">.uf-tapp</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-treefolder\"></Icon>\r\n\t                    <div className=\"name\">搜索</div>\r\n\t                    <div className=\"fontclass\">.uf-treefolder</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-advice\"></Icon>\r\n\t                    <div className=\"name\">咨询</div>\r\n\t                    <div className=\"fontclass\">.uf-advice</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-2collayout\"></Icon>\r\n\t                    <div className=\"name\">序列布局</div>\r\n\t                    <div className=\"fontclass\">.uf-2collayout</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-check-s\"></Icon>\r\n\t                    <div className=\"name\">审批</div>\r\n\t                    <div className=\"fontclass\">.uf-check-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sign\"></Icon>\r\n\t                    <div className=\"name\">采购合同</div>\r\n\t                    <div className=\"fontclass\">.uf-sign</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-listsearch\"></Icon>\r\n\t                    <div className=\"name\">查看详情</div>\r\n\t                    <div className=\"fontclass\">.uf-listsearch</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-gridcaretarrowup\"></Icon>\r\n\t                    <div className=\"name\">必填</div>\r\n\t                    <div className=\"fontclass\">.uf-gridcaretarrowup</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-eye-c-o\"></Icon>\r\n\t                    <div className=\"name\">查看</div>\r\n\t                    <div className=\"fontclass\">.uf-eye-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-check-c-o\"></Icon>\r\n\t                    <div className=\"name\">许可</div>\r\n\t                    <div className=\"fontclass\">.uf-check-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-seal\"></Icon>\r\n\t                    <div className=\"name\">审批</div>\r\n\t                    <div className=\"fontclass\">.uf-seal</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-erpbox\"></Icon>\r\n\t                    <div className=\"name\">erp</div>\r\n\t                    <div className=\"fontclass\">.uf-erpbox</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rulerpen-o\"></Icon>\r\n\t                    <div className=\"name\">定制</div>\r\n\t                    <div className=\"fontclass\">.uf-rulerpen-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-role\"></Icon>\r\n\t                    <div className=\"name\">角色</div>\r\n\t                    <div className=\"fontclass\">.uf-role</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-exc-c-2\"></Icon>\r\n\t                    <div className=\"name\">提示叹号</div>\r\n\t                    <div className=\"fontclass\">.uf-exc-c-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pad\"></Icon>\r\n\t                    <div className=\"name\">pad</div>\r\n\t                    <div className=\"fontclass\">.uf-pad</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-treefolder-closed\"></Icon>\r\n\t                    <div className=\"name\">tree-new-sbling-node</div>\r\n\t                    <div className=\"fontclass\">.uf-treefolder-closed</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-reduce-c-o\"></Icon>\r\n\t                    <div className=\"name\">减号</div>\r\n\t                    <div className=\"fontclass\">.uf-reduce-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pass-s-o\"></Icon>\r\n\t                    <div className=\"name\">通过</div>\r\n\t                    <div className=\"fontclass\">.uf-pass-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-setting\"></Icon>\r\n\t                    <div className=\"name\">维护</div>\r\n\t                    <div className=\"fontclass\">.uf-setting</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-close-s\"></Icon>\r\n\t                    <div className=\"name\">ZSX号</div>\r\n\t                    <div className=\"fontclass\">.uf-close-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-map-o\"></Icon>\r\n\t                    <div className=\"name\">地图</div>\r\n\t                    <div className=\"fontclass\">.uf-map-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-move\"></Icon>\r\n\t                    <div className=\"name\">移动</div>\r\n\t                    <div className=\"fontclass\">.uf-move</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-2arrow-down\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-2arrow-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-2arrow-right\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-2arrow-right</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-c-o-left\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-left</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-plus\"></Icon>\r\n\t                    <div className=\"name\">plus</div>\r\n\t                    <div className=\"fontclass\">.uf-plus</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-c-o-right\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-right</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-c-o-down\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-list-s-o\"></Icon>\r\n\t                    <div className=\"name\">暂无数据</div>\r\n\t                    <div className=\"fontclass\">.uf-list-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud-o-down\"></Icon>\r\n\t                    <div className=\"name\">云下载</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud-o-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-nodata-2\"></Icon>\r\n\t                    <div className=\"name\">无效数据</div>\r\n\t                    <div className=\"fontclass\">.uf-nodata-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-file-s\"></Icon>\r\n\t                    <div className=\"name\">文档文件-01</div>\r\n\t                    <div className=\"fontclass\">.uf-file-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-2arrow-up\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-2arrow-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-notification\"></Icon>\r\n\t                    <div className=\"name\">消息喇叭</div>\r\n\t                    <div className=\"fontclass\">.uf-notification</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-piechart\"></Icon>\r\n\t                    <div className=\"name\">图表_饼</div>\r\n\t                    <div className=\"fontclass\">.uf-piechart</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud-o-up\"></Icon>\r\n\t                    <div className=\"name\">云_上传</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud-o-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-close\"></Icon>\r\n\t                    <div className=\"name\">取消</div>\r\n\t                    <div className=\"fontclass\">.uf-close</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-correct\"></Icon>\r\n\t                    <div className=\"name\">对号</div>\r\n\t                    <div className=\"fontclass\">.uf-correct</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-histogram-s-o-2\"></Icon>\r\n\t                    <div className=\"name\">图表切换</div>\r\n\t                    <div className=\"fontclass\">.uf-histogram-s-o-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-4square-2\"></Icon>\r\n\t                    <div className=\"name\">应用中心</div>\r\n\t                    <div className=\"fontclass\">.uf-4square-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sunny\"></Icon>\r\n\t                    <div className=\"name\">天气 </div>\r\n\t                    <div className=\"fontclass\">.uf-sunny</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-link\"></Icon>\r\n\t                    <div className=\"name\">复制链接</div>\r\n\t                    <div className=\"fontclass\">.uf-link</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-eye\"></Icon>\r\n\t                    <div className=\"name\">查看</div>\r\n\t                    <div className=\"fontclass\">.uf-eye</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-eye-o\"></Icon>\r\n\t                    <div className=\"name\">查看</div>\r\n\t                    <div className=\"fontclass\">.uf-eye-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-qian\"></Icon>\r\n\t                    <div className=\"name\">签</div>\r\n\t                    <div className=\"fontclass\">.uf-qian</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-widgetab\"></Icon>\r\n\t                    <div className=\"name\">小部件授权</div>\r\n\t                    <div className=\"fontclass\">.uf-widgetab</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rmb-s\"></Icon>\r\n\t                    <div className=\"name\">报价</div>\r\n\t                    <div className=\"fontclass\">.uf-rmb-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-link-off\"></Icon>\r\n\t                    <div className=\"name\">断开链接</div>\r\n\t                    <div className=\"fontclass\">.uf-link-off</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-shang-s\"></Icon>\r\n\t                    <div className=\"name\">上架</div>\r\n\t                    <div className=\"fontclass\">.uf-shang-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-xia-s\"></Icon>\r\n\t                    <div className=\"name\">下架</div>\r\n\t                    <div className=\"fontclass\">.uf-xia-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-box-2\"></Icon>\r\n\t                    <div className=\"name\">盒子full</div>\r\n\t                    <div className=\"fontclass\">.uf-box-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pass-o\"></Icon>\r\n\t                    <div className=\"name\">授权</div>\r\n\t                    <div className=\"fontclass\">.uf-pass-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-down\"></Icon>\r\n\t                    <div className=\"name\">angle-arrow-down</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-right\"></Icon>\r\n\t                    <div className=\"name\">angle-arrow-pointing-to-right</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-right</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-left\"></Icon>\r\n\t                    <div className=\"name\">angle-pointing-to-left</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-left</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-box\"></Icon>\r\n\t                    <div className=\"name\">archive-black-box</div>\r\n\t                    <div className=\"fontclass\">.uf-box</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-triangle-right\"></Icon>\r\n\t                    <div className=\"name\">arrowhead-pointing-to-the-right</div>\r\n\t                    <div className=\"fontclass\">.uf-triangle-right</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-histogram-s-o\"></Icon>\r\n\t                    <div className=\"name\">bar-graph-on-a-rectangle</div>\r\n\t                    <div className=\"fontclass\">.uf-histogram-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-book\"></Icon>\r\n\t                    <div className=\"name\">book</div>\r\n\t                    <div className=\"fontclass\">.uf-book</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bookmark-o\"></Icon>\r\n\t                    <div className=\"name\">bookmark-white</div>\r\n\t                    <div className=\"fontclass\">.uf-bookmark-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-leaf\"></Icon>\r\n\t                    <div className=\"name\">branch-with-leaves-black-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-leaf</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bullseye\"></Icon>\r\n\t                    <div className=\"name\">bullseye</div>\r\n\t                    <div className=\"fontclass\">.uf-bullseye</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-gridcaretdown\"></Icon>\r\n\t                    <div className=\"name\">camera-retro</div>\r\n\t                    <div className=\"fontclass\">.uf-gridcaretdown</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-triangle-up\"></Icon>\r\n\t                    <div className=\"name\">caret-arrow-up</div>\r\n\t                    <div className=\"fontclass\">.uf-triangle-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-triangle-down\"></Icon>\r\n\t                    <div className=\"name\">caret-down</div>\r\n\t                    <div className=\"fontclass\">.uf-triangle-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud-down\"></Icon>\r\n\t                    <div className=\"name\">cloud-storage-download</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud-down</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud-up\"></Icon>\r\n\t                    <div className=\"name\">cloud-storage-uploading-option</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bubble\"></Icon>\r\n\t                    <div className=\"name\">comment-black-oval-bubble-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-bubble</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bubble-o\"></Icon>\r\n\t                    <div className=\"name\">comment-white-oval-bubble</div>\r\n\t                    <div className=\"fontclass\">.uf-bubble-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-copy\"></Icon>\r\n\t                    <div className=\"name\">copy-document</div>\r\n\t                    <div className=\"fontclass\">.uf-copy</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-correct-2\"></Icon>\r\n\t                    <div className=\"name\">correct-symbol</div>\r\n\t                    <div className=\"fontclass\">.uf-correct-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-2arrow-left\"></Icon>\r\n\t                    <div className=\"name\">double-left-chevron</div>\r\n\t                    <div className=\"fontclass\">.uf-2arrow-left</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-down-2\"></Icon>\r\n\t                    <div className=\"name\">down-arrow</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-down-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-download\"></Icon>\r\n\t                    <div className=\"name\">download-to-storage-drive</div>\r\n\t                    <div className=\"fontclass\">.uf-download</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-earth\"></Icon>\r\n\t                    <div className=\"name\">earth-globe</div>\r\n\t                    <div className=\"fontclass\">.uf-earth</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mail-o\"></Icon>\r\n\t                    <div className=\"name\">envelope-of-white-paper</div>\r\n\t                    <div className=\"fontclass\">.uf-mail-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mail\"></Icon>\r\n\t                    <div className=\"name\">envelope</div>\r\n\t                    <div className=\"fontclass\">.uf-mail</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-exc\"></Icon>\r\n\t                    <div className=\"name\">exclamation</div>\r\n\t                    <div className=\"fontclass\">.uf-exc</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-externallink\"></Icon>\r\n\t                    <div className=\"name\">external-link-symbol</div>\r\n\t                    <div className=\"fontclass\">.uf-externallink</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-video\"></Icon>\r\n\t                    <div className=\"name\">facetime-button</div>\r\n\t                    <div className=\"fontclass\">.uf-video</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-films\"></Icon>\r\n\t                    <div className=\"name\">film-strip-with-two-photograms</div>\r\n\t                    <div className=\"fontclass\">.uf-films</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-folder\"></Icon>\r\n\t                    <div className=\"name\">folder-closed-black-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-folder</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-folder-o\"></Icon>\r\n\t                    <div className=\"name\">folder-white-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-folder-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-4square\"></Icon>\r\n\t                    <div className=\"name\">four-black-squares</div>\r\n\t                    <div className=\"fontclass\">.uf-4square</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-gift\"></Icon>\r\n\t                    <div className=\"name\">gift-box</div>\r\n\t                    <div className=\"fontclass\">.uf-gift</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-github-c\"></Icon>\r\n\t                    <div className=\"name\">github-logo</div>\r\n\t                    <div className=\"fontclass\">.uf-github-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-github-s\"></Icon>\r\n\t                    <div className=\"name\">github-sign</div>\r\n\t                    <div className=\"fontclass\">.uf-github-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-heart-o\"></Icon>\r\n\t                    <div className=\"name\">heart-shape-outline</div>\r\n\t                    <div className=\"fontclass\">.uf-heart-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-heart\"></Icon>\r\n\t                    <div className=\"name\">heart-shape-silhouette</div>\r\n\t                    <div className=\"fontclass\">.uf-heart</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-home\"></Icon>\r\n\t                    <div className=\"name\">home</div>\r\n\t                    <div className=\"fontclass\">.uf-home</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-i-c-2\"></Icon>\r\n\t                    <div className=\"name\">information-button</div>\r\n\t                    <div className=\"fontclass\">.uf-i-c-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-i\"></Icon>\r\n\t                    <div className=\"name\">information-symbol</div>\r\n\t                    <div className=\"fontclass\">.uf-i</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-triangle-left\"></Icon>\r\n\t                    <div className=\"name\">left-arrow</div>\r\n\t                    <div className=\"fontclass\">.uf-triangle-left</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-symlist\"></Icon>\r\n\t                    <div className=\"name\">listing-option</div>\r\n\t                    <div className=\"fontclass\">.uf-symlist</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-left-2\"></Icon>\r\n\t                    <div className=\"name\">long-arrow-pointing-to-left</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-left-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-right-2\"></Icon>\r\n\t                    <div className=\"name\">long-arrow-pointing-to-the-right</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-right-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-up-2\"></Icon>\r\n\t                    <div className=\"name\">long-arrow-pointing-up</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-up-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-reduce-c\"></Icon>\r\n\t                    <div className=\"name\">minus-sign-inside-a-black-circle</div>\r\n\t                    <div className=\"fontclass\">.uf-reduce-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-reduce-s\"></Icon>\r\n\t                    <div className=\"name\">minus-sign-inside-a-black-rounded-square-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-reduce-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-minus\"></Icon>\r\n\t                    <div className=\"name\">minus-symbol</div>\r\n\t                    <div className=\"fontclass\">.uf-minus</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mobile\"></Icon>\r\n\t                    <div className=\"name\">mobile-phone</div>\r\n\t                    <div className=\"fontclass\">.uf-mobile</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bell-o\"></Icon>\r\n\t                    <div className=\"name\">musical-bell-outline</div>\r\n\t                    <div className=\"fontclass\">.uf-bell-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-9square\"></Icon>\r\n\t                    <div className=\"name\">nine-black-tiles</div>\r\n\t                    <div className=\"fontclass\">.uf-9square</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-numlist\"></Icon>\r\n\t                    <div className=\"name\">numbered-list</div>\r\n\t                    <div className=\"fontclass\">.uf-numlist</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-folderopen-o\"></Icon>\r\n\t                    <div className=\"name\">open-folder-outline</div>\r\n\t                    <div className=\"fontclass\">.uf-folderopen-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-treefolderopen\"></Icon>\r\n\t                    <div className=\"name\">open-folder</div>\r\n\t                    <div className=\"fontclass\">.uf-treefolderopen</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mac\"></Icon>\r\n\t                    <div className=\"name\">open-laptop-computer</div>\r\n\t                    <div className=\"fontclass\">.uf-mac</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-camera\"></Icon>\r\n\t                    <div className=\"name\">photo-camera</div>\r\n\t                    <div className=\"fontclass\">.uf-camera</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-picture\"></Icon>\r\n\t                    <div className=\"name\">picture</div>\r\n\t                    <div className=\"fontclass\">.uf-picture</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-play\"></Icon>\r\n\t                    <div className=\"name\">play-sign</div>\r\n\t                    <div className=\"fontclass\">.uf-play</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-play-o\"></Icon>\r\n\t                    <div className=\"name\">play-video-button</div>\r\n\t                    <div className=\"fontclass\">.uf-play-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-qm-c\"></Icon>\r\n\t                    <div className=\"name\">question-mark-on-a-circular-black-background</div>\r\n\t                    <div className=\"fontclass\">.uf-qm-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-qm\"></Icon>\r\n\t                    <div className=\"name\">question-sign</div>\r\n\t                    <div className=\"fontclass\">.uf-qm</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-navmenu-light\"></Icon>\r\n\t                    <div className=\"name\">reorder-option</div>\r\n\t                    <div className=\"fontclass\">.uf-navmenu-light</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-settings\"></Icon>\r\n\t                    <div className=\"name\">settings</div>\r\n\t                    <div className=\"fontclass\">.uf-settings</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cart\"></Icon>\r\n\t                    <div className=\"name\">shopping-cart-black-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-cart</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-histogram\"></Icon>\r\n\t                    <div className=\"name\">signal-bars</div>\r\n\t                    <div className=\"fontclass\">.uf-histogram</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-finetune\"></Icon>\r\n\t                    <div className=\"name\">sort-arrows-couple-pointing-up-and-down</div>\r\n\t                    <div className=\"fontclass\">.uf-finetune</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sortup\"></Icon>\r\n\t                    <div className=\"name\">sort-by-attributes-interface-button-option</div>\r\n\t                    <div className=\"fontclass\">.uf-sortup</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sortdown\"></Icon>\r\n\t                    <div className=\"name\">sort-by-attributes</div>\r\n\t                    <div className=\"fontclass\">.uf-sortdown</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sort19\"></Icon>\r\n\t                    <div className=\"name\">sort-by-numeric-order</div>\r\n\t                    <div className=\"fontclass\">.uf-sort19</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sort91\"></Icon>\r\n\t                    <div className=\"name\">sort-by-order</div>\r\n\t                    <div className=\"fontclass\">.uf-sort91</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-za\"></Icon>\r\n\t                    <div className=\"name\">sort-reverse-alphabetical-order</div>\r\n\t                    <div className=\"fontclass\">.uf-za</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-star-o\"></Icon>\r\n\t                    <div className=\"name\">star-1</div>\r\n\t                    <div className=\"fontclass\">.uf-star-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-star-2\"></Icon>\r\n\t                    <div className=\"name\">star-half-empty</div>\r\n\t                    <div className=\"fontclass\">.uf-star-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-star\"></Icon>\r\n\t                    <div className=\"name\">star</div>\r\n\t                    <div className=\"fontclass\">.uf-star</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-luggage\"></Icon>\r\n\t                    <div className=\"name\">suitcase-with-white-details</div>\r\n\t                    <div className=\"fontclass\">.uf-luggage</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-table\"></Icon>\r\n\t                    <div className=\"name\">table-grid</div>\r\n\t                    <div className=\"fontclass\">.uf-table</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tel\"></Icon>\r\n\t                    <div className=\"name\">telephone-handle-silhouette</div>\r\n\t                    <div className=\"fontclass\">.uf-tel</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tel-s\"></Icon>\r\n\t                    <div className=\"name\">telephone-symbol-button</div>\r\n\t                    <div className=\"fontclass\">.uf-tel-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-terminal\"></Icon>\r\n\t                    <div className=\"name\">terminal</div>\r\n\t                    <div className=\"fontclass\">.uf-terminal</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-file\"></Icon>\r\n\t                    <div className=\"name\">text-file-1</div>\r\n\t                    <div className=\"fontclass\">.uf-file</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-file-o\"></Icon>\r\n\t                    <div className=\"name\">text-file</div>\r\n\t                    <div className=\"fontclass\">.uf-file-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-3dot-h\"></Icon>\r\n\t                    <div className=\"name\">three-small-square-shapes</div>\r\n\t                    <div className=\"fontclass\">.uf-3dot-h</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-time-c-o\"></Icon>\r\n\t                    <div className=\"name\">time</div>\r\n\t                    <div className=\"fontclass\">.uf-time-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-upload\"></Icon>\r\n\t                    <div className=\"name\">upload</div>\r\n\t                    <div className=\"fontclass\">.uf-upload</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-3dot-v\"></Icon>\r\n\t                    <div className=\"name\">vertical-ellipsis</div>\r\n\t                    <div className=\"fontclass\">.uf-3dot-v</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rmb\"></Icon>\r\n\t                    <div className=\"name\">yen-symbol</div>\r\n\t                    <div className=\"fontclass\">.uf-rmb</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-c-o-up\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-reject-2\"></Icon>\r\n\t                    <div className=\"name\">驳回</div>\r\n\t                    <div className=\"fontclass\">.uf-reject-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-barcode\"></Icon>\r\n\t                    <div className=\"name\">barcode-1</div>\r\n\t                    <div className=\"fontclass\">.uf-barcode</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-zoom-out\"></Icon>\r\n\t                    <div className=\"name\">zoom-out</div>\r\n\t                    <div className=\"fontclass\">.uf-zoom-out</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-exc-t-o\"></Icon>\r\n\t                    <div className=\"name\">三角叹号</div>\r\n\t                    <div className=\"fontclass\">.uf-exc-t-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-pass\"></Icon>\r\n\t                    <div className=\"name\">通过</div>\r\n\t                    <div className=\"fontclass\">.uf-pass</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-flow\"></Icon>\r\n\t                    <div className=\"name\">关系网络</div>\r\n\t                    <div className=\"fontclass\">.uf-flow</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-add-c\"></Icon>\r\n\t                    <div className=\"name\">加</div>\r\n\t                    <div className=\"fontclass\">.uf-add-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-c-o-right-2\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-right-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-shelf-on\"></Icon>\r\n\t                    <div className=\"name\">上架</div>\r\n\t                    <div className=\"fontclass\">.uf-shelf-on</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-shelf-off\"></Icon>\r\n\t                    <div className=\"name\">下架</div>\r\n\t                    <div className=\"fontclass\">.uf-shelf-off</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-file-o-2\"></Icon>\r\n\t                    <div className=\"name\">文件</div>\r\n\t                    <div className=\"fontclass\">.uf-file-o-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-truck-o\"></Icon>\r\n\t                    <div className=\"name\">到货确认</div>\r\n\t                    <div className=\"fontclass\">.uf-truck-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-super\"></Icon>\r\n\t                    <div className=\"name\">功能强大</div>\r\n\t                    <div className=\"fontclass\">.uf-super</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-equipment\"></Icon>\r\n\t                    <div className=\"name\">设备</div>\r\n\t                    <div className=\"fontclass\">.uf-equipment</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-c-o-left-2\"></Icon>\r\n\t                    <div className=\"name\">箭头</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-c-o-left-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-files-o\"></Icon>\r\n\t                    <div className=\"name\">资源文件</div>\r\n\t                    <div className=\"fontclass\">.uf-files-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cloud-o\"></Icon>\r\n\t                    <div className=\"name\">云</div>\r\n\t                    <div className=\"fontclass\">.uf-cloud-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rmb-s-o-2\"></Icon>\r\n\t                    <div className=\"name\">对账</div>\r\n\t                    <div className=\"fontclass\">.uf-rmb-s-o-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-3dot-c-o\"></Icon>\r\n\t                    <div className=\"name\">管理中心</div>\r\n\t                    <div className=\"fontclass\">.uf-3dot-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-dafeng\"></Icon>\r\n\t                    <div className=\"name\">天气_大风</div>\r\n\t                    <div className=\"fontclass\">.uf-dafeng</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-baoxue\"></Icon>\r\n\t                    <div className=\"name\">天气_暴雪</div>\r\n\t                    <div className=\"fontclass\">.uf-baoxue</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bingbao\"></Icon>\r\n\t                    <div className=\"name\">天气_冰雹</div>\r\n\t                    <div className=\"fontclass\">.uf-bingbao</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-fengbao\"></Icon>\r\n\t                    <div className=\"name\">天气_风暴</div>\r\n\t                    <div className=\"fontclass\">.uf-fengbao</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-xiaoyu\"></Icon>\r\n\t                    <div className=\"name\">天气_小雨</div>\r\n\t                    <div className=\"fontclass\">.uf-xiaoyu</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-zhenxue\"></Icon>\r\n\t                    <div className=\"name\">天气_阵雪</div>\r\n\t                    <div className=\"fontclass\">.uf-zhenxue</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-zhongyu\"></Icon>\r\n\t                    <div className=\"name\">天气_中雨</div>\r\n\t                    <div className=\"fontclass\">.uf-zhongyu</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-es\"></Icon>\r\n\t                    <div className=\"name\">ES</div>\r\n\t                    <div className=\"fontclass\">.uf-es</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-flow-o-2\"></Icon>\r\n\t                    <div className=\"name\">流程</div>\r\n\t                    <div className=\"fontclass\">.uf-flow-o-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-activate-2\"></Icon>\r\n\t                    <div className=\"name\">激活-01</div>\r\n\t                    <div className=\"fontclass\">.uf-activate-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-flow-o\"></Icon>\r\n\t                    <div className=\"name\">流程</div>\r\n\t                    <div className=\"fontclass\">.uf-flow-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bulb-2\"></Icon>\r\n\t                    <div className=\"name\">技术支持</div>\r\n\t                    <div className=\"fontclass\">.uf-bulb-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mi-c\"></Icon>\r\n\t                    <div className=\"name\">必填</div>\r\n\t                    <div className=\"fontclass\">.uf-mi-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-top-up\"></Icon>\r\n\t                    <div className=\"name\">返回顶部</div>\r\n\t                    <div className=\"fontclass\">.uf-top-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-creditcard\"></Icon>\r\n\t                    <div className=\"name\">credit-card</div>\r\n\t                    <div className=\"fontclass\">.uf-creditcard</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-align-center\"></Icon>\r\n\t                    <div className=\"name\">align-center</div>\r\n\t                    <div className=\"fontclass\">.uf-align-center</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-align-justify\"></Icon>\r\n\t                    <div className=\"name\">align-justify</div>\r\n\t                    <div className=\"fontclass\">.uf-align-justify</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-align-left\"></Icon>\r\n\t                    <div className=\"name\">align-left</div>\r\n\t                    <div className=\"fontclass\">.uf-align-left</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-align-right\"></Icon>\r\n\t                    <div className=\"name\">align-right</div>\r\n\t                    <div className=\"fontclass\">.uf-align-right</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-ju-c-o\"></Icon>\r\n\t                    <div className=\"name\">拒</div>\r\n\t                    <div className=\"fontclass\">.uf-ju-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-truck\"></Icon>\r\n\t                    <div className=\"name\">货到付款</div>\r\n\t                    <div className=\"fontclass\">.uf-truck</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-setting-c-o\"></Icon>\r\n\t                    <div className=\"name\">流程</div>\r\n\t                    <div className=\"fontclass\">.uf-setting-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-users-o\"></Icon>\r\n\t                    <div className=\"name\">楼宇图标_用户组</div>\r\n\t                    <div className=\"fontclass\">.uf-users-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bag-s-o\"></Icon>\r\n\t                    <div className=\"name\">商品</div>\r\n\t                    <div className=\"fontclass\">.uf-bag-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cai-s\"></Icon>\r\n\t                    <div className=\"name\">采购</div>\r\n\t                    <div className=\"fontclass\">.uf-cai-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-listcheck\"></Icon>\r\n\t                    <div className=\"name\">定标</div>\r\n\t                    <div className=\"fontclass\">.uf-listcheck</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-users\"></Icon>\r\n\t                    <div className=\"name\">群</div>\r\n\t                    <div className=\"fontclass\">.uf-users</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-i-c\"></Icon>\r\n\t                    <div className=\"name\">查看详情</div>\r\n\t                    <div className=\"fontclass\">.uf-i-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-building-o\"></Icon>\r\n\t                    <div className=\"name\">企业信息</div>\r\n\t                    <div className=\"fontclass\">.uf-building-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rmb-s-o\"></Icon>\r\n\t                    <div className=\"name\">报价管理</div>\r\n\t                    <div className=\"fontclass\">.uf-rmb-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-reject\"></Icon>\r\n\t                    <div className=\"name\">已驳回</div>\r\n\t                    <div className=\"fontclass\">.uf-reject</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-9dot\"></Icon>\r\n\t                    <div className=\"name\">菜单</div>\r\n\t                    <div className=\"fontclass\">.uf-9dot</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-loadingstate\"></Icon>\r\n\t                    <div className=\"name\">loading</div>\r\n\t                    <div className=\"fontclass\">.uf-loadingstate</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-gateway\"></Icon>\r\n\t                    <div className=\"name\">网关</div>\r\n\t                    <div className=\"fontclass\">.uf-gateway</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-ticket-s-o\"></Icon>\r\n\t                    <div className=\"name\">发票</div>\r\n\t                    <div className=\"fontclass\">.uf-ticket-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-userset\"></Icon>\r\n\t                    <div className=\"name\">管理中心</div>\r\n\t                    <div className=\"fontclass\">.uf-userset</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-puzzle-o\"></Icon>\r\n\t                    <div className=\"name\">组件</div>\r\n\t                    <div className=\"fontclass\">.uf-puzzle-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-box-o\"></Icon>\r\n\t                    <div className=\"name\">物料管理</div>\r\n\t                    <div className=\"fontclass\">.uf-box-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bulb\"></Icon>\r\n\t                    <div className=\"name\">激活</div>\r\n\t                    <div className=\"fontclass\">.uf-bulb</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-exc-t\"></Icon>\r\n\t                    <div className=\"name\">感叹号_icon</div>\r\n\t                    <div className=\"fontclass\">.uf-exc-t</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-rmb-c\"></Icon>\r\n\t                    <div className=\"name\">报价</div>\r\n\t                    <div className=\"fontclass\">.uf-rmb-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-table-s-o\"></Icon>\r\n\t                    <div className=\"name\">发票</div>\r\n\t                    <div className=\"fontclass\">.uf-table-s-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-umbrella-o\"></Icon>\r\n\t                    <div className=\"name\">伞</div>\r\n\t                    <div className=\"fontclass\">.uf-umbrella-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-dropbox\"></Icon>\r\n\t                    <div className=\"name\">dropbox</div>\r\n\t                    <div className=\"fontclass\">.uf-dropbox</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-search-light\"></Icon>\r\n\t                    <div className=\"name\">搜索-搜索</div>\r\n\t                    <div className=\"fontclass\">.uf-search-light</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-cart-o\"></Icon>\r\n\t                    <div className=\"name\">shopping-cart-black-shape</div>\r\n\t                    <div className=\"fontclass\">.uf-cart-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-kero-col\"></Icon>\r\n\t                    <div className=\"name\">kero</div>\r\n\t                    <div className=\"fontclass\">.uf-kero-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-uba-col\"></Icon>\r\n\t                    <div className=\"name\">uba</div>\r\n\t                    <div className=\"fontclass\">.uf-uba-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tinperzc-col\"></Icon>\r\n\t                    <div className=\"name\">tinperzc</div>\r\n\t                    <div className=\"fontclass\">.uf-tinperzc-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tinperzch-col\"></Icon>\r\n\t                    <div className=\"name\">tinperzch</div>\r\n\t                    <div className=\"fontclass\">.uf-tinperzch-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-iuap-col\"></Icon>\r\n\t                    <div className=\"name\">iuap</div>\r\n\t                    <div className=\"fontclass\">.uf-iuap-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-iuapdesign-col\"></Icon>\r\n\t                    <div className=\"name\">iuapdesignz</div>\r\n\t                    <div className=\"fontclass\">.uf-iuapdesign-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-bee-col\"></Icon>\r\n\t                    <div className=\"name\">bee</div>\r\n\t                    <div className=\"fontclass\">.uf-bee-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-neoui-col\"></Icon>\r\n\t                    <div className=\"name\">neoui</div>\r\n\t                    <div className=\"fontclass\">.uf-neoui-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-sparrow-col\"></Icon>\r\n\t                    <div className=\"name\">sparrow</div>\r\n\t                    <div className=\"fontclass\">.uf-sparrow-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tinpercn-col\"></Icon>\r\n\t                    <div className=\"name\">tinpercn</div>\r\n\t                    <div className=\"fontclass\">.uf-tinpercn-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-tinperen-col\"></Icon>\r\n\t                    <div className=\"name\">tinperen</div>\r\n\t                    <div className=\"fontclass\">.uf-tinperen-col</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-arrow-up\"></Icon>\r\n\t                    <div className=\"name\">angle-arrow-down</div>\r\n\t                    <div className=\"fontclass\">.uf-arrow-up</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mailsym\"></Icon>\r\n\t                    <div className=\"name\">webmail</div>\r\n\t                    <div className=\"fontclass\">.uf-mailsym</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-print\"></Icon>\r\n\t                    <div className=\"name\">办公用品</div>\r\n\t                    <div className=\"fontclass\">.uf-print</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-ticket-3\"></Icon>\r\n\t                    <div className=\"name\">报销</div>\r\n\t                    <div className=\"fontclass\">.uf-ticket-3</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-loan\"></Icon>\r\n\t                    <div className=\"name\">借款</div>\r\n\t                    <div className=\"fontclass\">.uf-loan</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-ticket-2\"></Icon>\r\n\t                    <div className=\"name\">凭证中心</div>\r\n\t                    <div className=\"fontclass\">.uf-ticket-2</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-offwork\"></Icon>\r\n\t                    <div className=\"name\">请假</div>\r\n\t                    <div className=\"fontclass\">.uf-offwork</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-todolist\"></Icon>\r\n\t                    <div className=\"name\">待办</div>\r\n\t                    <div className=\"fontclass\">.uf-todolist</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-personin\"></Icon>\r\n\t                    <div className=\"name\">员工入职</div>\r\n\t                    <div className=\"fontclass\">.uf-personin</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-ticket\"></Icon>\r\n\t                    <div className=\"name\">票务</div>\r\n\t                    <div className=\"fontclass\">.uf-ticket</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-linechart\"></Icon>\r\n\t                    <div className=\"name\">小icon-图表</div>\r\n\t                    <div className=\"fontclass\">.uf-linechart</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-4leaf\"></Icon>\r\n\t                    <div className=\"name\">应用中心</div>\r\n\t                    <div className=\"fontclass\">.uf-4leaf</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-listset\"></Icon>\r\n\t                    <div className=\"name\">信息维护</div>\r\n\t                    <div className=\"fontclass\">.uf-listset</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-qi-c-o\"></Icon>\r\n\t                    <div className=\"name\">企业认证</div>\r\n\t                    <div className=\"fontclass\">.uf-qi-c-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-exc-c\"></Icon>\r\n\t                    <div className=\"name\">叹号</div>\r\n\t                    <div className=\"fontclass\">.uf-exc-c</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-code\"></Icon>\r\n\t                    <div className=\"name\">集成开发</div>\r\n\t                    <div className=\"fontclass\">.uf-code</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-plug-o\"></Icon>\r\n\t                    <div className=\"name\">热拔插</div>\r\n\t                    <div className=\"fontclass\">.uf-plug-o</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-search-s\"></Icon>\r\n\t                    <div className=\"name\">搜索</div>\r\n\t                    <div className=\"fontclass\">.uf-search-s</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-treeadd\"></Icon>\r\n\t                    <div className=\"name\">tree-new-sbling-node</div>\r\n\t                    <div className=\"fontclass\">.uf-treeadd</div>\r\n\t                </li>\r\n\t            \r\n\t                <li>\r\n\t                <Icon type=\"uf-mi\"></Icon>\r\n\t                    <div className=\"name\">必填</div>\r\n\t                    <div className=\"fontclass\">.uf-mi</div>\r\n\t                </li>\r\n\t       \t\t</ul>\r\n\t\t\t</div>\r\n\t\t)\r\n\t}\r\n}\r\n\r\n", "desc": " 在iuap字符库，`type`参数值均以-分隔。", "scss_code": ".tinper-icon-demo .uf{\r\n  font-size: 42px;\r\n  line-height: 100px;\r\n  margin: 10px 0;\r\n  color: #333;\r\n  -webkit-transition: font-size 0.25s ease-out 0s;\r\n  -moz-transition: font-size 0.25s ease-out 0s;\r\n  transition: font-size 0.25s ease-out 0s;\r\n}\r\n.tinper-icon-demo .uf:hover{\r\n  font-size: 80px;\r\n}\r\n.icon_lists:after {\r\n  clear:both;\r\n  display:block;\r\n  visibility: hidden;\r\n  content:'.';\r\n}\r\n.icon_lists li {\r\n  float: left;\r\n  width: 100px;\r\n  height: 180px;\r\n  text-align: center;\r\n  list-style: none !important;\r\n}" }];
 	
 	var Demo = function (_Component) {
 	    _inherits(Demo, _Component);
@@ -388,7 +388,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	  Copyright (c) 2016 Jed Watson.
+	  Copyright (c) 2017 Jed Watson.
 	  Licensed under the MIT License (MIT), see
 	  http://jedwatson.github.io/classnames
 	*/
@@ -410,8 +410,11 @@
 	
 				if (argType === 'string' || argType === 'number') {
 					classes.push(arg);
-				} else if (Array.isArray(arg)) {
-					classes.push(classNames.apply(null, arg));
+				} else if (Array.isArray(arg) && arg.length) {
+					var inner = classNames.apply(null, arg);
+					if (inner) {
+						classes.push(inner);
+					}
 				} else if (argType === 'object') {
 					for (var key in arg) {
 						if (hasOwn.call(arg, key) && arg[key]) {
@@ -425,6 +428,7 @@
 		}
 	
 		if (typeof module !== 'undefined' && module.exports) {
+			classNames.default = classNames;
 			module.exports = classNames;
 		} else if (true) {
 			// register as 'classnames', consistent with npm package name
@@ -639,7 +643,7 @@
 	
 	var _Panel3 = _interopRequireDefault(_Panel2);
 	
-	var _PanelGroup2 = __webpack_require__(102);
+	var _PanelGroup2 = __webpack_require__(76);
 	
 	var _PanelGroup3 = _interopRequireDefault(_PanelGroup2);
 	
@@ -670,9 +674,17 @@
 	
 	var _beeTransition = __webpack_require__(10);
 	
+	var _beeMessage = __webpack_require__(64);
+	
+	var _beeMessage2 = _interopRequireDefault(_beeMessage);
+	
 	var _propTypes = __webpack_require__(5);
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _copyToClipboard = __webpack_require__(74);
+	
+	var _copyToClipboard2 = _interopRequireDefault(_copyToClipboard);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 	
@@ -717,7 +729,9 @@
 	  onEntered: _propTypes2["default"].func,
 	  onExit: _propTypes2["default"].func,
 	  onExiting: _propTypes2["default"].func,
-	  onExited: _propTypes2["default"].func
+	  onExited: _propTypes2["default"].func,
+	  //是否可复制内容
+	  copyable: _propTypes2["default"].bool
 	};
 	
 	var defaultProps = {
@@ -814,10 +828,20 @@
 	    );
 	  };
 	
+	  //复制代码，弹出提示信息
+	
+	
+	  Panel.prototype.copyDemo = function copyDemo(e) {
+	    var panelTarget = e.target.parentNode;
+	    var clipBoardContent = panelTarget.firstChild.innerText;
+	    (0, _copyToClipboard2["default"])(clipBoardContent);
+	    _beeMessage2["default"].create({ content: '复制成功！', color: 'success', duration: 2 });
+	  };
+	
 	  //如果有折叠动画，渲染折叠动画
 	
 	
-	  Panel.prototype.renderCollapsibleBody = function renderCollapsibleBody(id, expanded, role, children, clsPrefix, animationHooks) {
+	  Panel.prototype.renderCollapsibleBody = function renderCollapsibleBody(id, expanded, role, children, clsPrefix, copyable, animationHooks) {
 	    return _react2["default"].createElement(
 	      _beeTransition.Collapse,
 	      _extends({ 'in': expanded }, animationHooks),
@@ -829,7 +853,7 @@
 	          className: clsPrefix + '-collapse',
 	          'aria-hidden': !expanded
 	        },
-	        this.renderBody(children, clsPrefix)
+	        this.renderBody(children, clsPrefix, copyable)
 	      )
 	    );
 	  };
@@ -837,43 +861,41 @@
 	  //渲染panelbody
 	
 	
-	  Panel.prototype.renderBody = function renderBody(rawChildren, clsPrefix) {
+	  Panel.prototype.renderBody = function renderBody(rawChildren, clsPrefix, copyable) {
+	    var self = this;
 	    var children = [];
 	    var bodyChildren = [];
 	
 	    var bodyClassName = clsPrefix + '-body';
-	
 	    //添加到body的children中
-	    function maybeAddBody() {
+	    function maybeAddBody(self) {
 	      if (!bodyChildren.length) {
 	        return;
 	      }
-	
 	      // 给子组件添加key，为了之后触发事件时使用
 	      children.push(_react2["default"].createElement(
 	        'div',
 	        { key: children.length, className: bodyClassName },
-	        bodyChildren
+	        bodyChildren,
+	        copyable && _react2["default"].createElement('i', { className: 'uf uf-files-o', onClick: self.copyDemo })
 	      ));
-	
 	      bodyChildren = [];
 	    }
 	
 	    //转换为数组，方便复用
 	    _react2["default"].Children.toArray(rawChildren).forEach(function (child) {
 	      if (_react2["default"].isValidElement(child) && child.props.fill) {
-	        maybeAddBody();
+	        maybeAddBody(self);
 	
 	        //将标示fill设置为undefined
 	        children.push((0, _react.cloneElement)(child, { fill: undefined }));
 	
 	        return;
 	      }
-	
 	      bodyChildren.push(child);
 	    });
 	
-	    maybeAddBody();
+	    maybeAddBody(self);
 	
 	    return children;
 	  };
@@ -903,7 +925,8 @@
 	        defaultExpanded = _props.defaultExpanded,
 	        eventKey = _props.eventKey,
 	        onSelect = _props.onSelect,
-	        props = _objectWithoutProperties(_props, ['collapsible', 'header', 'id', 'footer', 'expanded', 'footerStyle', 'headerStyle', 'headerRole', 'panelRole', 'className', 'colors', 'children', 'onEnter', 'onEntering', 'onEntered', 'clsPrefix', 'onExit', 'headerContent', 'onExiting', 'onExited', 'defaultExpanded', 'eventKey', 'onSelect']);
+	        copyable = _props.copyable,
+	        props = _objectWithoutProperties(_props, ['collapsible', 'header', 'id', 'footer', 'expanded', 'footerStyle', 'headerStyle', 'headerRole', 'panelRole', 'className', 'colors', 'children', 'onEnter', 'onEntering', 'onEntered', 'clsPrefix', 'onExit', 'headerContent', 'onExiting', 'onExited', 'defaultExpanded', 'eventKey', 'onSelect', 'copyable']);
 	
 	    var expanded = propsExpanded != null ? propsExpanded : this.state.expanded;
 	
@@ -913,6 +936,7 @@
 	
 	    var headerClass = _defineProperty({}, clsPrefix + '-heading', true);
 	
+	    copyable === false ? false : true;
 	    return _react2["default"].createElement(
 	      'div',
 	      _extends({}, props, {
@@ -924,7 +948,7 @@
 	        { className: (0, _classnames2["default"])(headerClass), style: headerStyle, onClick: this.handleClickTitle },
 	        this.renderHeader(collapsible, header, id, headerRole, expanded, clsPrefix)
 	      ),
-	      collapsible ? this.renderCollapsibleBody(id, expanded, panelRole, children, clsPrefix, { onEnter: onEnter, onEntering: onEntering, onEntered: onEntered, onExit: onExit, onExiting: onExiting, onExited: onExited }) : this.renderBody(children, clsPrefix),
+	      collapsible ? this.renderCollapsibleBody(id, expanded, panelRole, children, clsPrefix, copyable, { onEnter: onEnter, onEntering: onEntering, onEntered: onEntered, onExit: onExit, onExiting: onExiting, onExited: onExited }) : this.renderBody(children, clsPrefix, copyable),
 	      footer && _react2["default"].createElement(
 	        'div',
 	        { className: clsPrefix + '-footer', style: footerStyle },
@@ -961,7 +985,7 @@
 	
 	var _Collapse3 = _interopRequireDefault(_Collapse2);
 	
-	var _Fade2 = __webpack_require__(101);
+	var _Fade2 = __webpack_require__(63);
 	
 	var _Fade3 = _interopRequireDefault(_Fade2);
 	
@@ -2041,31 +2065,31 @@
 	
 	var _splitComponent3 = _interopRequireDefault(_splitComponent2);
 	
-	var _createChainedFunction2 = __webpack_require__(71);
+	var _createChainedFunction2 = __webpack_require__(36);
 	
 	var _createChainedFunction3 = _interopRequireDefault(_createChainedFunction2);
 	
-	var _keyCode = __webpack_require__(72);
+	var _keyCode = __webpack_require__(37);
 	
 	var _keyCode2 = _interopRequireDefault(_keyCode);
 	
-	var _contains2 = __webpack_require__(73);
+	var _contains2 = __webpack_require__(38);
 	
 	var _contains3 = _interopRequireDefault(_contains2);
 	
-	var _addEventListener2 = __webpack_require__(74);
+	var _addEventListener2 = __webpack_require__(39);
 	
 	var _addEventListener3 = _interopRequireDefault(_addEventListener2);
 	
-	var _cssAnimation2 = __webpack_require__(79);
+	var _cssAnimation2 = __webpack_require__(44);
 	
 	var _cssAnimation3 = _interopRequireDefault(_cssAnimation2);
 	
-	var _toArray2 = __webpack_require__(83);
+	var _toArray2 = __webpack_require__(48);
 	
 	var _toArray3 = _interopRequireDefault(_toArray2);
 	
-	var _Align2 = __webpack_require__(84);
+	var _Align2 = __webpack_require__(49);
 	
 	var _Align3 = _interopRequireDefault(_Align2);
 	
@@ -2580,19 +2604,20 @@
 
 /***/ }),
 /* 35 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 	"use strict";
 	
 	exports.__esModule = true;
-	
-	var _entries = __webpack_require__(36);
-	
-	var _entries2 = _interopRequireDefault(_entries);
-	
 	exports.default = splitComponentProps;
+	function _objectEntries(obj) {
+	  var entries = [];
+	  var keys = Object.keys(obj);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	  for (var k = 0; k < keys.length; ++k) {
+	    entries.push([keys[k], obj[keys[k]]]);
+	  }return entries;
+	}
 	
 	/**
 	 * 分割要传入父元素和子元素的props
@@ -2606,7 +2631,7 @@
 	  var parentProps = {};
 	  var childProps = {};
 	
-	  (0, _entries2.default)(props).forEach(function (_ref) {
+	  _objectEntries(props).forEach(function (_ref) {
 	    var propName = _ref[0],
 	        propValue = _ref[1];
 	
@@ -2622,522 +2647,6 @@
 
 /***/ }),
 /* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(37), __esModule: true };
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	__webpack_require__(38);
-	module.exports = __webpack_require__(41).Object.entries;
-
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// https://github.com/tc39/proposal-object-values-entries
-	var $export = __webpack_require__(39);
-	var $entries = __webpack_require__(54)(true);
-	
-	$export($export.S, 'Object', {
-	  entries: function entries(it) {
-	    return $entries(it);
-	  }
-	});
-
-
-/***/ }),
-/* 39 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var global = __webpack_require__(40);
-	var core = __webpack_require__(41);
-	var ctx = __webpack_require__(42);
-	var hide = __webpack_require__(44);
-	var PROTOTYPE = 'prototype';
-	
-	var $export = function (type, name, source) {
-	  var IS_FORCED = type & $export.F;
-	  var IS_GLOBAL = type & $export.G;
-	  var IS_STATIC = type & $export.S;
-	  var IS_PROTO = type & $export.P;
-	  var IS_BIND = type & $export.B;
-	  var IS_WRAP = type & $export.W;
-	  var exports = IS_GLOBAL ? core : core[name] || (core[name] = {});
-	  var expProto = exports[PROTOTYPE];
-	  var target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE];
-	  var key, own, out;
-	  if (IS_GLOBAL) source = name;
-	  for (key in source) {
-	    // contains in native
-	    own = !IS_FORCED && target && target[key] !== undefined;
-	    if (own && key in exports) continue;
-	    // export native or passed
-	    out = own ? target[key] : source[key];
-	    // prevent global pollution for namespaces
-	    exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key]
-	    // bind timers to global for call from export context
-	    : IS_BIND && own ? ctx(out, global)
-	    // wrap global constructors for prevent change them in library
-	    : IS_WRAP && target[key] == out ? (function (C) {
-	      var F = function (a, b, c) {
-	        if (this instanceof C) {
-	          switch (arguments.length) {
-	            case 0: return new C();
-	            case 1: return new C(a);
-	            case 2: return new C(a, b);
-	          } return new C(a, b, c);
-	        } return C.apply(this, arguments);
-	      };
-	      F[PROTOTYPE] = C[PROTOTYPE];
-	      return F;
-	    // make static versions for prototype methods
-	    })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
-	    // export proto methods to core.%CONSTRUCTOR%.methods.%NAME%
-	    if (IS_PROTO) {
-	      (exports.virtual || (exports.virtual = {}))[key] = out;
-	      // export proto methods to core.%CONSTRUCTOR%.prototype.%NAME%
-	      if (type & $export.R && expProto && !expProto[key]) hide(expProto, key, out);
-	    }
-	  }
-	};
-	// type bitmap
-	$export.F = 1;   // forced
-	$export.G = 2;   // global
-	$export.S = 4;   // static
-	$export.P = 8;   // proto
-	$export.B = 16;  // bind
-	$export.W = 32;  // wrap
-	$export.U = 64;  // safe
-	$export.R = 128; // real proto method for `library`
-	module.exports = $export;
-
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports) {
-
-	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
-	var global = module.exports = typeof window != 'undefined' && window.Math == Math
-	  ? window : typeof self != 'undefined' && self.Math == Math ? self
-	  // eslint-disable-next-line no-new-func
-	  : Function('return this')();
-	if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
-
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports) {
-
-	var core = module.exports = { version: '2.5.1' };
-	if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// optional / simple context binding
-	var aFunction = __webpack_require__(43);
-	module.exports = function (fn, that, length) {
-	  aFunction(fn);
-	  if (that === undefined) return fn;
-	  switch (length) {
-	    case 1: return function (a) {
-	      return fn.call(that, a);
-	    };
-	    case 2: return function (a, b) {
-	      return fn.call(that, a, b);
-	    };
-	    case 3: return function (a, b, c) {
-	      return fn.call(that, a, b, c);
-	    };
-	  }
-	  return function (/* ...args */) {
-	    return fn.apply(that, arguments);
-	  };
-	};
-
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports) {
-
-	module.exports = function (it) {
-	  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
-	  return it;
-	};
-
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var dP = __webpack_require__(45);
-	var createDesc = __webpack_require__(53);
-	module.exports = __webpack_require__(49) ? function (object, key, value) {
-	  return dP.f(object, key, createDesc(1, value));
-	} : function (object, key, value) {
-	  object[key] = value;
-	  return object;
-	};
-
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var anObject = __webpack_require__(46);
-	var IE8_DOM_DEFINE = __webpack_require__(48);
-	var toPrimitive = __webpack_require__(52);
-	var dP = Object.defineProperty;
-	
-	exports.f = __webpack_require__(49) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
-	  anObject(O);
-	  P = toPrimitive(P, true);
-	  anObject(Attributes);
-	  if (IE8_DOM_DEFINE) try {
-	    return dP(O, P, Attributes);
-	  } catch (e) { /* empty */ }
-	  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported!');
-	  if ('value' in Attributes) O[P] = Attributes.value;
-	  return O;
-	};
-
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isObject = __webpack_require__(47);
-	module.exports = function (it) {
-	  if (!isObject(it)) throw TypeError(it + ' is not an object!');
-	  return it;
-	};
-
-
-/***/ }),
-/* 47 */
-/***/ (function(module, exports) {
-
-	module.exports = function (it) {
-	  return typeof it === 'object' ? it !== null : typeof it === 'function';
-	};
-
-
-/***/ }),
-/* 48 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	module.exports = !__webpack_require__(49) && !__webpack_require__(50)(function () {
-	  return Object.defineProperty(__webpack_require__(51)('div'), 'a', { get: function () { return 7; } }).a != 7;
-	});
-
-
-/***/ }),
-/* 49 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// Thank's IE8 for his funny defineProperty
-	module.exports = !__webpack_require__(50)(function () {
-	  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
-	});
-
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports) {
-
-	module.exports = function (exec) {
-	  try {
-	    return !!exec();
-	  } catch (e) {
-	    return true;
-	  }
-	};
-
-
-/***/ }),
-/* 51 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var isObject = __webpack_require__(47);
-	var document = __webpack_require__(40).document;
-	// typeof document.createElement is 'object' in old IE
-	var is = isObject(document) && isObject(document.createElement);
-	module.exports = function (it) {
-	  return is ? document.createElement(it) : {};
-	};
-
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// 7.1.1 ToPrimitive(input [, PreferredType])
-	var isObject = __webpack_require__(47);
-	// instead of the ES6 spec version, we didn't implement @@toPrimitive case
-	// and the second argument - flag - preferred type is a string
-	module.exports = function (it, S) {
-	  if (!isObject(it)) return it;
-	  var fn, val;
-	  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-	  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;
-	  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
-	  throw TypeError("Can't convert object to primitive value");
-	};
-
-
-/***/ }),
-/* 53 */
-/***/ (function(module, exports) {
-
-	module.exports = function (bitmap, value) {
-	  return {
-	    enumerable: !(bitmap & 1),
-	    configurable: !(bitmap & 2),
-	    writable: !(bitmap & 4),
-	    value: value
-	  };
-	};
-
-
-/***/ }),
-/* 54 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var getKeys = __webpack_require__(55);
-	var toIObject = __webpack_require__(58);
-	var isEnum = __webpack_require__(70).f;
-	module.exports = function (isEntries) {
-	  return function (it) {
-	    var O = toIObject(it);
-	    var keys = getKeys(O);
-	    var length = keys.length;
-	    var i = 0;
-	    var result = [];
-	    var key;
-	    while (length > i) if (isEnum.call(O, key = keys[i++])) {
-	      result.push(isEntries ? [key, O[key]] : O[key]);
-	    } return result;
-	  };
-	};
-
-
-/***/ }),
-/* 55 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// 19.1.2.14 / 15.2.3.14 Object.keys(O)
-	var $keys = __webpack_require__(56);
-	var enumBugKeys = __webpack_require__(69);
-	
-	module.exports = Object.keys || function keys(O) {
-	  return $keys(O, enumBugKeys);
-	};
-
-
-/***/ }),
-/* 56 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var has = __webpack_require__(57);
-	var toIObject = __webpack_require__(58);
-	var arrayIndexOf = __webpack_require__(62)(false);
-	var IE_PROTO = __webpack_require__(66)('IE_PROTO');
-	
-	module.exports = function (object, names) {
-	  var O = toIObject(object);
-	  var i = 0;
-	  var result = [];
-	  var key;
-	  for (key in O) if (key != IE_PROTO) has(O, key) && result.push(key);
-	  // Don't enum bug & hidden keys
-	  while (names.length > i) if (has(O, key = names[i++])) {
-	    ~arrayIndexOf(result, key) || result.push(key);
-	  }
-	  return result;
-	};
-
-
-/***/ }),
-/* 57 */
-/***/ (function(module, exports) {
-
-	var hasOwnProperty = {}.hasOwnProperty;
-	module.exports = function (it, key) {
-	  return hasOwnProperty.call(it, key);
-	};
-
-
-/***/ }),
-/* 58 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// to indexed object, toObject with fallback for non-array-like ES3 strings
-	var IObject = __webpack_require__(59);
-	var defined = __webpack_require__(61);
-	module.exports = function (it) {
-	  return IObject(defined(it));
-	};
-
-
-/***/ }),
-/* 59 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// fallback for non-array-like ES3 and non-enumerable old V8 strings
-	var cof = __webpack_require__(60);
-	// eslint-disable-next-line no-prototype-builtins
-	module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
-	  return cof(it) == 'String' ? it.split('') : Object(it);
-	};
-
-
-/***/ }),
-/* 60 */
-/***/ (function(module, exports) {
-
-	var toString = {}.toString;
-	
-	module.exports = function (it) {
-	  return toString.call(it).slice(8, -1);
-	};
-
-
-/***/ }),
-/* 61 */
-/***/ (function(module, exports) {
-
-	// 7.2.1 RequireObjectCoercible(argument)
-	module.exports = function (it) {
-	  if (it == undefined) throw TypeError("Can't call method on  " + it);
-	  return it;
-	};
-
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// false -> Array#indexOf
-	// true  -> Array#includes
-	var toIObject = __webpack_require__(58);
-	var toLength = __webpack_require__(63);
-	var toAbsoluteIndex = __webpack_require__(65);
-	module.exports = function (IS_INCLUDES) {
-	  return function ($this, el, fromIndex) {
-	    var O = toIObject($this);
-	    var length = toLength(O.length);
-	    var index = toAbsoluteIndex(fromIndex, length);
-	    var value;
-	    // Array#includes uses SameValueZero equality algorithm
-	    // eslint-disable-next-line no-self-compare
-	    if (IS_INCLUDES && el != el) while (length > index) {
-	      value = O[index++];
-	      // eslint-disable-next-line no-self-compare
-	      if (value != value) return true;
-	    // Array#indexOf ignores holes, Array#includes - not
-	    } else for (;length > index; index++) if (IS_INCLUDES || index in O) {
-	      if (O[index] === el) return IS_INCLUDES || index || 0;
-	    } return !IS_INCLUDES && -1;
-	  };
-	};
-
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	// 7.1.15 ToLength
-	var toInteger = __webpack_require__(64);
-	var min = Math.min;
-	module.exports = function (it) {
-	  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
-	};
-
-
-/***/ }),
-/* 64 */
-/***/ (function(module, exports) {
-
-	// 7.1.4 ToInteger
-	var ceil = Math.ceil;
-	var floor = Math.floor;
-	module.exports = function (it) {
-	  return isNaN(it = +it) ? 0 : (it > 0 ? floor : ceil)(it);
-	};
-
-
-/***/ }),
-/* 65 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var toInteger = __webpack_require__(64);
-	var max = Math.max;
-	var min = Math.min;
-	module.exports = function (index, length) {
-	  index = toInteger(index);
-	  return index < 0 ? max(index + length, 0) : min(index, length);
-	};
-
-
-/***/ }),
-/* 66 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var shared = __webpack_require__(67)('keys');
-	var uid = __webpack_require__(68);
-	module.exports = function (key) {
-	  return shared[key] || (shared[key] = uid(key));
-	};
-
-
-/***/ }),
-/* 67 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var global = __webpack_require__(40);
-	var SHARED = '__core-js_shared__';
-	var store = global[SHARED] || (global[SHARED] = {});
-	module.exports = function (key) {
-	  return store[key] || (store[key] = {});
-	};
-
-
-/***/ }),
-/* 68 */
-/***/ (function(module, exports) {
-
-	var id = 0;
-	var px = Math.random();
-	module.exports = function (key) {
-	  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + px).toString(36));
-	};
-
-
-/***/ }),
-/* 69 */
-/***/ (function(module, exports) {
-
-	// IE 8- don't enum bug keys
-	module.exports = (
-	  'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
-	).split(',');
-
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports) {
-
-	exports.f = {}.propertyIsEnumerable;
-
-
-/***/ }),
-/* 71 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -3172,7 +2681,7 @@
 	exports.default = createChainedFunction;
 
 /***/ }),
-/* 72 */
+/* 37 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -3697,7 +3206,7 @@
 	module.exports = KeyCode;
 
 /***/ }),
-/* 73 */
+/* 38 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -3717,7 +3226,7 @@
 	}
 
 /***/ }),
-/* 74 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3725,7 +3234,7 @@
 	exports.__esModule = true;
 	exports.default = addEventListenerWrap;
 	
-	var _addDomEventListener = __webpack_require__(75);
+	var _addDomEventListener = __webpack_require__(40);
 	
 	var _addDomEventListener2 = _interopRequireDefault(_addDomEventListener);
 	
@@ -3744,7 +3253,7 @@
 	}
 
 /***/ }),
-/* 75 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3754,7 +3263,7 @@
 	});
 	exports["default"] = addEventListener;
 	
-	var _EventObject = __webpack_require__(76);
+	var _EventObject = __webpack_require__(41);
 	
 	var _EventObject2 = _interopRequireDefault(_EventObject);
 	
@@ -3785,7 +3294,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 76 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3794,11 +3303,11 @@
 	  value: true
 	});
 	
-	var _EventBaseObject = __webpack_require__(77);
+	var _EventBaseObject = __webpack_require__(42);
 	
 	var _EventBaseObject2 = _interopRequireDefault(_EventBaseObject);
 	
-	var _objectAssign = __webpack_require__(78);
+	var _objectAssign = __webpack_require__(43);
 	
 	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
@@ -4067,7 +3576,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 77 */
+/* 42 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -4132,7 +3641,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 78 */
+/* 43 */
 /***/ (function(module, exports) {
 
 	/*
@@ -4228,7 +3737,7 @@
 
 
 /***/ }),
-/* 79 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4237,11 +3746,11 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 	
-	var _Event = __webpack_require__(80);
+	var _Event = __webpack_require__(45);
 	
 	var _Event2 = _interopRequireDefault(_Event);
 	
-	var _componentClasses = __webpack_require__(81);
+	var _componentClasses = __webpack_require__(46);
 	
 	var _componentClasses2 = _interopRequireDefault(_componentClasses);
 	
@@ -4420,7 +3929,7 @@
 	exports.default = cssAnimation;
 
 /***/ }),
-/* 80 */
+/* 45 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -4510,7 +4019,7 @@
 	exports.default = TransitionEvents;
 
 /***/ }),
-/* 81 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
@@ -4518,9 +4027,9 @@
 	 */
 	
 	try {
-	  var index = __webpack_require__(82);
+	  var index = __webpack_require__(47);
 	} catch (err) {
-	  var index = __webpack_require__(82);
+	  var index = __webpack_require__(47);
 	}
 	
 	/**
@@ -4707,7 +4216,7 @@
 
 
 /***/ }),
-/* 82 */
+/* 47 */
 /***/ (function(module, exports) {
 
 	module.exports = function(arr, obj){
@@ -4719,7 +4228,7 @@
 	};
 
 /***/ }),
-/* 83 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4742,7 +4251,7 @@
 	}
 
 /***/ }),
-/* 84 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4761,15 +4270,11 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _createReactClass = __webpack_require__(85);
-	
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
-	
-	var _domAlign = __webpack_require__(91);
+	var _domAlign = __webpack_require__(50);
 	
 	var _domAlign2 = _interopRequireDefault(_domAlign);
 	
-	var _addEventListener = __webpack_require__(74);
+	var _addEventListener = __webpack_require__(39);
 	
 	var _addEventListener2 = _interopRequireDefault(_addEventListener);
 	
@@ -4808,6 +4313,7 @@
 	
 	  return bufferFn;
 	}
+	
 	var propTypes = {
 	  childrenProps: _propTypes2.default.object,
 	  align: _propTypes2.default.object.isRequired,
@@ -4885,13 +4391,6 @@
 	    this.stopMonitorWindowResize();
 	  };
 	
-	  Align.prototype.startMonitorWindowResize = function startMonitorWindowResize() {
-	    if (!this.resizeHandler) {
-	      this.bufferMonitor = buffer(this.forceAlign, this.props.monitorBufferTime);
-	      this.resizeHandler = (0, _addEventListener2.default)(window, 'resize', this.bufferMonitor);
-	    }
-	  };
-	
 	  Align.prototype.render = function render() {
 	    var _props = this.props,
 	        childrenProps = _props.childrenProps,
@@ -4916,6 +4415,13 @@
 	var _initialiseProps = function _initialiseProps() {
 	  var _this2 = this;
 	
+	  this.startMonitorWindowResize = function () {
+	    if (!_this2.resizeHandler) {
+	      _this2.bufferMonitor = buffer(_this2.forceAlign, _this2.props.monitorBufferTime);
+	      _this2.resizeHandler = (0, _addEventListener2.default)(window, 'resize', _this2.bufferMonitor);
+	    }
+	  };
+	
 	  this.stopMonitorWindowResize = function () {
 	    if (_this2.resizeHandler) {
 	      _this2.bufferMonitor.clear();
@@ -4937,1112 +4443,36 @@
 	
 	Align.defaultProps = defaultProps;
 	Align.propTypes = propTypes;
+	
 	exports.default = Align;
 
 /***/ }),
-/* 85 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 *
-	 */
-	
 	'use strict';
 	
-	var React = __webpack_require__(4);
-	var factory = __webpack_require__(86);
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.alignPoint = exports.alignElement = undefined;
 	
-	if (typeof React === 'undefined') {
-	  throw Error(
-	    'create-react-class could not find the React object. If you are using script tags, ' +
-	      'make sure that React is being loaded before create-react-class.'
-	  );
-	}
+	var _alignElement = __webpack_require__(51);
 	
-	// Hack to grab NoopUpdateQueue from isomorphic React
-	var ReactNoopUpdateQueue = new React.Component().updater;
+	var _alignElement2 = _interopRequireDefault(_alignElement);
 	
-	module.exports = factory(
-	  React.Component,
-	  React.isValidElement,
-	  ReactNoopUpdateQueue
-	);
-
-
-/***/ }),
-/* 86 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 *
-	 */
+	var _alignPoint = __webpack_require__(62);
 	
-	'use strict';
+	var _alignPoint2 = _interopRequireDefault(_alignPoint);
 	
-	var _assign = __webpack_require__(78);
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var emptyObject = __webpack_require__(87);
-	var _invariant = __webpack_require__(88);
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  var warning = __webpack_require__(89);
-	}
-	
-	var MIXINS_KEY = 'mixins';
-	
-	// Helper function to allow the creation of anonymous functions which do not
-	// have .name set to the name of the variable being assigned to.
-	function identity(fn) {
-	  return fn;
-	}
-	
-	var ReactPropTypeLocationNames;
-	if (process.env.NODE_ENV !== 'production') {
-	  ReactPropTypeLocationNames = {
-	    prop: 'prop',
-	    context: 'context',
-	    childContext: 'child context'
-	  };
-	} else {
-	  ReactPropTypeLocationNames = {};
-	}
-	
-	function factory(ReactComponent, isValidElement, ReactNoopUpdateQueue) {
-	  /**
-	   * Policies that describe methods in `ReactClassInterface`.
-	   */
-	
-	  var injectedMixins = [];
-	
-	  /**
-	   * Composite components are higher-level components that compose other composite
-	   * or host components.
-	   *
-	   * To create a new type of `ReactClass`, pass a specification of
-	   * your new class to `React.createClass`. The only requirement of your class
-	   * specification is that you implement a `render` method.
-	   *
-	   *   var MyComponent = React.createClass({
-	   *     render: function() {
-	   *       return <div>Hello World</div>;
-	   *     }
-	   *   });
-	   *
-	   * The class specification supports a specific protocol of methods that have
-	   * special meaning (e.g. `render`). See `ReactClassInterface` for
-	   * more the comprehensive protocol. Any other properties and methods in the
-	   * class specification will be available on the prototype.
-	   *
-	   * @interface ReactClassInterface
-	   * @internal
-	   */
-	  var ReactClassInterface = {
-	    /**
-	     * An array of Mixin objects to include when defining your component.
-	     *
-	     * @type {array}
-	     * @optional
-	     */
-	    mixins: 'DEFINE_MANY',
-	
-	    /**
-	     * An object containing properties and methods that should be defined on
-	     * the component's constructor instead of its prototype (static methods).
-	     *
-	     * @type {object}
-	     * @optional
-	     */
-	    statics: 'DEFINE_MANY',
-	
-	    /**
-	     * Definition of prop types for this component.
-	     *
-	     * @type {object}
-	     * @optional
-	     */
-	    propTypes: 'DEFINE_MANY',
-	
-	    /**
-	     * Definition of context types for this component.
-	     *
-	     * @type {object}
-	     * @optional
-	     */
-	    contextTypes: 'DEFINE_MANY',
-	
-	    /**
-	     * Definition of context types this component sets for its children.
-	     *
-	     * @type {object}
-	     * @optional
-	     */
-	    childContextTypes: 'DEFINE_MANY',
-	
-	    // ==== Definition methods ====
-	
-	    /**
-	     * Invoked when the component is mounted. Values in the mapping will be set on
-	     * `this.props` if that prop is not specified (i.e. using an `in` check).
-	     *
-	     * This method is invoked before `getInitialState` and therefore cannot rely
-	     * on `this.state` or use `this.setState`.
-	     *
-	     * @return {object}
-	     * @optional
-	     */
-	    getDefaultProps: 'DEFINE_MANY_MERGED',
-	
-	    /**
-	     * Invoked once before the component is mounted. The return value will be used
-	     * as the initial value of `this.state`.
-	     *
-	     *   getInitialState: function() {
-	     *     return {
-	     *       isOn: false,
-	     *       fooBaz: new BazFoo()
-	     *     }
-	     *   }
-	     *
-	     * @return {object}
-	     * @optional
-	     */
-	    getInitialState: 'DEFINE_MANY_MERGED',
-	
-	    /**
-	     * @return {object}
-	     * @optional
-	     */
-	    getChildContext: 'DEFINE_MANY_MERGED',
-	
-	    /**
-	     * Uses props from `this.props` and state from `this.state` to render the
-	     * structure of the component.
-	     *
-	     * No guarantees are made about when or how often this method is invoked, so
-	     * it must not have side effects.
-	     *
-	     *   render: function() {
-	     *     var name = this.props.name;
-	     *     return <div>Hello, {name}!</div>;
-	     *   }
-	     *
-	     * @return {ReactComponent}
-	     * @required
-	     */
-	    render: 'DEFINE_ONCE',
-	
-	    // ==== Delegate methods ====
-	
-	    /**
-	     * Invoked when the component is initially created and about to be mounted.
-	     * This may have side effects, but any external subscriptions or data created
-	     * by this method must be cleaned up in `componentWillUnmount`.
-	     *
-	     * @optional
-	     */
-	    componentWillMount: 'DEFINE_MANY',
-	
-	    /**
-	     * Invoked when the component has been mounted and has a DOM representation.
-	     * However, there is no guarantee that the DOM node is in the document.
-	     *
-	     * Use this as an opportunity to operate on the DOM when the component has
-	     * been mounted (initialized and rendered) for the first time.
-	     *
-	     * @param {DOMElement} rootNode DOM element representing the component.
-	     * @optional
-	     */
-	    componentDidMount: 'DEFINE_MANY',
-	
-	    /**
-	     * Invoked before the component receives new props.
-	     *
-	     * Use this as an opportunity to react to a prop transition by updating the
-	     * state using `this.setState`. Current props are accessed via `this.props`.
-	     *
-	     *   componentWillReceiveProps: function(nextProps, nextContext) {
-	     *     this.setState({
-	     *       likesIncreasing: nextProps.likeCount > this.props.likeCount
-	     *     });
-	     *   }
-	     *
-	     * NOTE: There is no equivalent `componentWillReceiveState`. An incoming prop
-	     * transition may cause a state change, but the opposite is not true. If you
-	     * need it, you are probably looking for `componentWillUpdate`.
-	     *
-	     * @param {object} nextProps
-	     * @optional
-	     */
-	    componentWillReceiveProps: 'DEFINE_MANY',
-	
-	    /**
-	     * Invoked while deciding if the component should be updated as a result of
-	     * receiving new props, state and/or context.
-	     *
-	     * Use this as an opportunity to `return false` when you're certain that the
-	     * transition to the new props/state/context will not require a component
-	     * update.
-	     *
-	     *   shouldComponentUpdate: function(nextProps, nextState, nextContext) {
-	     *     return !equal(nextProps, this.props) ||
-	     *       !equal(nextState, this.state) ||
-	     *       !equal(nextContext, this.context);
-	     *   }
-	     *
-	     * @param {object} nextProps
-	     * @param {?object} nextState
-	     * @param {?object} nextContext
-	     * @return {boolean} True if the component should update.
-	     * @optional
-	     */
-	    shouldComponentUpdate: 'DEFINE_ONCE',
-	
-	    /**
-	     * Invoked when the component is about to update due to a transition from
-	     * `this.props`, `this.state` and `this.context` to `nextProps`, `nextState`
-	     * and `nextContext`.
-	     *
-	     * Use this as an opportunity to perform preparation before an update occurs.
-	     *
-	     * NOTE: You **cannot** use `this.setState()` in this method.
-	     *
-	     * @param {object} nextProps
-	     * @param {?object} nextState
-	     * @param {?object} nextContext
-	     * @param {ReactReconcileTransaction} transaction
-	     * @optional
-	     */
-	    componentWillUpdate: 'DEFINE_MANY',
-	
-	    /**
-	     * Invoked when the component's DOM representation has been updated.
-	     *
-	     * Use this as an opportunity to operate on the DOM when the component has
-	     * been updated.
-	     *
-	     * @param {object} prevProps
-	     * @param {?object} prevState
-	     * @param {?object} prevContext
-	     * @param {DOMElement} rootNode DOM element representing the component.
-	     * @optional
-	     */
-	    componentDidUpdate: 'DEFINE_MANY',
-	
-	    /**
-	     * Invoked when the component is about to be removed from its parent and have
-	     * its DOM representation destroyed.
-	     *
-	     * Use this as an opportunity to deallocate any external resources.
-	     *
-	     * NOTE: There is no `componentDidUnmount` since your component will have been
-	     * destroyed by that point.
-	     *
-	     * @optional
-	     */
-	    componentWillUnmount: 'DEFINE_MANY',
-	
-	    // ==== Advanced methods ====
-	
-	    /**
-	     * Updates the component's currently mounted DOM representation.
-	     *
-	     * By default, this implements React's rendering and reconciliation algorithm.
-	     * Sophisticated clients may wish to override this.
-	     *
-	     * @param {ReactReconcileTransaction} transaction
-	     * @internal
-	     * @overridable
-	     */
-	    updateComponent: 'OVERRIDE_BASE'
-	  };
-	
-	  /**
-	   * Mapping from class specification keys to special processing functions.
-	   *
-	   * Although these are declared like instance properties in the specification
-	   * when defining classes using `React.createClass`, they are actually static
-	   * and are accessible on the constructor instead of the prototype. Despite
-	   * being static, they must be defined outside of the "statics" key under
-	   * which all other static methods are defined.
-	   */
-	  var RESERVED_SPEC_KEYS = {
-	    displayName: function(Constructor, displayName) {
-	      Constructor.displayName = displayName;
-	    },
-	    mixins: function(Constructor, mixins) {
-	      if (mixins) {
-	        for (var i = 0; i < mixins.length; i++) {
-	          mixSpecIntoComponent(Constructor, mixins[i]);
-	        }
-	      }
-	    },
-	    childContextTypes: function(Constructor, childContextTypes) {
-	      if (process.env.NODE_ENV !== 'production') {
-	        validateTypeDef(Constructor, childContextTypes, 'childContext');
-	      }
-	      Constructor.childContextTypes = _assign(
-	        {},
-	        Constructor.childContextTypes,
-	        childContextTypes
-	      );
-	    },
-	    contextTypes: function(Constructor, contextTypes) {
-	      if (process.env.NODE_ENV !== 'production') {
-	        validateTypeDef(Constructor, contextTypes, 'context');
-	      }
-	      Constructor.contextTypes = _assign(
-	        {},
-	        Constructor.contextTypes,
-	        contextTypes
-	      );
-	    },
-	    /**
-	     * Special case getDefaultProps which should move into statics but requires
-	     * automatic merging.
-	     */
-	    getDefaultProps: function(Constructor, getDefaultProps) {
-	      if (Constructor.getDefaultProps) {
-	        Constructor.getDefaultProps = createMergedResultFunction(
-	          Constructor.getDefaultProps,
-	          getDefaultProps
-	        );
-	      } else {
-	        Constructor.getDefaultProps = getDefaultProps;
-	      }
-	    },
-	    propTypes: function(Constructor, propTypes) {
-	      if (process.env.NODE_ENV !== 'production') {
-	        validateTypeDef(Constructor, propTypes, 'prop');
-	      }
-	      Constructor.propTypes = _assign({}, Constructor.propTypes, propTypes);
-	    },
-	    statics: function(Constructor, statics) {
-	      mixStaticSpecIntoComponent(Constructor, statics);
-	    },
-	    autobind: function() {}
-	  };
-	
-	  function validateTypeDef(Constructor, typeDef, location) {
-	    for (var propName in typeDef) {
-	      if (typeDef.hasOwnProperty(propName)) {
-	        // use a warning instead of an _invariant so components
-	        // don't show up in prod but only in __DEV__
-	        if (process.env.NODE_ENV !== 'production') {
-	          warning(
-	            typeof typeDef[propName] === 'function',
-	            '%s: %s type `%s` is invalid; it must be a function, usually from ' +
-	              'React.PropTypes.',
-	            Constructor.displayName || 'ReactClass',
-	            ReactPropTypeLocationNames[location],
-	            propName
-	          );
-	        }
-	      }
-	    }
-	  }
-	
-	  function validateMethodOverride(isAlreadyDefined, name) {
-	    var specPolicy = ReactClassInterface.hasOwnProperty(name)
-	      ? ReactClassInterface[name]
-	      : null;
-	
-	    // Disallow overriding of base class methods unless explicitly allowed.
-	    if (ReactClassMixin.hasOwnProperty(name)) {
-	      _invariant(
-	        specPolicy === 'OVERRIDE_BASE',
-	        'ReactClassInterface: You are attempting to override ' +
-	          '`%s` from your class specification. Ensure that your method names ' +
-	          'do not overlap with React methods.',
-	        name
-	      );
-	    }
-	
-	    // Disallow defining methods more than once unless explicitly allowed.
-	    if (isAlreadyDefined) {
-	      _invariant(
-	        specPolicy === 'DEFINE_MANY' || specPolicy === 'DEFINE_MANY_MERGED',
-	        'ReactClassInterface: You are attempting to define ' +
-	          '`%s` on your component more than once. This conflict may be due ' +
-	          'to a mixin.',
-	        name
-	      );
-	    }
-	  }
-	
-	  /**
-	   * Mixin helper which handles policy validation and reserved
-	   * specification keys when building React classes.
-	   */
-	  function mixSpecIntoComponent(Constructor, spec) {
-	    if (!spec) {
-	      if (process.env.NODE_ENV !== 'production') {
-	        var typeofSpec = typeof spec;
-	        var isMixinValid = typeofSpec === 'object' && spec !== null;
-	
-	        if (process.env.NODE_ENV !== 'production') {
-	          warning(
-	            isMixinValid,
-	            "%s: You're attempting to include a mixin that is either null " +
-	              'or not an object. Check the mixins included by the component, ' +
-	              'as well as any mixins they include themselves. ' +
-	              'Expected object but got %s.',
-	            Constructor.displayName || 'ReactClass',
-	            spec === null ? null : typeofSpec
-	          );
-	        }
-	      }
-	
-	      return;
-	    }
-	
-	    _invariant(
-	      typeof spec !== 'function',
-	      "ReactClass: You're attempting to " +
-	        'use a component class or function as a mixin. Instead, just use a ' +
-	        'regular object.'
-	    );
-	    _invariant(
-	      !isValidElement(spec),
-	      "ReactClass: You're attempting to " +
-	        'use a component as a mixin. Instead, just use a regular object.'
-	    );
-	
-	    var proto = Constructor.prototype;
-	    var autoBindPairs = proto.__reactAutoBindPairs;
-	
-	    // By handling mixins before any other properties, we ensure the same
-	    // chaining order is applied to methods with DEFINE_MANY policy, whether
-	    // mixins are listed before or after these methods in the spec.
-	    if (spec.hasOwnProperty(MIXINS_KEY)) {
-	      RESERVED_SPEC_KEYS.mixins(Constructor, spec.mixins);
-	    }
-	
-	    for (var name in spec) {
-	      if (!spec.hasOwnProperty(name)) {
-	        continue;
-	      }
-	
-	      if (name === MIXINS_KEY) {
-	        // We have already handled mixins in a special case above.
-	        continue;
-	      }
-	
-	      var property = spec[name];
-	      var isAlreadyDefined = proto.hasOwnProperty(name);
-	      validateMethodOverride(isAlreadyDefined, name);
-	
-	      if (RESERVED_SPEC_KEYS.hasOwnProperty(name)) {
-	        RESERVED_SPEC_KEYS[name](Constructor, property);
-	      } else {
-	        // Setup methods on prototype:
-	        // The following member methods should not be automatically bound:
-	        // 1. Expected ReactClass methods (in the "interface").
-	        // 2. Overridden methods (that were mixed in).
-	        var isReactClassMethod = ReactClassInterface.hasOwnProperty(name);
-	        var isFunction = typeof property === 'function';
-	        var shouldAutoBind =
-	          isFunction &&
-	          !isReactClassMethod &&
-	          !isAlreadyDefined &&
-	          spec.autobind !== false;
-	
-	        if (shouldAutoBind) {
-	          autoBindPairs.push(name, property);
-	          proto[name] = property;
-	        } else {
-	          if (isAlreadyDefined) {
-	            var specPolicy = ReactClassInterface[name];
-	
-	            // These cases should already be caught by validateMethodOverride.
-	            _invariant(
-	              isReactClassMethod &&
-	                (specPolicy === 'DEFINE_MANY_MERGED' ||
-	                  specPolicy === 'DEFINE_MANY'),
-	              'ReactClass: Unexpected spec policy %s for key %s ' +
-	                'when mixing in component specs.',
-	              specPolicy,
-	              name
-	            );
-	
-	            // For methods which are defined more than once, call the existing
-	            // methods before calling the new property, merging if appropriate.
-	            if (specPolicy === 'DEFINE_MANY_MERGED') {
-	              proto[name] = createMergedResultFunction(proto[name], property);
-	            } else if (specPolicy === 'DEFINE_MANY') {
-	              proto[name] = createChainedFunction(proto[name], property);
-	            }
-	          } else {
-	            proto[name] = property;
-	            if (process.env.NODE_ENV !== 'production') {
-	              // Add verbose displayName to the function, which helps when looking
-	              // at profiling tools.
-	              if (typeof property === 'function' && spec.displayName) {
-	                proto[name].displayName = spec.displayName + '_' + name;
-	              }
-	            }
-	          }
-	        }
-	      }
-	    }
-	  }
-	
-	  function mixStaticSpecIntoComponent(Constructor, statics) {
-	    if (!statics) {
-	      return;
-	    }
-	    for (var name in statics) {
-	      var property = statics[name];
-	      if (!statics.hasOwnProperty(name)) {
-	        continue;
-	      }
-	
-	      var isReserved = name in RESERVED_SPEC_KEYS;
-	      _invariant(
-	        !isReserved,
-	        'ReactClass: You are attempting to define a reserved ' +
-	          'property, `%s`, that shouldn\'t be on the "statics" key. Define it ' +
-	          'as an instance property instead; it will still be accessible on the ' +
-	          'constructor.',
-	        name
-	      );
-	
-	      var isInherited = name in Constructor;
-	      _invariant(
-	        !isInherited,
-	        'ReactClass: You are attempting to define ' +
-	          '`%s` on your component more than once. This conflict may be ' +
-	          'due to a mixin.',
-	        name
-	      );
-	      Constructor[name] = property;
-	    }
-	  }
-	
-	  /**
-	   * Merge two objects, but throw if both contain the same key.
-	   *
-	   * @param {object} one The first object, which is mutated.
-	   * @param {object} two The second object
-	   * @return {object} one after it has been mutated to contain everything in two.
-	   */
-	  function mergeIntoWithNoDuplicateKeys(one, two) {
-	    _invariant(
-	      one && two && typeof one === 'object' && typeof two === 'object',
-	      'mergeIntoWithNoDuplicateKeys(): Cannot merge non-objects.'
-	    );
-	
-	    for (var key in two) {
-	      if (two.hasOwnProperty(key)) {
-	        _invariant(
-	          one[key] === undefined,
-	          'mergeIntoWithNoDuplicateKeys(): ' +
-	            'Tried to merge two objects with the same key: `%s`. This conflict ' +
-	            'may be due to a mixin; in particular, this may be caused by two ' +
-	            'getInitialState() or getDefaultProps() methods returning objects ' +
-	            'with clashing keys.',
-	          key
-	        );
-	        one[key] = two[key];
-	      }
-	    }
-	    return one;
-	  }
-	
-	  /**
-	   * Creates a function that invokes two functions and merges their return values.
-	   *
-	   * @param {function} one Function to invoke first.
-	   * @param {function} two Function to invoke second.
-	   * @return {function} Function that invokes the two argument functions.
-	   * @private
-	   */
-	  function createMergedResultFunction(one, two) {
-	    return function mergedResult() {
-	      var a = one.apply(this, arguments);
-	      var b = two.apply(this, arguments);
-	      if (a == null) {
-	        return b;
-	      } else if (b == null) {
-	        return a;
-	      }
-	      var c = {};
-	      mergeIntoWithNoDuplicateKeys(c, a);
-	      mergeIntoWithNoDuplicateKeys(c, b);
-	      return c;
-	    };
-	  }
-	
-	  /**
-	   * Creates a function that invokes two functions and ignores their return vales.
-	   *
-	   * @param {function} one Function to invoke first.
-	   * @param {function} two Function to invoke second.
-	   * @return {function} Function that invokes the two argument functions.
-	   * @private
-	   */
-	  function createChainedFunction(one, two) {
-	    return function chainedFunction() {
-	      one.apply(this, arguments);
-	      two.apply(this, arguments);
-	    };
-	  }
-	
-	  /**
-	   * Binds a method to the component.
-	   *
-	   * @param {object} component Component whose method is going to be bound.
-	   * @param {function} method Method to be bound.
-	   * @return {function} The bound method.
-	   */
-	  function bindAutoBindMethod(component, method) {
-	    var boundMethod = method.bind(component);
-	    if (process.env.NODE_ENV !== 'production') {
-	      boundMethod.__reactBoundContext = component;
-	      boundMethod.__reactBoundMethod = method;
-	      boundMethod.__reactBoundArguments = null;
-	      var componentName = component.constructor.displayName;
-	      var _bind = boundMethod.bind;
-	      boundMethod.bind = function(newThis) {
-	        for (
-	          var _len = arguments.length,
-	            args = Array(_len > 1 ? _len - 1 : 0),
-	            _key = 1;
-	          _key < _len;
-	          _key++
-	        ) {
-	          args[_key - 1] = arguments[_key];
-	        }
-	
-	        // User is trying to bind() an autobound method; we effectively will
-	        // ignore the value of "this" that the user is trying to use, so
-	        // let's warn.
-	        if (newThis !== component && newThis !== null) {
-	          if (process.env.NODE_ENV !== 'production') {
-	            warning(
-	              false,
-	              'bind(): React component methods may only be bound to the ' +
-	                'component instance. See %s',
-	              componentName
-	            );
-	          }
-	        } else if (!args.length) {
-	          if (process.env.NODE_ENV !== 'production') {
-	            warning(
-	              false,
-	              'bind(): You are binding a component method to the component. ' +
-	                'React does this for you automatically in a high-performance ' +
-	                'way, so you can safely remove this call. See %s',
-	              componentName
-	            );
-	          }
-	          return boundMethod;
-	        }
-	        var reboundMethod = _bind.apply(boundMethod, arguments);
-	        reboundMethod.__reactBoundContext = component;
-	        reboundMethod.__reactBoundMethod = method;
-	        reboundMethod.__reactBoundArguments = args;
-	        return reboundMethod;
-	      };
-	    }
-	    return boundMethod;
-	  }
-	
-	  /**
-	   * Binds all auto-bound methods in a component.
-	   *
-	   * @param {object} component Component whose method is going to be bound.
-	   */
-	  function bindAutoBindMethods(component) {
-	    var pairs = component.__reactAutoBindPairs;
-	    for (var i = 0; i < pairs.length; i += 2) {
-	      var autoBindKey = pairs[i];
-	      var method = pairs[i + 1];
-	      component[autoBindKey] = bindAutoBindMethod(component, method);
-	    }
-	  }
-	
-	  var IsMountedPreMixin = {
-	    componentDidMount: function() {
-	      this.__isMounted = true;
-	    }
-	  };
-	
-	  var IsMountedPostMixin = {
-	    componentWillUnmount: function() {
-	      this.__isMounted = false;
-	    }
-	  };
-	
-	  /**
-	   * Add more to the ReactClass base class. These are all legacy features and
-	   * therefore not already part of the modern ReactComponent.
-	   */
-	  var ReactClassMixin = {
-	    /**
-	     * TODO: This will be deprecated because state should always keep a consistent
-	     * type signature and the only use case for this, is to avoid that.
-	     */
-	    replaceState: function(newState, callback) {
-	      this.updater.enqueueReplaceState(this, newState, callback);
-	    },
-	
-	    /**
-	     * Checks whether or not this composite component is mounted.
-	     * @return {boolean} True if mounted, false otherwise.
-	     * @protected
-	     * @final
-	     */
-	    isMounted: function() {
-	      if (process.env.NODE_ENV !== 'production') {
-	        warning(
-	          this.__didWarnIsMounted,
-	          '%s: isMounted is deprecated. Instead, make sure to clean up ' +
-	            'subscriptions and pending requests in componentWillUnmount to ' +
-	            'prevent memory leaks.',
-	          (this.constructor && this.constructor.displayName) ||
-	            this.name ||
-	            'Component'
-	        );
-	        this.__didWarnIsMounted = true;
-	      }
-	      return !!this.__isMounted;
-	    }
-	  };
-	
-	  var ReactClassComponent = function() {};
-	  _assign(
-	    ReactClassComponent.prototype,
-	    ReactComponent.prototype,
-	    ReactClassMixin
-	  );
-	
-	  /**
-	   * Creates a composite component class given a class specification.
-	   * See https://facebook.github.io/react/docs/top-level-api.html#react.createclass
-	   *
-	   * @param {object} spec Class specification (which must define `render`).
-	   * @return {function} Component constructor function.
-	   * @public
-	   */
-	  function createClass(spec) {
-	    // To keep our warnings more understandable, we'll use a little hack here to
-	    // ensure that Constructor.name !== 'Constructor'. This makes sure we don't
-	    // unnecessarily identify a class without displayName as 'Constructor'.
-	    var Constructor = identity(function(props, context, updater) {
-	      // This constructor gets overridden by mocks. The argument is used
-	      // by mocks to assert on what gets mounted.
-	
-	      if (process.env.NODE_ENV !== 'production') {
-	        warning(
-	          this instanceof Constructor,
-	          'Something is calling a React component directly. Use a factory or ' +
-	            'JSX instead. See: https://fb.me/react-legacyfactory'
-	        );
-	      }
-	
-	      // Wire up auto-binding
-	      if (this.__reactAutoBindPairs.length) {
-	        bindAutoBindMethods(this);
-	      }
-	
-	      this.props = props;
-	      this.context = context;
-	      this.refs = emptyObject;
-	      this.updater = updater || ReactNoopUpdateQueue;
-	
-	      this.state = null;
-	
-	      // ReactClasses doesn't have constructors. Instead, they use the
-	      // getInitialState and componentWillMount methods for initialization.
-	
-	      var initialState = this.getInitialState ? this.getInitialState() : null;
-	      if (process.env.NODE_ENV !== 'production') {
-	        // We allow auto-mocks to proceed as if they're returning null.
-	        if (
-	          initialState === undefined &&
-	          this.getInitialState._isMockFunction
-	        ) {
-	          // This is probably bad practice. Consider warning here and
-	          // deprecating this convenience.
-	          initialState = null;
-	        }
-	      }
-	      _invariant(
-	        typeof initialState === 'object' && !Array.isArray(initialState),
-	        '%s.getInitialState(): must return an object or null',
-	        Constructor.displayName || 'ReactCompositeComponent'
-	      );
-	
-	      this.state = initialState;
-	    });
-	    Constructor.prototype = new ReactClassComponent();
-	    Constructor.prototype.constructor = Constructor;
-	    Constructor.prototype.__reactAutoBindPairs = [];
-	
-	    injectedMixins.forEach(mixSpecIntoComponent.bind(null, Constructor));
-	
-	    mixSpecIntoComponent(Constructor, IsMountedPreMixin);
-	    mixSpecIntoComponent(Constructor, spec);
-	    mixSpecIntoComponent(Constructor, IsMountedPostMixin);
-	
-	    // Initialize the defaultProps property after all mixins have been merged.
-	    if (Constructor.getDefaultProps) {
-	      Constructor.defaultProps = Constructor.getDefaultProps();
-	    }
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      // This is a tag to indicate that the use of these method names is ok,
-	      // since it's used with createClass. If it's not, then it's likely a
-	      // mistake so we'll warn you to use the static property, property
-	      // initializer or constructor respectively.
-	      if (Constructor.getDefaultProps) {
-	        Constructor.getDefaultProps.isReactClassApproved = {};
-	      }
-	      if (Constructor.prototype.getInitialState) {
-	        Constructor.prototype.getInitialState.isReactClassApproved = {};
-	      }
-	    }
-	
-	    _invariant(
-	      Constructor.prototype.render,
-	      'createClass(...): Class specification must implement a `render` method.'
-	    );
-	
-	    if (process.env.NODE_ENV !== 'production') {
-	      warning(
-	        !Constructor.prototype.componentShouldUpdate,
-	        '%s has a method called ' +
-	          'componentShouldUpdate(). Did you mean shouldComponentUpdate()? ' +
-	          'The name is phrased as a question because the function is ' +
-	          'expected to return a value.',
-	        spec.displayName || 'A component'
-	      );
-	      warning(
-	        !Constructor.prototype.componentWillRecieveProps,
-	        '%s has a method called ' +
-	          'componentWillRecieveProps(). Did you mean componentWillReceiveProps()?',
-	        spec.displayName || 'A component'
-	      );
-	    }
-	
-	    // Reduce time spent doing lookups by setting these on the prototype.
-	    for (var methodName in ReactClassInterface) {
-	      if (!Constructor.prototype[methodName]) {
-	        Constructor.prototype[methodName] = null;
-	      }
-	    }
-	
-	    return Constructor;
-	  }
-	
-	  return createClass;
-	}
-	
-	module.exports = factory;
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
+	exports.alignElement = _alignElement2['default'];
+	exports.alignPoint = _alignPoint2['default'];
+	exports['default'] = _alignElement2['default'];
 
 /***/ }),
-/* 87 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 *
-	 */
-	
-	'use strict';
-	
-	var emptyObject = {};
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  Object.freeze(emptyObject);
-	}
-	
-	module.exports = emptyObject;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
-
-/***/ }),
-/* 88 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 *
-	 */
-	
-	'use strict';
-	
-	/**
-	 * Use invariant() to assert state which your program assumes to be true.
-	 *
-	 * Provide sprintf-style format (only %s is supported) and arguments
-	 * to provide information about what broke and what you were
-	 * expecting.
-	 *
-	 * The invariant message will be stripped in production, but the invariant
-	 * will remain to ensure logic does not differ in production.
-	 */
-	
-	var validateFormat = function validateFormat(format) {};
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  validateFormat = function validateFormat(format) {
-	    if (format === undefined) {
-	      throw new Error('invariant requires an error message argument');
-	    }
-	  };
-	}
-	
-	function invariant(condition, format, a, b, c, d, e, f) {
-	  validateFormat(format);
-	
-	  if (!condition) {
-	    var error;
-	    if (format === undefined) {
-	      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
-	    } else {
-	      var args = [a, b, c, d, e, f];
-	      var argIndex = 0;
-	      error = new Error(format.replace(/%s/g, function () {
-	        return args[argIndex++];
-	      }));
-	      error.name = 'Invariant Violation';
-	    }
-	
-	    error.framesToPop = 1; // we don't care about invariant's own frame
-	    throw error;
-	  }
-	}
-	
-	module.exports = invariant;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
-
-/***/ }),
-/* 89 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {/**
-	 * Copyright (c) 2014-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 *
-	 */
-	
-	'use strict';
-	
-	var emptyFunction = __webpack_require__(90);
-	
-	/**
-	 * Similar to invariant but only logs a warning if the condition is not met.
-	 * This can be used to log issues in development environments in critical
-	 * paths. Removing the logging code for production environments will keep the
-	 * same logic and follow the same code paths.
-	 */
-	
-	var warning = emptyFunction;
-	
-	if (process.env.NODE_ENV !== 'production') {
-	  var printWarning = function printWarning(format) {
-	    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-	      args[_key - 1] = arguments[_key];
-	    }
-	
-	    var argIndex = 0;
-	    var message = 'Warning: ' + format.replace(/%s/g, function () {
-	      return args[argIndex++];
-	    });
-	    if (typeof console !== 'undefined') {
-	      console.error(message);
-	    }
-	    try {
-	      // --- Welcome to debugging React ---
-	      // This error was thrown as a convenience so that you can use this stack
-	      // to find the callsite that caused this warning to fire.
-	      throw new Error(message);
-	    } catch (x) {}
-	  };
-	
-	  warning = function warning(condition, format) {
-	    if (format === undefined) {
-	      throw new Error('`warning(condition, format, ...args)` requires a warning ' + 'message argument');
-	    }
-	
-	    if (format.indexOf('Failed Composite propType: ') === 0) {
-	      return; // Ignore CompositeComponent proptype check.
-	    }
-	
-	    if (!condition) {
-	      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
-	        args[_key2 - 2] = arguments[_key2];
-	      }
-	
-	      printWarning.apply(undefined, [format].concat(args));
-	    }
-	  };
-	}
-	
-	module.exports = warning;
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
-
-/***/ }),
-/* 90 */
-/***/ (function(module, exports) {
-
-	"use strict";
-	
-	/**
-	 * Copyright (c) 2013-present, Facebook, Inc.
-	 *
-	 * This source code is licensed under the MIT license found in the
-	 * LICENSE file in the root directory of this source tree.
-	 *
-	 * 
-	 */
-	
-	function makeEmptyFunction(arg) {
-	  return function () {
-	    return arg;
-	  };
-	}
-	
-	/**
-	 * This function accepts and discards inputs; it has no side effects. This is
-	 * primarily useful idiomatically for overridable function endpoints which
-	 * always need to be callable, since JS lacks a null-call idiom ala Cocoa.
-	 */
-	var emptyFunction = function emptyFunction() {};
-	
-	emptyFunction.thatReturns = makeEmptyFunction;
-	emptyFunction.thatReturnsFalse = makeEmptyFunction(false);
-	emptyFunction.thatReturnsTrue = makeEmptyFunction(true);
-	emptyFunction.thatReturnsNull = makeEmptyFunction(null);
-	emptyFunction.thatReturnsThis = function () {
-	  return this;
-	};
-	emptyFunction.thatReturnsArgument = function (arg) {
-	  return arg;
-	};
-	
-	module.exports = emptyFunction;
-
-/***/ }),
-/* 91 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6051,27 +4481,74 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(92);
+	var _align = __webpack_require__(52);
 	
-	var _utils2 = _interopRequireDefault(_utils);
+	var _align2 = _interopRequireDefault(_align);
 	
-	var _getOffsetParent = __webpack_require__(94);
+	var _getOffsetParent = __webpack_require__(56);
 	
 	var _getOffsetParent2 = _interopRequireDefault(_getOffsetParent);
 	
-	var _getVisibleRectForElement = __webpack_require__(95);
+	var _getVisibleRectForElement = __webpack_require__(55);
 	
 	var _getVisibleRectForElement2 = _interopRequireDefault(_getVisibleRectForElement);
 	
-	var _adjustForViewport = __webpack_require__(97);
-	
-	var _adjustForViewport2 = _interopRequireDefault(_adjustForViewport);
-	
-	var _getRegion = __webpack_require__(98);
+	var _getRegion = __webpack_require__(59);
 	
 	var _getRegion2 = _interopRequireDefault(_getRegion);
 	
-	var _getElFuturePos = __webpack_require__(99);
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function isOutOfVisibleRect(target) {
+	  var visibleRect = (0, _getVisibleRectForElement2['default'])(target);
+	  var targetRegion = (0, _getRegion2['default'])(target);
+	
+	  return !visibleRect || targetRegion.left + targetRegion.width <= visibleRect.left || targetRegion.top + targetRegion.height <= visibleRect.top || targetRegion.left >= visibleRect.right || targetRegion.top >= visibleRect.bottom;
+	}
+	
+	function alignElement(el, refNode, align) {
+	  var target = align.target || refNode;
+	  var refNodeRegion = (0, _getRegion2['default'])(target);
+	
+	  var isTargetNotOutOfVisible = !isOutOfVisibleRect(target);
+	
+	  return (0, _align2['default'])(el, refNodeRegion, align, isTargetNotOutOfVisible);
+	}
+	
+	alignElement.__getOffsetParent = _getOffsetParent2['default'];
+	
+	alignElement.__getVisibleRectForElement = _getVisibleRectForElement2['default'];
+	
+	exports['default'] = alignElement;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _utils = __webpack_require__(53);
+	
+	var _utils2 = _interopRequireDefault(_utils);
+	
+	var _getVisibleRectForElement = __webpack_require__(55);
+	
+	var _getVisibleRectForElement2 = _interopRequireDefault(_getVisibleRectForElement);
+	
+	var _adjustForViewport = __webpack_require__(58);
+	
+	var _adjustForViewport2 = _interopRequireDefault(_adjustForViewport);
+	
+	var _getRegion = __webpack_require__(59);
+	
+	var _getRegion2 = _interopRequireDefault(_getRegion);
+	
+	var _getElFuturePos = __webpack_require__(60);
 	
 	var _getElFuturePos2 = _interopRequireDefault(_getElFuturePos);
 	
@@ -6079,14 +4556,12 @@
 	
 	// http://yiminghe.iteye.com/blog/1124720
 	
-	/**
-	 * align dom node flexibly
-	 * @author yiminghe@gmail.com
-	 */
-	
 	function isFailX(elFuturePos, elRegion, visibleRect) {
 	  return elFuturePos.left < visibleRect.left || elFuturePos.left + elRegion.width > visibleRect.right;
-	}
+	} /**
+	   * align dom node flexibly
+	   * @author yiminghe@gmail.com
+	   */
 	
 	function isFailY(elFuturePos, elRegion, visibleRect) {
 	  return elFuturePos.top < visibleRect.top || elFuturePos.top + elRegion.height > visibleRect.bottom;
@@ -6098,13 +4573,6 @@
 	
 	function isCompleteFailY(elFuturePos, elRegion, visibleRect) {
 	  return elFuturePos.top > visibleRect.bottom || elFuturePos.top + elRegion.height < visibleRect.top;
-	}
-	
-	function isOutOfVisibleRect(target) {
-	  var visibleRect = (0, _getVisibleRectForElement2['default'])(target);
-	  var targetRegion = (0, _getRegion2['default'])(target);
-	
-	  return !visibleRect || targetRegion.left + targetRegion.width <= visibleRect.left || targetRegion.top + targetRegion.height <= visibleRect.top || targetRegion.left >= visibleRect.right || targetRegion.top >= visibleRect.bottom;
 	}
 	
 	function flip(points, reg, map) {
@@ -6137,12 +4605,16 @@
 	  offset[1] = convertOffset(offset[1], el.height);
 	}
 	
-	function domAlign(el, refNode, align) {
+	/**
+	 * @param el
+	 * @param tgtRegion 参照节点所占的区域: { left, top, width, height }
+	 * @param align
+	 */
+	function doAlign(el, tgtRegion, align, isTgtRegionVisible) {
 	  var points = align.points;
 	  var offset = align.offset || [0, 0];
 	  var targetOffset = align.targetOffset || [0, 0];
 	  var overflow = align.overflow;
-	  var target = align.target || refNode;
 	  var source = align.source || el;
 	  offset = [].concat(offset);
 	  targetOffset = [].concat(targetOffset);
@@ -6153,20 +4625,16 @@
 	  var visibleRect = (0, _getVisibleRectForElement2['default'])(source);
 	  // 当前节点所占的区域, left/top/width/height
 	  var elRegion = (0, _getRegion2['default'])(source);
-	  // 参照节点所占的区域, left/top/width/height
-	  var refNodeRegion = (0, _getRegion2['default'])(target);
 	  // 将 offset 转换成数值，支持百分比
 	  normalizeOffset(offset, elRegion);
-	  normalizeOffset(targetOffset, refNodeRegion);
+	  normalizeOffset(targetOffset, tgtRegion);
 	  // 当前节点将要被放置的位置
-	  var elFuturePos = (0, _getElFuturePos2['default'])(elRegion, refNodeRegion, points, offset, targetOffset);
+	  var elFuturePos = (0, _getElFuturePos2['default'])(elRegion, tgtRegion, points, offset, targetOffset);
 	  // 当前节点将要所处的区域
 	  var newElRegion = _utils2['default'].merge(elRegion, elFuturePos);
 	
-	  var isTargetNotOutOfVisible = !isOutOfVisibleRect(target);
-	
 	  // 如果可视区域不能完全放置当前节点时允许调整
-	  if (visibleRect && (overflow.adjustX || overflow.adjustY) && isTargetNotOutOfVisible) {
+	  if (visibleRect && (overflow.adjustX || overflow.adjustY) && isTgtRegionVisible) {
 	    if (overflow.adjustX) {
 	      // 如果横向不能放下
 	      if (isFailX(elFuturePos, elRegion, visibleRect)) {
@@ -6178,7 +4646,7 @@
 	        // 偏移量也反下
 	        var newOffset = flipOffset(offset, 0);
 	        var newTargetOffset = flipOffset(targetOffset, 0);
-	        var newElFuturePos = (0, _getElFuturePos2['default'])(elRegion, refNodeRegion, newPoints, newOffset, newTargetOffset);
+	        var newElFuturePos = (0, _getElFuturePos2['default'])(elRegion, tgtRegion, newPoints, newOffset, newTargetOffset);
 	
 	        if (!isCompleteFailX(newElFuturePos, elRegion, visibleRect)) {
 	          fail = 1;
@@ -6200,7 +4668,7 @@
 	        // 偏移量也反下
 	        var _newOffset = flipOffset(offset, 1);
 	        var _newTargetOffset = flipOffset(targetOffset, 1);
-	        var _newElFuturePos = (0, _getElFuturePos2['default'])(elRegion, refNodeRegion, _newPoints, _newOffset, _newTargetOffset);
+	        var _newElFuturePos = (0, _getElFuturePos2['default'])(elRegion, tgtRegion, _newPoints, _newOffset, _newTargetOffset);
 	
 	        if (!isCompleteFailY(_newElFuturePos, elRegion, visibleRect)) {
 	          fail = 1;
@@ -6213,15 +4681,21 @@
 	
 	    // 如果失败，重新计算当前节点将要被放置的位置
 	    if (fail) {
-	      elFuturePos = (0, _getElFuturePos2['default'])(elRegion, refNodeRegion, points, offset, targetOffset);
+	      elFuturePos = (0, _getElFuturePos2['default'])(elRegion, tgtRegion, points, offset, targetOffset);
 	      _utils2['default'].mix(newElRegion, elFuturePos);
 	    }
-	
-	    // 检查反下后的位置是否可以放下了
-	    // 如果仍然放不下只有指定了可以调整当前方向才调整
-	    newOverflowCfg.adjustX = overflow.adjustX && isFailX(elFuturePos, elRegion, visibleRect);
-	
-	    newOverflowCfg.adjustY = overflow.adjustY && isFailY(elFuturePos, elRegion, visibleRect);
+	    var isStillFailX = isFailX(elFuturePos, elRegion, visibleRect);
+	    var isStillFailY = isFailY(elFuturePos, elRegion, visibleRect);
+	    // 检查反下后的位置是否可以放下了，如果仍然放不下：
+	    // 1. 复原修改过的定位参数
+	    if (isStillFailX || isStillFailY) {
+	      points = align.points;
+	      offset = align.offset || [0, 0];
+	      targetOffset = align.targetOffset || [0, 0];
+	    }
+	    // 2. 只有指定了可以调整当前方向才调整
+	    newOverflowCfg.adjustX = overflow.adjustX && isStillFailX;
+	    newOverflowCfg.adjustY = overflow.adjustY && isStillFailY;
 	
 	    // 确实要调整，甚至可能会调整高度宽度
 	    if (newOverflowCfg.adjustX || newOverflowCfg.adjustY) {
@@ -6247,7 +4721,8 @@
 	  }, {
 	    useCssRight: align.useCssRight,
 	    useCssBottom: align.useCssBottom,
-	    useCssTransform: align.useCssTransform
+	    useCssTransform: align.useCssTransform,
+	    ignoreShake: align.ignoreShake
 	  });
 	
 	  return {
@@ -6258,11 +4733,7 @@
 	  };
 	}
 	
-	domAlign.__getOffsetParent = _getOffsetParent2['default'];
-	
-	domAlign.__getVisibleRectForElement = _getVisibleRectForElement2['default'];
-	
-	exports['default'] = domAlign;
+	exports['default'] = doAlign;
 	/**
 	 *  2012-04-26 yiminghe@gmail.com
 	 *   - 优化智能对齐算法
@@ -6275,7 +4746,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 92 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6286,14 +4757,18 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 	
-	var _propertyUtils = __webpack_require__(93);
+	var _propertyUtils = __webpack_require__(54);
 	
 	var RE_NUM = /[\-+]?(?:\d*\.|)\d+(?:[eE][\-+]?\d+|)/.source;
 	
 	var getComputedStyleX = void 0;
 	
-	function force(x, y) {
-	  return x + y;
+	// https://stackoverflow.com/a/3485654/3040605
+	function forceRelayout(elem) {
+	  var originalStyle = elem.style.display;
+	  elem.style.display = 'none';
+	  elem.offsetHeight; // eslint-disable-line
+	  elem.style.display = originalStyle;
 	}
 	
 	function css(el, name, v) {
@@ -6528,6 +5003,8 @@
 	    elem.style[oppositeVerticalProperty] = '';
 	    elem.style[verticalProperty] = presetV + 'px';
 	  }
+	  // force relayout
+	  forceRelayout(elem);
 	  var old = getOffset(elem);
 	  var originalStyle = {};
 	  for (var key in offset) {
@@ -6544,7 +5021,7 @@
 	  }
 	  css(elem, originalStyle);
 	  // force relayout
-	  force(elem.offsetTop, elem.offsetLeft);
+	  forceRelayout(elem);
 	  if ('left' in offset || 'top' in offset) {
 	    (0, _propertyUtils.setTransitionProperty)(elem, originalTransition);
 	  }
@@ -6577,6 +5054,19 @@
 	}
 	
 	function setOffset(elem, offset, option) {
+	  if (option.ignoreShake) {
+	    var oriOffset = getOffset(elem);
+	
+	    var oLeft = oriOffset.left.toFixed(0);
+	    var oTop = oriOffset.top.toFixed(0);
+	    var tLeft = offset.left.toFixed(0);
+	    var tTop = offset.top.toFixed(0);
+	
+	    if (oLeft === tLeft && oTop === tTop) {
+	      return;
+	    }
+	  }
+	
 	  if (option.useCssRight || option.useCssBottom) {
 	    setLeftTop(elem, offset, option);
 	  } else if (option.useCssTransform && (0, _propertyUtils.getTransformName)() in document.body.style) {
@@ -6851,7 +5341,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 93 */
+/* 54 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -6966,7 +5456,7 @@
 	}
 
 /***/ }),
-/* 94 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6975,76 +5465,15 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(92);
+	var _utils = __webpack_require__(53);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	/**
-	 * 得到会导致元素显示不全的祖先元素
-	 */
-	
-	function getOffsetParent(element) {
-	  if (_utils2['default'].isWindow(element) || element.nodeType === 9) {
-	    return null;
-	  }
-	  // ie 这个也不是完全可行
-	  /*
-	   <div style="width: 50px;height: 100px;overflow: hidden">
-	   <div style="width: 50px;height: 100px;position: relative;" id="d6">
-	   元素 6 高 100px 宽 50px<br/>
-	   </div>
-	   </div>
-	   */
-	  // element.offsetParent does the right thing in ie7 and below. Return parent with layout!
-	  //  In other browsers it only includes elements with position absolute, relative or
-	  // fixed, not elements with overflow set to auto or scroll.
-	  //        if (UA.ie && ieMode < 8) {
-	  //            return element.offsetParent;
-	  //        }
-	  // 统一的 offsetParent 方法
-	  var doc = _utils2['default'].getDocument(element);
-	  var body = doc.body;
-	  var parent = void 0;
-	  var positionStyle = _utils2['default'].css(element, 'position');
-	  var skipStatic = positionStyle === 'fixed' || positionStyle === 'absolute';
-	
-	  if (!skipStatic) {
-	    return element.nodeName.toLowerCase() === 'html' ? null : element.parentNode;
-	  }
-	
-	  for (parent = element.parentNode; parent && parent !== body; parent = parent.parentNode) {
-	    positionStyle = _utils2['default'].css(parent, 'position');
-	    if (positionStyle !== 'static') {
-	      return parent;
-	    }
-	  }
-	  return null;
-	}
-	
-	exports['default'] = getOffsetParent;
-	module.exports = exports['default'];
-
-/***/ }),
-/* 95 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _utils = __webpack_require__(92);
-	
-	var _utils2 = _interopRequireDefault(_utils);
-	
-	var _getOffsetParent = __webpack_require__(94);
+	var _getOffsetParent = __webpack_require__(56);
 	
 	var _getOffsetParent2 = _interopRequireDefault(_getOffsetParent);
 	
-	var _isAncestorFixed = __webpack_require__(96);
+	var _isAncestorFixed = __webpack_require__(57);
 	
 	var _isAncestorFixed2 = _interopRequireDefault(_isAncestorFixed);
 	
@@ -7137,7 +5566,68 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 96 */
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _utils = __webpack_require__(53);
+	
+	var _utils2 = _interopRequireDefault(_utils);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	/**
+	 * 得到会导致元素显示不全的祖先元素
+	 */
+	
+	function getOffsetParent(element) {
+	  if (_utils2['default'].isWindow(element) || element.nodeType === 9) {
+	    return null;
+	  }
+	  // ie 这个也不是完全可行
+	  /*
+	   <div style="width: 50px;height: 100px;overflow: hidden">
+	   <div style="width: 50px;height: 100px;position: relative;" id="d6">
+	   元素 6 高 100px 宽 50px<br/>
+	   </div>
+	   </div>
+	   */
+	  // element.offsetParent does the right thing in ie7 and below. Return parent with layout!
+	  //  In other browsers it only includes elements with position absolute, relative or
+	  // fixed, not elements with overflow set to auto or scroll.
+	  //        if (UA.ie && ieMode < 8) {
+	  //            return element.offsetParent;
+	  //        }
+	  // 统一的 offsetParent 方法
+	  var doc = _utils2['default'].getDocument(element);
+	  var body = doc.body;
+	  var parent = void 0;
+	  var positionStyle = _utils2['default'].css(element, 'position');
+	  var skipStatic = positionStyle === 'fixed' || positionStyle === 'absolute';
+	
+	  if (!skipStatic) {
+	    return element.nodeName.toLowerCase() === 'html' ? null : element.parentNode;
+	  }
+	
+	  for (parent = element.parentNode; parent && parent !== body; parent = parent.parentNode) {
+	    positionStyle = _utils2['default'].css(parent, 'position');
+	    if (positionStyle !== 'static') {
+	      return parent;
+	    }
+	  }
+	  return null;
+	}
+	
+	exports['default'] = getOffsetParent;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7147,7 +5637,7 @@
 	});
 	exports['default'] = isAncestorFixed;
 	
-	var _utils = __webpack_require__(92);
+	var _utils = __webpack_require__(53);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -7172,7 +5662,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 97 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7181,7 +5671,7 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(92);
+	var _utils = __webpack_require__(53);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -7232,7 +5722,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 98 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7241,7 +5731,7 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(92);
+	var _utils = __webpack_require__(53);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -7273,7 +5763,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 99 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7282,7 +5772,7 @@
 	  value: true
 	});
 	
-	var _getAlignOffset = __webpack_require__(100);
+	var _getAlignOffset = __webpack_require__(61);
 	
 	var _getAlignOffset2 = _interopRequireDefault(_getAlignOffset);
 	
@@ -7303,7 +5793,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 100 */
+/* 61 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -7346,7 +5836,76 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 101 */
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _utils = __webpack_require__(53);
+	
+	var _utils2 = _interopRequireDefault(_utils);
+	
+	var _align = __webpack_require__(52);
+	
+	var _align2 = _interopRequireDefault(_align);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	/**
+	 * `tgtPoint`: { pageX, pageY } or { clientX, clientY }.
+	 * If client position provided, will internal convert to page position.
+	 */
+	
+	function alignPoint(el, tgtPoint, align) {
+	  var pageX = void 0;
+	  var pageY = void 0;
+	
+	  var doc = _utils2['default'].getDocument(el);
+	  var win = doc.defaultView || doc.parentWindow;
+	
+	  var scrollX = _utils2['default'].getWindowScrollLeft(win);
+	  var scrollY = _utils2['default'].getWindowScrollTop(win);
+	  var viewportWidth = _utils2['default'].viewportWidth(win);
+	  var viewportHeight = _utils2['default'].viewportHeight(win);
+	
+	  if ('pageX' in tgtPoint) {
+	    pageX = tgtPoint.pageX;
+	  } else {
+	    pageX = scrollX + tgtPoint.clientX;
+	  }
+	
+	  if ('pageY' in tgtPoint) {
+	    pageY = tgtPoint.pageY;
+	  } else {
+	    pageY = scrollY + tgtPoint.clientY;
+	  }
+	
+	  var tgtRegion = {
+	    left: pageX,
+	    top: pageY,
+	    width: 0,
+	    height: 0
+	  };
+	
+	  var pointInView = pageX >= 0 && pageX <= scrollX + viewportWidth && pageY >= 0 && pageY <= scrollY + viewportHeight;
+	
+	  // Provide default target point
+	  var points = [align.points[0], 'cc'];
+	
+	  return (0, _align2['default'])(el, tgtRegion, _extends({}, align, { points: points }), pointInView);
+	}
+	
+	exports['default'] = alignPoint;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7467,7 +6026,1413 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 102 */
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _Message = __webpack_require__(65);
+	
+	var _Message2 = _interopRequireDefault(_Message);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	exports["default"] = _Message2["default"];
+	module.exports = exports['default'];
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(4);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _beeNotification = __webpack_require__(66);
+	
+	var _beeNotification2 = _interopRequireDefault(_beeNotification);
+	
+	var _classnames = __webpack_require__(3);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	var defaultDuration = 1.5;
+	var defaultTop = 0;
+	var defaultBottom = 48;
+	var bottom = 90;
+	var padding = 30;
+	var width = 200;
+	var messageInstance = void 0;
+	var key = 1;
+	var clsPrefix = 'u-message';
+	var noop = function noop() {};
+	
+	var positionObj = {
+	    "top": {
+	        messageStyle: {
+	            width: "100%"
+	        },
+	        notificationStyle: {
+	            top: defaultTop,
+	            width: "100%"
+	        },
+	        transitionName: 'top'
+	    },
+	    "bottom": {
+	        messageStyle: {
+	            width: "100%"
+	        },
+	        notificationStyle: {
+	            bottom: defaultBottom,
+	            width: "100%"
+	        },
+	        transitionName: 'bottom'
+	    },
+	    "topRight": {
+	        messageStyle: {
+	            width: width
+	        },
+	        notificationStyle: {
+	            top: padding,
+	            right: padding,
+	            width: width
+	        },
+	        transitionName: 'right'
+	    },
+	    "bottomRight": {
+	        messageStyle: {
+	            width: width
+	        },
+	        notificationStyle: {
+	            bottom: bottom,
+	            right: padding,
+	            width: width
+	        },
+	        transitionName: 'right'
+	    },
+	    "topLeft": {
+	        messageStyle: {
+	            width: width
+	        },
+	        notificationStyle: {
+	            top: padding,
+	            left: padding,
+	            width: width
+	        },
+	        transitionName: 'left'
+	    },
+	    "bottomLeft": {
+	        messageStyle: {
+	            width: width
+	        },
+	        notificationStyle: {
+	            bottom: bottom,
+	            left: padding,
+	            width: width
+	        },
+	        transitionName: 'left'
+	    }
+	};
+	
+	function getMessageInstance() {
+	    var position = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'top';
+	
+	    var style = positionObj[position].notificationStyle;
+	    messageInstance = messageInstance || _beeNotification2["default"].newInstance({
+	        clsPrefix: clsPrefix,
+	        transitionName: clsPrefix + '-' + positionObj[position].transitionName,
+	        style: style, // 覆盖原来的样式
+	        position: ''
+	    });
+	    return messageInstance;
+	}
+	
+	function notice(content, duration, type, onClose, position, style) {
+	    var iconType = {
+	        info: 'uf uf-i-c-2',
+	        success: 'uf uf-correct',
+	        danger: 'uf uf-close-c',
+	        warning: 'uf uf-exc-t',
+	        light: 'uf uf-notification',
+	        dark: 'uf uf-bubble',
+	        news: 'uf uf-bell',
+	        infolight: 'uf uf-i-c-2',
+	        successlight: 'uf uf-correct',
+	        dangerlight: 'uf uf-close-c',
+	        warninglight: 'uf uf-exc-t'
+	    }[type];
+	
+	    var positionStyle = positionObj[position].messageStyle;
+	
+	    var instance = getMessageInstance(position);
+	
+	    instance.notice({
+	        key: key,
+	        duration: duration,
+	        color: type,
+	        style: _extends({}, positionStyle, style),
+	        content: _react2["default"].createElement(
+	            'div',
+	            null,
+	            _react2["default"].createElement(
+	                'div',
+	                { className: clsPrefix + '-notice-description-icon' },
+	                _react2["default"].createElement('i', { className: (0, _classnames2["default"])(iconType) })
+	            ),
+	            _react2["default"].createElement(
+	                'div',
+	                { className: clsPrefix + '-notice-description-content' },
+	                content
+	            )
+	        ),
+	        onClose: onClose
+	    });
+	    return function () {
+	        var target = key++;
+	        return function () {
+	            instance.removeNotice(target);
+	        };
+	    }();
+	}
+	
+	exports["default"] = {
+	    create: function create(obj) {
+	        var content = obj.content || '';
+	        var duration = _typeof(obj.duration) == undefined ? defaultDuration : obj.duration;
+	        var color = obj.color || 'dark';
+	        var onClose = obj.onClose || noop;
+	        var position = obj.position || "top";
+	        var style = obj.style || {};
+	        return notice(content, duration, color, onClose, position, style);
+	    },
+	    config: function config(options) {
+	        if (options.top !== undefined) {
+	            defaultTop = options.top;
+	        }
+	        if (options.duration !== undefined) {
+	            defaultDuration = options.duration;
+	        }
+	        if (options.clsPrefix !== undefined) {
+	            clsPrefix = options.clsPrefix;
+	        }
+	        if (options.defaultBottom !== undefined) {
+	            defaultBottom = options.defaultBottom;
+	        }
+	        if (options.bottom !== undefined) {
+	            bottom = options.bottom;
+	        }
+	        if (options.width !== undefined) {
+	            bottom = options.width;
+	        }
+	    },
+	    destroy: function destroy() {
+	        if (messageInstance) {
+	            messageInstance.destroy();
+	            messageInstance = null;
+	        }
+	    }
+	};
+	module.exports = exports['default'];
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _Notification = __webpack_require__(67);
+	
+	var _Notification2 = _interopRequireDefault(_Notification);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	exports["default"] = _Notification2["default"];
+	module.exports = exports['default'];
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(4);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(5);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _reactDom = __webpack_require__(12);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _beeAnimate = __webpack_require__(68);
+	
+	var _beeAnimate2 = _interopRequireDefault(_beeAnimate);
+	
+	var _createChainedFunction = __webpack_require__(36);
+	
+	var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
+	
+	var _classnames = __webpack_require__(3);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	var _Notice = __webpack_require__(73);
+	
+	var _Notice2 = _interopRequireDefault(_Notice);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
+	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
+	
+	var seed = 0;
+	var now = Date.now();
+	
+	function getUuid() {
+	  return 'uNotification_' + now + '_' + seed++;
+	}
+	
+	var propTypes = {
+	  show: _propTypes2["default"].bool,
+	  clsPrefix: _propTypes2["default"].string,
+	  style: _propTypes2["default"].object,
+	  position: _propTypes2["default"].oneOf(['topRight', 'bottomRight', '']),
+	  transitionName: _propTypes2["default"].string,
+	  animation: _propTypes2["default"].oneOfType([_propTypes2["default"].string, _propTypes2["default"].object])
+	};
+	
+	var defaultProps = {
+	  clsPrefix: 'u-notification',
+	  animation: 'fade',
+	  position: 'topRight'
+	};
+	
+	var Notification = function (_Component) {
+	  _inherits(Notification, _Component);
+	
+	  function Notification(props) {
+	    _classCallCheck(this, Notification);
+	
+	    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
+	
+	    _this.state = {
+	      notices: []
+	    };
+	    _this.add = _this.add.bind(_this);
+	    _this.remove = _this.remove.bind(_this);
+	
+	    return _this;
+	  }
+	
+	  Notification.prototype.getTransitionName = function getTransitionName() {
+	    var props = this.props;
+	    var transitionName = props.transitionName;
+	    if (!transitionName && props.animation) {
+	      transitionName = props.clsPrefix + '-' + props.animation;
+	    }
+	    return transitionName;
+	  };
+	
+	  Notification.prototype.add = function add(notice) {
+	    var key = notice.key = notice.key || getUuid();
+	    this.setState(function (previousState) {
+	      var notices = previousState.notices;
+	      if (!notices.filter(function (v) {
+	        return v.key === key;
+	      }).length) {
+	        return {
+	          notices: notices.concat(notice)
+	        };
+	      }
+	    });
+	  };
+	
+	  Notification.prototype.remove = function remove(key) {
+	    this.setState(function (previousState) {
+	      return {
+	        notices: previousState.notices.filter(function (notice) {
+	          return notice.key !== key;
+	        })
+	      };
+	    });
+	  };
+	
+	  Notification.prototype.render = function render() {
+	    var _this2 = this,
+	        _classes;
+	
+	    var _props = this.props,
+	        clsPrefix = _props.clsPrefix,
+	        className = _props.className,
+	        position = _props.position,
+	        style = _props.style;
+	
+	    var noticeNodes = this.state.notices.map(function (notice) {
+	      var onClose = (0, _createChainedFunction2["default"])(_this2.remove.bind(_this2, notice.key), notice.onClose);
+	      return _react2["default"].createElement(
+	        _Notice2["default"],
+	        _extends({
+	          clsPrefix: clsPrefix
+	        }, notice, {
+	          onClose: onClose
+	        }),
+	        notice.content
+	      );
+	    });
+	    var classes = (_classes = {}, _defineProperty(_classes, clsPrefix, 1), _defineProperty(_classes, className, !!className), _classes);
+	    if (position) {
+	      classes[clsPrefix + '-' + position] = !!position;
+	    }
+	
+	    return _react2["default"].createElement(
+	      'div',
+	      { className: (0, _classnames2["default"])(className, classes), style: style },
+	      _react2["default"].createElement(
+	        _beeAnimate2["default"],
+	        { transitionName: this.getTransitionName() },
+	        noticeNodes
+	      )
+	    );
+	  };
+	
+	  return Notification;
+	}(_react.Component);
+	
+	;
+	
+	Notification.propTypes = propTypes;
+	Notification.defaultProps = defaultProps;
+	
+	Notification.newInstance = function newNotificationInstance(properties) {
+	  var props = properties || {};
+	  var div = document.createElement('div');
+	  document.body.appendChild(div);
+	  var notification = _reactDom2["default"].render(_react2["default"].createElement(Notification, props), div);
+	  return {
+	    notice: function notice(noticeProps) {
+	      notification.add(noticeProps);
+	    },
+	    removeNotice: function removeNotice(key) {
+	      notification.remove(key);
+	    },
+	
+	    component: notification,
+	    destroy: function destroy() {
+	      _reactDom2["default"].unmountComponentAtNode(div);
+	      document.body.removeChild(div);
+	    }
+	  };
+	};
+	
+	exports["default"] = Notification;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _Animate = __webpack_require__(69);
+	
+	var _Animate2 = _interopRequireDefault(_Animate);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	exports["default"] = _Animate2["default"];
+	module.exports = exports['default'];
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(4);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(5);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _ChildrenUtils = __webpack_require__(70);
+	
+	var _AnimateChild = __webpack_require__(71);
+	
+	var _AnimateChild2 = _interopRequireDefault(_AnimateChild);
+	
+	var _util = __webpack_require__(72);
+	
+	var _util2 = _interopRequireDefault(_util);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
+	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
+	
+	var defaultKey = 'u_animate_' + Date.now();
+	
+	
+	function getChildrenFromProps(props) {
+	  var children = props.children;
+	  if (_react2["default"].isValidElement(children)) {
+	    if (!children.key) {
+	      return _react2["default"].cloneElement(children, {
+	        key: defaultKey
+	      });
+	    }
+	  }
+	  return children;
+	}
+	
+	function noop() {}
+	
+	var propTypes = {
+	  component: _propTypes2["default"].any,
+	  animation: _propTypes2["default"].object,
+	  transitionName: _propTypes2["default"].oneOfType([_propTypes2["default"].string, _propTypes2["default"].object]),
+	  transitionEnter: _propTypes2["default"].bool,
+	  transitionAppear: _propTypes2["default"].bool,
+	  exclusive: _propTypes2["default"].bool,
+	  transitionLeave: _propTypes2["default"].bool,
+	  onEnd: _propTypes2["default"].func,
+	  onEnter: _propTypes2["default"].func,
+	  onLeave: _propTypes2["default"].func,
+	  onAppear: _propTypes2["default"].func,
+	  showProp: _propTypes2["default"].string
+	};
+	
+	var defaultProps = {
+	  animation: {},
+	  component: 'span',
+	  transitionEnter: true,
+	  transitionLeave: true,
+	  transitionAppear: false,
+	  onEnd: noop,
+	  onEnter: noop,
+	  onLeave: noop,
+	  onAppear: noop
+	};
+	
+	var Animate = function (_Component) {
+	  _inherits(Animate, _Component);
+	
+	  function Animate(props) {
+	    _classCallCheck(this, Animate);
+	
+	    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
+	
+	    _this.currentlyAnimatingKeys = {};
+	    _this.keysToEnter = [];
+	    _this.keysToLeave = [];
+	    _this.state = {
+	      children: (0, _ChildrenUtils.toArrayChildren)(getChildrenFromProps(_this.props))
+	    };
+	
+	    _this.performEnter = _this.performEnter.bind(_this);
+	    _this.performAppear = _this.performAppear.bind(_this);
+	    _this.handleDoneAdding = _this.handleDoneAdding.bind(_this);
+	    _this.performLeave = _this.performLeave.bind(_this);
+	
+	    _this.performLeave = _this.performLeave.bind(_this);
+	    _this.handleDoneLeaving = _this.handleDoneLeaving.bind(_this);
+	    _this.isValidChildByKey = _this.isValidChildByKey.bind(_this);
+	    _this.stop = _this.stop.bind(_this);
+	    return _this;
+	  }
+	
+	  Animate.prototype.componentDidMount = function componentDidMount() {
+	    var _this2 = this;
+	
+	    this.mounted = true;
+	    var showProp = this.props.showProp;
+	    var children = this.state.children;
+	    if (showProp) {
+	      children = children.filter(function (child) {
+	        return !!child.props[showProp];
+	      });
+	    }
+	    children.forEach(function (child) {
+	      if (child) {
+	        _this2.performAppear(child.key);
+	      }
+	    });
+	  };
+	
+	  Animate.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this.mounted = false;
+	  };
+	
+	  Animate.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps) {
+	    var _this3 = this;
+	
+	    this.nextProps = nextProps;
+	    var nextChildren = (0, _ChildrenUtils.toArrayChildren)(getChildrenFromProps(nextProps));
+	    var props = this.props;
+	    // exclusive needs immediate response
+	    if (props.exclusive) {
+	      Object.keys(this.currentlyAnimatingKeys).forEach(function (key) {
+	        _this3.stop(key);
+	      });
+	    }
+	    var showProp = props.showProp;
+	    var currentlyAnimatingKeys = this.currentlyAnimatingKeys;
+	    // last props children if exclusive
+	    var currentChildren = props.exclusive ? (0, _ChildrenUtils.toArrayChildren)(getChildrenFromProps(props)) : this.state.children;
+	    // in case destroy in showProp mode
+	    var newChildren = [];
+	    if (showProp) {
+	      currentChildren.forEach(function (currentChild) {
+	        var nextChild = currentChild && (0, _ChildrenUtils.findChildInChildrenByKey)(nextChildren, currentChild.key);
+	        var newChild = void 0;
+	        if ((!nextChild || !nextChild.props[showProp]) && currentChild.props[showProp]) {
+	          newChild = _react2["default"].cloneElement(nextChild || currentChild, _defineProperty({}, showProp, true));
+	        } else {
+	          newChild = nextChild;
+	        }
+	        if (newChild) {
+	          newChildren.push(newChild);
+	        }
+	      });
+	      nextChildren.forEach(function (nextChild) {
+	        if (!nextChild || !(0, _ChildrenUtils.findChildInChildrenByKey)(currentChildren, nextChild.key)) {
+	          newChildren.push(nextChild);
+	        }
+	      });
+	    } else {
+	      newChildren = (0, _ChildrenUtils.mergeChildren)(currentChildren, nextChildren);
+	    }
+	
+	    // need render to avoid update
+	    this.setState({
+	      children: newChildren
+	    });
+	
+	    nextChildren.forEach(function (child) {
+	      var key = child && child.key;
+	      if (child && currentlyAnimatingKeys[key]) {
+	        return;
+	      }
+	      var hasPrev = child && (0, _ChildrenUtils.findChildInChildrenByKey)(currentChildren, key);
+	      if (showProp) {
+	        var showInNext = child.props[showProp];
+	        if (hasPrev) {
+	          var showInNow = (0, _ChildrenUtils.findShownChildInChildrenByKey)(currentChildren, key, showProp);
+	          if (!showInNow && showInNext) {
+	            _this3.keysToEnter.push(key);
+	          }
+	        } else if (showInNext) {
+	          _this3.keysToEnter.push(key);
+	        }
+	      } else if (!hasPrev) {
+	        _this3.keysToEnter.push(key);
+	      }
+	    });
+	
+	    currentChildren.forEach(function (child) {
+	      var key = child && child.key;
+	      if (child && currentlyAnimatingKeys[key]) {
+	        return;
+	      }
+	      var hasNext = child && (0, _ChildrenUtils.findChildInChildrenByKey)(nextChildren, key);
+	      if (showProp) {
+	        var showInNow = child.props[showProp];
+	        if (hasNext) {
+	          var showInNext = (0, _ChildrenUtils.findShownChildInChildrenByKey)(nextChildren, key, showProp);
+	          if (!showInNext && showInNow) {
+	            _this3.keysToLeave.push(key);
+	          }
+	        } else if (showInNow) {
+	          _this3.keysToLeave.push(key);
+	        }
+	      } else if (!hasNext) {
+	        _this3.keysToLeave.push(key);
+	      }
+	    });
+	  };
+	
+	  Animate.prototype.componentDidUpdate = function componentDidUpdate() {
+	    var keysToEnter = this.keysToEnter;
+	    this.keysToEnter = [];
+	    keysToEnter.forEach(this.performEnter);
+	    var keysToLeave = this.keysToLeave;
+	    this.keysToLeave = [];
+	    keysToLeave.forEach(this.performLeave);
+	  };
+	
+	  Animate.prototype.performEnter = function performEnter(key) {
+	    // may already remove by exclusive
+	    if (this.refs[key]) {
+	      this.currentlyAnimatingKeys[key] = true;
+	      this.refs[key].componentWillEnter(this.handleDoneAdding.bind(this, key, 'enter'));
+	    }
+	  };
+	
+	  Animate.prototype.performAppear = function performAppear(key) {
+	    if (this.refs[key]) {
+	      this.currentlyAnimatingKeys[key] = true;
+	      this.refs[key].componentWillAppear(this.handleDoneAdding.bind(this, key, 'appear'));
+	    }
+	  };
+	
+	  Animate.prototype.handleDoneAdding = function handleDoneAdding(key, type) {
+	    var props = this.props;
+	    delete this.currentlyAnimatingKeys[key];
+	    // if update on exclusive mode, skip check
+	    if (props.exclusive && props !== this.nextProps) {
+	      return;
+	    }
+	    var currentChildren = (0, _ChildrenUtils.toArrayChildren)(getChildrenFromProps(props));
+	    if (!this.isValidChildByKey(currentChildren, key)) {
+	      // exclusive will not need this
+	      this.performLeave(key);
+	    } else {
+	      if (type === 'appear') {
+	        if (_util2["default"].allowAppearCallback(props)) {
+	          props.onAppear(key);
+	          props.onEnd(key, true);
+	        }
+	      } else {
+	        if (_util2["default"].allowEnterCallback(props)) {
+	          props.onEnter(key);
+	          props.onEnd(key, true);
+	        }
+	      }
+	    }
+	  };
+	
+	  Animate.prototype.performLeave = function performLeave(key) {
+	    // may already remove by exclusive
+	    if (this.refs[key]) {
+	      this.currentlyAnimatingKeys[key] = true;
+	      this.refs[key].componentWillLeave(this.handleDoneLeaving.bind(this, key));
+	    }
+	  };
+	
+	  Animate.prototype.handleDoneLeaving = function handleDoneLeaving(key) {
+	    var props = this.props;
+	    delete this.currentlyAnimatingKeys[key];
+	    // if update on exclusive mode, skip check
+	    if (props.exclusive && props !== this.nextProps) {
+	      return;
+	    }
+	    var currentChildren = (0, _ChildrenUtils.toArrayChildren)(getChildrenFromProps(props));
+	    // in case state change is too fast
+	    if (this.isValidChildByKey(currentChildren, key)) {
+	      this.performEnter(key);
+	    } else {
+	      var end = function end() {
+	        if (_util2["default"].allowLeaveCallback(props)) {
+	          props.onLeave(key);
+	          props.onEnd(key, false);
+	        }
+	      };
+	      /* eslint react/no-is-mounted:0 */
+	      if (this.mounted && !(0, _ChildrenUtils.isSameChildren)(this.state.children, currentChildren, props.showProp)) {
+	        this.setState({
+	          children: currentChildren
+	        }, end);
+	      } else {
+	        end();
+	      }
+	    }
+	  };
+	
+	  Animate.prototype.isValidChildByKey = function isValidChildByKey(currentChildren, key) {
+	    var showProp = this.props.showProp;
+	    if (showProp) {
+	      return (0, _ChildrenUtils.findShownChildInChildrenByKey)(currentChildren, key, showProp);
+	    }
+	    return (0, _ChildrenUtils.findChildInChildrenByKey)(currentChildren, key);
+	  };
+	
+	  Animate.prototype.stop = function stop(key) {
+	    delete this.currentlyAnimatingKeys[key];
+	    var component = this.refs[key];
+	    if (component) {
+	      component.stop();
+	    }
+	  };
+	
+	  Animate.prototype.render = function render() {
+	    var props = this.props;
+	    this.nextProps = props;
+	    var stateChildren = this.state.children;
+	    var children = null;
+	    if (stateChildren) {
+	      children = stateChildren.map(function (child) {
+	        if (child === null || child === undefined) {
+	          return child;
+	        }
+	        if (!child.key) {
+	          throw new Error('must set key for <rc-animate> children');
+	        }
+	        return _react2["default"].createElement(
+	          _AnimateChild2["default"],
+	          {
+	            key: child.key,
+	            ref: child.key,
+	            animation: props.animation,
+	            transitionName: props.transitionName,
+	            transitionEnter: props.transitionEnter,
+	            transitionAppear: props.transitionAppear,
+	            transitionLeave: props.transitionLeave
+	          },
+	          child
+	        );
+	      });
+	    }
+	    var Component = props.component;
+	    if (Component) {
+	      var passedProps = props;
+	      if (typeof Component === 'string') {
+	        passedProps = {
+	          className: props.className,
+	          style: props.style
+	        };
+	      }
+	      return _react2["default"].createElement(
+	        Component,
+	        passedProps,
+	        children
+	      );
+	    }
+	    return children[0] || null;
+	  };
+	
+	  return Animate;
+	}(_react.Component);
+	
+	;
+	Animate.defaultProps = defaultProps;
+	Animate.propTypes = Animate.propTypes;
+	
+	exports["default"] = Animate;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.toArrayChildren = toArrayChildren;
+	exports.findChildInChildrenByKey = findChildInChildrenByKey;
+	exports.findShownChildInChildrenByKey = findShownChildInChildrenByKey;
+	exports.findHiddenChildInChildrenByKey = findHiddenChildInChildrenByKey;
+	exports.isSameChildren = isSameChildren;
+	exports.mergeChildren = mergeChildren;
+	
+	var _react = __webpack_require__(4);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function toArrayChildren(children) {
+	  var ret = [];
+	  _react2["default"].Children.forEach(children, function (child) {
+	    ret.push(child);
+	  });
+	  return ret;
+	}
+	
+	function findChildInChildrenByKey(children, key) {
+	  var ret = null;
+	  if (children) {
+	    children.forEach(function (child) {
+	      if (ret) {
+	        return;
+	      }
+	      if (child && child.key === key) {
+	        ret = child;
+	      }
+	    });
+	  }
+	  return ret;
+	}
+	
+	function findShownChildInChildrenByKey(children, key, showProp) {
+	  var ret = null;
+	  if (children) {
+	    children.forEach(function (child) {
+	      if (child && child.key === key && child.props[showProp]) {
+	        if (ret) {
+	          throw new Error('two child with same key for <rc-animate> children');
+	        }
+	        ret = child;
+	      }
+	    });
+	  }
+	  return ret;
+	}
+	
+	function findHiddenChildInChildrenByKey(children, key, showProp) {
+	  var found = 0;
+	  if (children) {
+	    children.forEach(function (child) {
+	      if (found) {
+	        return;
+	      }
+	      found = child && child.key === key && !child.props[showProp];
+	    });
+	  }
+	  return found;
+	}
+	
+	function isSameChildren(c1, c2, showProp) {
+	  var same = c1.length === c2.length;
+	  if (same) {
+	    c1.forEach(function (child, index) {
+	      var child2 = c2[index];
+	      if (child && child2) {
+	        if (child && !child2 || !child && child2) {
+	          same = false;
+	        } else if (child.key !== child2.key) {
+	          same = false;
+	        } else if (showProp && child.props[showProp] !== child2.props[showProp]) {
+	          same = false;
+	        }
+	      }
+	    });
+	  }
+	  return same;
+	}
+	
+	function mergeChildren(prev, next) {
+	  var ret = [];
+	
+	  // For each key of `next`, the list of keys to insert before that key in
+	  // the combined list
+	  var nextChildrenPending = {};
+	  var pendingChildren = [];
+	  prev.forEach(function (child) {
+	    if (child && findChildInChildrenByKey(next, child.key)) {
+	      if (pendingChildren.length) {
+	        nextChildrenPending[child.key] = pendingChildren;
+	        pendingChildren = [];
+	      }
+	    } else {
+	      pendingChildren.push(child);
+	    }
+	  });
+	
+	  next.forEach(function (child) {
+	    if (child && nextChildrenPending.hasOwnProperty(child.key)) {
+	      ret = ret.concat(nextChildrenPending[child.key]);
+	    }
+	    ret.push(child);
+	  });
+	
+	  ret = ret.concat(pendingChildren);
+	
+	  return ret;
+	}
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+	
+	var _react = __webpack_require__(4);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(5);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _reactDom = __webpack_require__(12);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _tinperBeeCore = __webpack_require__(26);
+	
+	var _util = __webpack_require__(72);
+	
+	var _util2 = _interopRequireDefault(_util);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
+	
+	var transitionMap = {
+	  enter: 'transitionEnter',
+	  appear: 'transitionAppear',
+	  leave: 'transitionLeave'
+	};
+	
+	var propTypes = {
+	  children: _propTypes2["default"].any
+	};
+	
+	var AnimateChild = function (_Component) {
+	  _inherits(AnimateChild, _Component);
+	
+	  function AnimateChild(props) {
+	    _classCallCheck(this, AnimateChild);
+	
+	    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
+	
+	    _this.transition = _this.transition.bind(_this);
+	    _this.stop = _this.stop.bind(_this);
+	    return _this;
+	  }
+	
+	  AnimateChild.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this.stop();
+	  };
+	
+	  AnimateChild.prototype.componentWillEnter = function componentWillEnter(done) {
+	    if (_util2["default"].isEnterSupported(this.props)) {
+	      this.transition('enter', done);
+	    } else {
+	      done();
+	    }
+	  };
+	
+	  AnimateChild.prototype.componentWillAppear = function componentWillAppear(done) {
+	    if (_util2["default"].isAppearSupported(this.props)) {
+	      this.transition('appear', done);
+	    } else {
+	      done();
+	    }
+	  };
+	
+	  AnimateChild.prototype.componentWillLeave = function componentWillLeave(done) {
+	    if (_util2["default"].isLeaveSupported(this.props)) {
+	      this.transition('leave', done);
+	    } else {
+	      // always sync, do not interupt with react component life cycle
+	      // update hidden -> animate hidden ->
+	      // didUpdate -> animate leave -> unmount (if animate is none)
+	      done();
+	    }
+	  };
+	
+	  AnimateChild.prototype.transition = function transition(animationType, finishCallback) {
+	    var _this2 = this;
+	
+	    var node = _reactDom2["default"].findDOMNode(this);
+	    var props = this.props;
+	    var transitionName = props.transitionName;
+	    var nameIsObj = (typeof transitionName === 'undefined' ? 'undefined' : _typeof(transitionName)) === 'object';
+	    this.stop();
+	    var end = function end() {
+	      _this2.stopper = null;
+	      finishCallback();
+	    };
+	    if ((_tinperBeeCore.cssAnimation.isCssAnimationSupported || !props.animation[animationType]) && transitionName && props[transitionMap[animationType]]) {
+	      var name = nameIsObj ? transitionName[animationType] : transitionName + '-' + animationType;
+	      var activeName = name + '-active';
+	      if (nameIsObj && transitionName[animationType + 'Active']) {
+	        activeName = transitionName[animationType + 'Active'];
+	      }
+	      this.stopper = (0, _tinperBeeCore.cssAnimation)(node, {
+	        name: name,
+	        active: activeName
+	      }, end);
+	    } else {
+	      this.stopper = props.animation[animationType](node, end);
+	    }
+	  };
+	
+	  AnimateChild.prototype.stop = function stop() {
+	    var stopper = this.stopper;
+	    if (stopper) {
+	      this.stopper = null;
+	      stopper.stop();
+	    }
+	  };
+	
+	  AnimateChild.prototype.render = function render() {
+	    return this.props.children;
+	  };
+	
+	  return AnimateChild;
+	}(_react.Component);
+	
+	;
+	
+	AnimateChild.propTypes = propTypes;
+	
+	exports["default"] = AnimateChild;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var util = {
+	  isAppearSupported: function isAppearSupported(props) {
+	    return props.transitionName && props.transitionAppear || props.animation.appear;
+	  },
+	  isEnterSupported: function isEnterSupported(props) {
+	    return props.transitionName && props.transitionEnter || props.animation.enter;
+	  },
+	  isLeaveSupported: function isLeaveSupported(props) {
+	    return props.transitionName && props.transitionLeave || props.animation.leave;
+	  },
+	  allowAppearCallback: function allowAppearCallback(props) {
+	    return props.transitionAppear || props.animation.appear;
+	  },
+	  allowEnterCallback: function allowEnterCallback(props) {
+	    return props.transitionEnter || props.animation.enter;
+	  },
+	  allowLeaveCallback: function allowLeaveCallback(props) {
+	    return props.transitionLeave || props.animation.leave;
+	  }
+	};
+	exports["default"] = util;
+	module.exports = exports["default"];
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(4);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _classnames = __webpack_require__(3);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	var _propTypes = __webpack_require__(5);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _defaults(obj, defaults) { var keys = Object.getOwnPropertyNames(defaults); for (var i = 0; i < keys.length; i++) { var key = keys[i]; var value = Object.getOwnPropertyDescriptor(defaults, key); if (value && value.configurable && obj[key] === undefined) { Object.defineProperty(obj, key, value); } } return obj; }
+	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); }
+	
+	var propTypes = {
+	  duration: _propTypes2["default"].number,
+	  onClose: _propTypes2["default"].func,
+	  children: _propTypes2["default"].any,
+	  color: _propTypes2["default"].oneOf(['light']),
+	  title: _propTypes2["default"].any
+	};
+	
+	function noop() {}
+	
+	var defaultProps = {
+	  onEnd: noop,
+	  onClose: noop,
+	  duration: 4.5,
+	  closable: true
+	};
+	
+	var Notice = function (_React$Component) {
+	  _inherits(Notice, _React$Component);
+	
+	  function Notice(props) {
+	    _classCallCheck(this, Notice);
+	
+	    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
+	
+	    _this.clearCloseTimer = _this.clearCloseTimer.bind(_this);
+	    _this.close = _this.close.bind(_this);
+	    return _this;
+	  }
+	
+	  Notice.prototype.componentDidMount = function componentDidMount() {
+	    var _this2 = this;
+	
+	    if (this.props.duration) {
+	      this.closeTimer = setTimeout(function () {
+	        _this2.close();
+	      }, this.props.duration * 1000);
+	    }
+	  };
+	
+	  Notice.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this.clearCloseTimer();
+	  };
+	
+	  Notice.prototype.clearCloseTimer = function clearCloseTimer() {
+	    if (this.closeTimer) {
+	      clearTimeout(this.closeTimer);
+	      this.closeTimer = null;
+	    }
+	  };
+	
+	  Notice.prototype.close = function close() {
+	    this.clearCloseTimer();
+	    this.props.onClose();
+	  };
+	
+	  Notice.prototype.render = function render() {
+	    var _classes;
+	
+	    var _props = this.props,
+	        closable = _props.closable,
+	        clsPrefix = _props.clsPrefix,
+	        className = _props.className,
+	        style = _props.style,
+	        children = _props.children,
+	        color = _props.color,
+	        title = _props.title;
+	
+	    var componentClass = clsPrefix + '-notice';
+	    var classes = (_classes = {}, _defineProperty(_classes, '' + componentClass, 1), _defineProperty(_classes, componentClass + '-closable', closable), _defineProperty(_classes, className, !!className), _classes);
+	    if (color) {
+	      classes[componentClass + '-' + color] = true;
+	    }
+	    return _react2["default"].createElement(
+	      'div',
+	      { className: (0, _classnames2["default"])(classes), style: style, onClick: this.close },
+	      _react2["default"].createElement(
+	        'div',
+	        { className: componentClass + '-content' },
+	        title && _react2["default"].createElement(
+	          'div',
+	          { className: componentClass + '-title' },
+	          title
+	        ),
+	        _react2["default"].createElement(
+	          'div',
+	          { className: componentClass + '-description' },
+	          children
+	        )
+	      ),
+	      closable ? _react2["default"].createElement(
+	        'a',
+	        { tabIndex: '0', onClick: this.close, className: componentClass + '-close' },
+	        _react2["default"].createElement('span', { className: componentClass + '-close-x' })
+	      ) : null
+	    );
+	  };
+	
+	  return Notice;
+	}(_react2["default"].Component);
+	
+	;
+	
+	Notice.PropTypes = _propTypes2["default"];
+	Notice.defaultProps = defaultProps;
+	
+	exports["default"] = Notice;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	var deselectCurrent = __webpack_require__(75);
+	
+	var defaultMessage = 'Copy to clipboard: #{key}, Enter';
+	
+	function format(message) {
+	  var copyKey = (/mac os x/i.test(navigator.userAgent) ? '⌘' : 'Ctrl') + '+C';
+	  return message.replace(/#{\s*key\s*}/g, copyKey);
+	}
+	
+	function copy(text, options) {
+	  var debug, message, reselectPrevious, range, selection, mark, success = false;
+	  if (!options) { options = {}; }
+	  debug = options.debug || false;
+	  try {
+	    reselectPrevious = deselectCurrent();
+	
+	    range = document.createRange();
+	    selection = document.getSelection();
+	
+	    mark = document.createElement('span');
+	    mark.textContent = text;
+	    // reset user styles for span element
+	    mark.style.all = 'unset';
+	    // prevents scrolling to the end of the page
+	    mark.style.position = 'fixed';
+	    mark.style.top = 0;
+	    mark.style.clip = 'rect(0, 0, 0, 0)';
+	    // used to preserve spaces and line breaks
+	    mark.style.whiteSpace = 'pre';
+	    // do not inherit user-select (it may be `none`)
+	    mark.style.webkitUserSelect = 'text';
+	    mark.style.MozUserSelect = 'text';
+	    mark.style.msUserSelect = 'text';
+	    mark.style.userSelect = 'text';
+	
+	    document.body.appendChild(mark);
+	
+	    range.selectNode(mark);
+	    selection.addRange(range);
+	
+	    var successful = document.execCommand('copy');
+	    if (!successful) {
+	      throw new Error('copy command was unsuccessful');
+	    }
+	    success = true;
+	  } catch (err) {
+	    debug && console.error('unable to copy using execCommand: ', err);
+	    debug && console.warn('trying IE specific stuff');
+	    try {
+	      window.clipboardData.setData('text', text);
+	      success = true;
+	    } catch (err) {
+	      debug && console.error('unable to copy using clipboardData: ', err);
+	      debug && console.error('falling back to prompt');
+	      message = format('message' in options ? options.message : defaultMessage);
+	      window.prompt(message, text);
+	    }
+	  } finally {
+	    if (selection) {
+	      if (typeof selection.removeRange == 'function') {
+	        selection.removeRange(range);
+	      } else {
+	        selection.removeAllRanges();
+	      }
+	    }
+	
+	    if (mark) {
+	      document.body.removeChild(mark);
+	    }
+	    reselectPrevious();
+	  }
+	
+	  return success;
+	}
+	
+	module.exports = copy;
+
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports) {
+
+	
+	module.exports = function () {
+	  var selection = document.getSelection();
+	  if (!selection.rangeCount) {
+	    return function () {};
+	  }
+	  var active = document.activeElement;
+	
+	  var ranges = [];
+	  for (var i = 0; i < selection.rangeCount; i++) {
+	    ranges.push(selection.getRangeAt(i));
+	  }
+	
+	  switch (active.tagName.toUpperCase()) { // .toUpperCase handles XHTML
+	    case 'INPUT':
+	    case 'TEXTAREA':
+	      active.blur();
+	      break;
+	
+	    default:
+	      active = null;
+	      break;
+	  }
+	
+	  selection.removeAllRanges();
+	  return function () {
+	    selection.type === 'Caret' &&
+	    selection.removeAllRanges();
+	
+	    if (!selection.rangeCount) {
+	      ranges.forEach(function(range) {
+	        selection.addRange(range);
+	      });
+	    }
+	
+	    active &&
+	    active.focus();
+	  };
+	};
+
+
+/***/ }),
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7614,7 +7579,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 103 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7623,7 +7588,7 @@
 	  value: true
 	});
 	
-	var _Button = __webpack_require__(104);
+	var _Button = __webpack_require__(78);
 	
 	var _Button2 = _interopRequireDefault(_Button);
 	
@@ -7633,7 +7598,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 104 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7706,15 +7671,16 @@
 	     * @title <button> 的 type
 	     * @veIgnore
 	     */
-	    htmlType: _propTypes2["default"].oneOf(['submit', 'button', 'reset'])
+	    htmlType: _propTypes2["default"].oneOf(['submit', 'button', 'reset']),
+	    isSubmit: _propTypes2["default"].bool //是否作为form的提交按钮
 	};
 	
 	var defaultProps = {
 	    disabled: false,
 	    htmlType: 'button',
 	    clsPrefix: 'u-button',
-	    bordered: false
-	
+	    bordered: false,
+	    isSubmit: false
 	};
 	
 	var sizeMap = {
@@ -7761,7 +7727,8 @@
 	            children = _props.children,
 	            htmlType = _props.htmlType,
 	            clsPrefix = _props.clsPrefix,
-	            others = _objectWithoutProperties(_props, ['colors', 'shape', 'disabled', 'className', 'size', 'bordered', 'children', 'htmlType', 'clsPrefix']);
+	            isSubmit = _props.isSubmit,
+	            others = _objectWithoutProperties(_props, ['colors', 'shape', 'disabled', 'className', 'size', 'bordered', 'children', 'htmlType', 'clsPrefix', 'isSubmit']);
 	
 	        var clsObj = {};
 	        if (className) {
@@ -7800,7 +7767,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 105 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7813,7 +7780,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _src = __webpack_require__(106);
+	var _src = __webpack_require__(80);
 	
 	var _src2 = _interopRequireDefault(_src);
 	
@@ -12417,7 +12384,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 106 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12426,17 +12393,17 @@
 	  value: true
 	});
 	
-	var _Icon = __webpack_require__(107);
+	var _Icon = __webpack_require__(81);
 	
 	var _Icon2 = _interopRequireDefault(_Icon);
-
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
+	
 	exports['default'] = _Icon2['default'];
 	module.exports = exports['default'];
 
 /***/ }),
-/* 107 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
