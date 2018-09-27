@@ -7120,6 +7120,15 @@ input.u-button[type="submit"] {
 .uf-yycloud:before {
   content: "\e68f"; }
 
+.uf-funnel-o:before {
+  content: "\e63c"; }
+
+.uf-filter:before {
+  content: "\e9d0"; }
+
+.uf-filterno:before {
+  content: "\e9d1"; }
+
 .u-panel .u-panel-title {
   font-size: 14px; }
 
