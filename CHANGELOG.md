@@ -1,5 +1,10 @@
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/tinper-bee/icon/compare/v1.0.5...v1.0.6) (2019-01-22)
+
+
+
 <a name="1.0.5"></a>
-## 1.0.5 (2018-09-27)
+## [1.0.5](https://github.com/tinper-bee/icon/compare/f54e076...v1.0.5) (2018-09-27)
 
 
 ### Bug Fixes
