@@ -1885,6 +1885,51 @@ class Demo1 extends Component {
 						<div className="name">取消过滤</div>
 						<div className="fontclass">.uf-filterno</div>
 					</li>
+					<li>
+						<Icon type="uf-clean"></Icon>
+						<div class="name">橡皮擦</div>
+						<div class="fontclass">.uf-clean</div>
+					</li>
+					<li>
+						<Icon type="uf-save"></Icon>
+						<div class="name">保存</div>
+						<div class="fontclass">.uf-save</div>
+					</li>
+					<li>
+						<Icon type="uf-export"></Icon>
+						<div class="name">导出</div>
+						<div class="fontclass">.uf-export</div>
+					</li>
+					<li>
+						<Icon type="uf-import"></Icon>
+						<div class="name">导入</div>
+						<div class="fontclass">.uf-import</div>
+					</li>
+					<li>
+						<Icon type="uf-stop-c"></Icon>
+						<div class="name">stop-c</div>
+						<div class="fontclass">.uf-stop-c</div>
+					</li>
+					<li>
+						<Icon type="uf-rubber"></Icon>
+						<div class="name">rubber</div>
+						<div class="fontclass">.uf-rubber</div>
+					</li>
+					<li>
+						<Icon type="uf-bediting"></Icon>
+						<div class="name">批次编辑</div>
+						<div class="fontclass">.uf-bediting</div>
+					</li>
+					<li>
+						<Icon type="uf-maxmize"></Icon>
+						<div class="name">最大化</div>
+						<div class="fontclass">.uf-maxmize</div>
+					</li>
+					<li>
+						<Icon type="icon uf uf-minimize"></Icon>
+						<div class="name">最小化</div>
+						<div class="fontclass">.uf-minimize</div>
+					</li>
 				</ul>
 			</div>
 		)

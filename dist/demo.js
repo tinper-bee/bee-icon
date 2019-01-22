@@ -50,7 +50,7 @@
 	
 	var _beePanel = __webpack_require__(8);
 	
-	var _beeButton = __webpack_require__(77);
+	var _beeButton = __webpack_require__(82);
 	
 	var _beeButton2 = _interopRequireDefault(_beeButton);
 	
@@ -76,7 +76,7 @@
 	
 	var CARETUP = _react2['default'].createElement('i', { className: 'uf uf-arrow-up' });
 	
-	var Demo1 = __webpack_require__(79);var DemoArray = [{ "example": _react2['default'].createElement(Demo1, null), "title": " Icon", "code": "/**\n * @title Icon\n * @description 在iuap字符库，`type`参数值均以-分隔。\n */\n\nimport React, { Component } from 'react';\nimport { Icon } from 'tinper-bee';\n\nclass Demo1 extends Component {\n\trender() {\n\t\treturn (\n\t\t\t<div className=\"tinper-icon-demo\">\n\t\t\t\t<ul className=\"icon_lists\">\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-wechat\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">微信</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-wechat</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-add-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">加</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-search\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-histogram-arrow-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">图表 折线图</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram-arrow-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-close-bold\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">关闭</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-bold</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-umbrella\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">雨伞</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-umbrella</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-qq\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">QQ</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qq</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-4square-3\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">分类</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4square-3</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-send\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">发送</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-send</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-map\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">地图</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-map</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-9square-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">标定</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-9square-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-navmenu\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">汉堡包</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-navmenu</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pc-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">显示器</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pc-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-search-light-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">zoom</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-light-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-check-s-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">任务</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-check-s-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pencil\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">编辑</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pencil</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-repeat\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">撤销</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-repeat</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-security-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">安全</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-security-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-lexi\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">女</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-lexi</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pencil-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">编辑</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pencil-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-del\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">删除</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-del</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bi-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">比价</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bi-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pencil-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">编辑</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pencil-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-qrcode\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">二维码</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qrcode</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rmb-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">免费报价</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-search-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bell\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">铃铛</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bell</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pass-3\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">机检通过</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-3</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-treearrow-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">树形线</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treearrow-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-training\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">培训</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-training</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-group-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">组织架构</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-group-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-zoom-in\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">zoom-in</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zoom-in</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-security-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">安全</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-security-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-baojia-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">报价</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-baojia-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rulerpen\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">定制</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rulerpen</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-erpsearch\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">erp</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-erpsearch</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-group-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">组织机构</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-group-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o-updown\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">同步中2-同步</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o-updown</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-close-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">关闭</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-add-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">加</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pc\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">工作台</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pc</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rain\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">空气_雨天</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rain</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-nodata\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">无数据</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-nodata</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-close-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">关闭</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bohui-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">审批-驳回</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bohui-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bag-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">商品</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bag-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-table-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">made</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-table-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-anglearrowpointingtoright\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-anglearrowpointingtoright</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-exc-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">叹号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-group\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">组织机构</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-group</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-personin-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">认证激活</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-personin-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-calendar\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">gm_日历</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-calendar</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-add-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">加</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sync-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">同步</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sync-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-grid\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">grid</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-grid</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-anglepointingtoleft\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-anglepointingtoleft</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-activate-3\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">激活</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-activate-3</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-caven\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">男</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-caven</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-back\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">返回</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-back</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pass-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">授权</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-reduce-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">显示树</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-area\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">图表图标-面积图</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-area</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-flag\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">旗帜</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flag</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-box-o-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">购买盒子</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box-o-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-s-o-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">下架</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-s-o-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-s-o-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">上架</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-s-o-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-building\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">企业信息</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-building</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tapp\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tapp</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-treefolder\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treefolder</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-advice\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">咨询</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-advice</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-2collayout\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">序列布局</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2collayout</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-check-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">审批</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-check-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sign\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">采购合同</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sign</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-listsearch\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">查看详情</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listsearch</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-gridcaretarrowup\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">必填</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gridcaretarrowup</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-eye-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">查看</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-eye-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-check-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">许可</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-check-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-seal\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">审批</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-seal</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-erpbox\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">erp</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-erpbox</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rulerpen-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">定制</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rulerpen-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-role\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">角色</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-role</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-exc-c-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">提示叹号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-c-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pad\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">pad</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pad</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-treefolder-closed\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">tree-new-sbling-node</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treefolder-closed</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-reduce-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">减号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pass-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">通过</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-setting\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">维护</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-setting</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-close-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">ZSX号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-map-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">地图</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-map-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-move\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">移动</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-move</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-right\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-right</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-left\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-left</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-plus\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">plus</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-plus</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-right\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-right</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-list-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">暂无数据</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-list-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">云下载</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-nodata-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">无效数据</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-nodata-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-file-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">文档文件-01</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-notification\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">消息喇叭</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-notification</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-piechart\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">图表_饼</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-piechart</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">云_上传</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-close\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">取消</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-correct\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">对号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-correct</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-histogram-s-o-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">图表切换</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram-s-o-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-4square-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">应用中心</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4square-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sunny\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气 </div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sunny</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-link\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">复制链接</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-link</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-eye\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">查看</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-eye</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-eye-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">查看</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-eye-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-qian\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">签</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qian</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-widgetab\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">小部件授权</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-widgetab</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rmb-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">报价</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-link-off\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">断开链接</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-link-off</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-shang-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">上架</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-shang-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-xia-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">下架</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-xia-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-box-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">盒子full</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pass-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">授权</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">angle-arrow-down</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-right\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">angle-arrow-pointing-to-right</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-right</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-left\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">angle-pointing-to-left</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-left</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-box\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">archive-black-box</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-triangle-right\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">arrowhead-pointing-to-the-right</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-right</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-histogram-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">bar-graph-on-a-rectangle</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-book\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">book</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-book</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bookmark-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">bookmark-white</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bookmark-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-leaf\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">branch-with-leaves-black-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-leaf</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bullseye\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">bullseye</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bullseye</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-gridcaretdown\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">camera-retro</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gridcaretdown</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-triangle-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">caret-arrow-up</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-triangle-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">caret-down</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud-down\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">cloud-storage-download</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-down</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">cloud-storage-uploading-option</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bubble\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">comment-black-oval-bubble-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bubble</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bubble-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">comment-white-oval-bubble</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bubble-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-copy\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">copy-document</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-copy</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-correct-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">correct-symbol</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-correct-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-left\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">double-left-chevron</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-left</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-down-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">down-arrow</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-down-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-download\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">download-to-storage-drive</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-download</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-earth\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">earth-globe</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-earth</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mail-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">envelope-of-white-paper</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mail-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mail\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">envelope</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mail</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-exc\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">exclamation</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-externallink\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">external-link-symbol</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-externallink</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-video\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">facetime-button</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-video</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-films\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">film-strip-with-two-photograms</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-films</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-folder\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">folder-closed-black-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-folder</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-folder-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">folder-white-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-folder-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-4square\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">four-black-squares</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4square</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-gift\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">gift-box</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gift</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-github-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">github-logo</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-github-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-github-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">github-sign</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-github-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-heart-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">heart-shape-outline</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-heart-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-heart\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">heart-shape-silhouette</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-heart</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-home\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">home</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-home</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-i-c-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">information-button</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-i-c-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-i\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">information-symbol</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-i</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-triangle-left\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">left-arrow</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-left</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-symlist\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">listing-option</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-symlist</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-left-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">long-arrow-pointing-to-left</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-left-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-right-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">long-arrow-pointing-to-the-right</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-right-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-up-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">long-arrow-pointing-up</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-up-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-reduce-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">minus-sign-inside-a-black-circle</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-reduce-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">minus-sign-inside-a-black-rounded-square-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-minus\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">minus-symbol</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-minus</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mobile\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">mobile-phone</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mobile</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bell-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">musical-bell-outline</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bell-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-9square\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">nine-black-tiles</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-9square</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-numlist\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">numbered-list</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-numlist</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-folderopen-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">open-folder-outline</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-folderopen-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-treefolderopen\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">open-folder</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treefolderopen</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mac\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">open-laptop-computer</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mac</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-camera\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">photo-camera</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-camera</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-picture\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">picture</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-picture</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-play\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">play-sign</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-play</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-play-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">play-video-button</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-play-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-qm-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">question-mark-on-a-circular-black-background</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qm-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-qm\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">question-sign</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qm</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-navmenu-light\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">reorder-option</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-navmenu-light</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-settings\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">settings</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-settings</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cart\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">shopping-cart-black-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cart</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-histogram\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">signal-bars</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-finetune\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sort-arrows-couple-pointing-up-and-down</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-finetune</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sortup\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sort-by-attributes-interface-button-option</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sortup</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sortdown\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sort-by-attributes</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sortdown</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sort19\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sort-by-numeric-order</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sort19</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sort91\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sort-by-order</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sort91</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-za\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sort-reverse-alphabetical-order</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-za</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-star-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">star-1</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-star-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-star-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">star-half-empty</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-star-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-star\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">star</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-star</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-luggage\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">suitcase-with-white-details</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-luggage</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-table\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">table-grid</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-table</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tel\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">telephone-handle-silhouette</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tel</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tel-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">telephone-symbol-button</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tel-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-terminal\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">terminal</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-terminal</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-file\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">text-file-1</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-file-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">text-file</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-3dot-h\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">three-small-square-shapes</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-3dot-h</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-time-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">time</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-time-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-upload\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">upload</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-upload</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-3dot-v\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">vertical-ellipsis</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-3dot-v</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rmb\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">yen-symbol</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-reject-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">驳回</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reject-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-barcode\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">barcode-1</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-barcode</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-zoom-out\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">zoom-out</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zoom-out</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-exc-t-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">三角叹号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-t-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-pass\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">通过</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-flow\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">关系网络</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flow</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-add-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">加</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-right-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-right-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-shelf-on\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">上架</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-shelf-on</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-shelf-off\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">下架</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-shelf-off</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-file-o-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">文件</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file-o-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-truck-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">到货确认</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-truck-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-super\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">功能强大</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-super</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-equipment\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">设备</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-equipment</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-left-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-left-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-files-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">资源文件</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-files-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">云</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rmb-s-o-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">对账</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-s-o-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-3dot-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">管理中心</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-3dot-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-dafeng\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_大风</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-dafeng</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-baoxue\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_暴雪</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-baoxue</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bingbao\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_冰雹</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bingbao</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-fengbao\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_风暴</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-fengbao</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-xiaoyu\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_小雨</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-xiaoyu</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-zhenxue\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_阵雪</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zhenxue</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-zhongyu\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">天气_中雨</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zhongyu</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-es\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">ES</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-es</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-flow-o-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">流程</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flow-o-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-activate-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">激活-01</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-activate-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-flow-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">流程</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flow-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bulb-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">技术支持</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bulb-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mi-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">必填</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mi-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-top-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">返回顶部</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-top-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-creditcard\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">credit-card</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-creditcard</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-align-center\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">align-center</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-center</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-align-justify\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">align-justify</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-justify</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-align-left\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">align-left</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-left</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-align-right\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">align-right</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-right</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-ju-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">拒</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ju-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-truck\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">货到付款</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-truck</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-setting-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">流程</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-setting-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-users-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">楼宇图标_用户组</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-users-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bag-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">商品</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bag-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cai-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">采购</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cai-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-listcheck\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">定标</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listcheck</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-users\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">群</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-users</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-i-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">查看详情</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-i-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-building-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">企业信息</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-building-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rmb-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">报价管理</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-reject\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">已驳回</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reject</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-9dot\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">菜单</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-9dot</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-loadingstate\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">loading</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-loadingstate</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-gateway\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">网关</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gateway</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-ticket-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">发票</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-userset\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">管理中心</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-userset</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-puzzle-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">组件</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-puzzle-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-box-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">物料管理</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bulb\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">激活</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bulb</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-exc-t\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">感叹号_icon</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-t</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-rmb-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">报价</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-table-s-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">发票</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-table-s-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-umbrella-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">伞</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-umbrella-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-dropbox\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">dropbox</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-dropbox</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-search-light\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">搜索-搜索</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-light</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-cart-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">shopping-cart-black-shape</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cart-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-kero-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">kero</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-kero-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-uba-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">uba</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-uba-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tinperzc-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">tinperzc</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinperzc-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tinperzch-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">tinperzch</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinperzch-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-iuap-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">iuap</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-iuap-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-iuapdesign-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">iuapdesignz</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-iuapdesign-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-bee-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">bee</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bee-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-neoui-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">neoui</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-neoui-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-sparrow-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">sparrow</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sparrow-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tinpercn-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">tinpercn</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinpercn-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-tinperen-col\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">tinperen</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinperen-col</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-arrow-up\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">angle-arrow-down</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-up</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mailsym\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">webmail</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mailsym</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-print\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">办公用品</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-print</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-ticket-3\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">报销</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket-3</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-loan\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">借款</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-loan</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-ticket-2\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">凭证中心</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket-2</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-offwork\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">请假</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-offwork</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-todolist\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">待办</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-todolist</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-personin\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">员工入职</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-personin</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-ticket\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">票务</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-linechart\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">小icon-图表</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-linechart</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-4leaf\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">应用中心</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4leaf</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-listset\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">信息维护</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listset</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-qi-c-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">企业认证</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qi-c-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-exc-c\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">叹号</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-c</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-code\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">集成开发</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-code</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-plug-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">热拔插</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-plug-o</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-search-s\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-s</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-treeadd\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">tree-new-sbling-node</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treeadd</div>\n\t\t\t\t\t</li>\n\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-mi\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">必填</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mi</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-treeline-copy\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">树形线</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treeline-copy</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-listwithdots\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">列表项</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listwithdots</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-gridlogo\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">Grid</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gridlogo</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-magnifyingglass\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-magnifyingglass</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-anglearrowdown\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">向下箭头</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-anglearrowdown</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-yongyouyunchnen\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">用友云（小）</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-yongyouyunchnen</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-yycloud\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">用友云</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-yycloud</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-funnel-o\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">筛选</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-funnel-o</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-filter\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">过滤</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-filter</div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li>\n\t\t\t\t\t\t<Icon type=\"uf-filterno\"></Icon>\n\t\t\t\t\t\t<div className=\"name\">取消过滤</div>\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-filterno</div>\n\t\t\t\t\t</li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t)\n\t}\n}\n\n", "desc": " 在iuap字符库，`type`参数值均以-分隔。", "scss_code": ".tinper-icon-demo .uf{\n  font-size: 42px;\n  line-height: 100px;\n  margin: 10px 0;\n  color: #333;\n  -webkit-transition: font-size 0.25s ease-out 0s;\n  -moz-transition: font-size 0.25s ease-out 0s;\n  transition: font-size 0.25s ease-out 0s;\n}\n.tinper-icon-demo .uf:hover{\n  font-size: 80px;\n}\n.icon_lists:after {\n  clear:both;\n  display:block;\n  visibility: hidden;\n  content:'.';\n}\n.icon_lists li {\n  float: left;\n  width: 100px;\n  height: 180px;\n  text-align: center;\n  list-style: none !important;\n}" }];
+	var Demo1 = __webpack_require__(84);var DemoArray = [{ "example": _react2['default'].createElement(Demo1, null), "title": " Icon", "code": "/**\r\n * @title Icon\r\n * @description 在iuap字符库，`type`参数值均以-分隔。\r\n */\r\n\r\nimport React, { Component } from 'react';\r\nimport { Icon } from 'tinper-bee';\r\n\r\nclass Demo1 extends Component {\r\n\trender() {\r\n\t\treturn (\r\n\t\t\t<div className=\"tinper-icon-demo\">\r\n\t\t\t\t<ul className=\"icon_lists\">\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-wechat\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">微信</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-wechat</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-add-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">加</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-search\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-histogram-arrow-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">图表 折线图</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram-arrow-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-close-bold\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">关闭</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-bold</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-umbrella\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">雨伞</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-umbrella</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-qq\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">QQ</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qq</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-4square-3\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">分类</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4square-3</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-send\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">发送</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-send</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-map\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">地图</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-map</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-9square-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">标定</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-9square-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-navmenu\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">汉堡包</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-navmenu</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pc-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">显示器</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pc-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-search-light-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">zoom</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-light-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-check-s-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">任务</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-check-s-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pencil\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">编辑</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pencil</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-repeat\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">撤销</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-repeat</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-security-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">安全</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-security-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-lexi\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">女</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-lexi</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pencil-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">编辑</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pencil-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-del\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">删除</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-del</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bi-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">比价</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bi-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pencil-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">编辑</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pencil-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-qrcode\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">二维码</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qrcode</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rmb-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">免费报价</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-search-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bell\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">铃铛</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bell</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pass-3\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">机检通过</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-3</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-treearrow-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">树形线</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treearrow-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-training\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">培训</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-training</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-group-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">组织架构</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-group-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-zoom-in\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">zoom-in</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zoom-in</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-security-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">安全</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-security-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-baojia-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">报价</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-baojia-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rulerpen\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">定制</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rulerpen</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-erpsearch\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">erp</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-erpsearch</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-group-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">组织机构</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-group-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o-updown\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">同步中2-同步</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o-updown</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-close-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">关闭</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-add-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">加</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pc\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">工作台</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pc</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rain\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">空气_雨天</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rain</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-nodata\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">无数据</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-nodata</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-close-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">关闭</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bohui-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">审批-驳回</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bohui-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bag-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">商品</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bag-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-table-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">made</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-table-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-anglearrowpointingtoright\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-anglearrowpointingtoright</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-exc-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">叹号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-group\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">组织机构</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-group</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-personin-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">认证激活</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-personin-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-calendar\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">gm_日历</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-calendar</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-add-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">加</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sync-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">同步</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sync-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-grid\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">grid</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-grid</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-anglepointingtoleft\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-anglepointingtoleft</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-activate-3\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">激活</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-activate-3</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-caven\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">男</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-caven</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-back\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">返回</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-back</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pass-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">授权</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-reduce-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">显示树</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-area\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">图表图标-面积图</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-area</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-flag\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">旗帜</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flag</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-box-o-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">购买盒子</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box-o-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-s-o-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">下架</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-s-o-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-s-o-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">上架</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-s-o-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-building\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">企业信息</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-building</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tapp\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tapp</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-treefolder\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treefolder</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-advice\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">咨询</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-advice</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-2collayout\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">序列布局</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2collayout</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-check-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">审批</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-check-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sign\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">采购合同</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sign</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-listsearch\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">查看详情</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listsearch</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-gridcaretarrowup\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">必填</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gridcaretarrowup</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-eye-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">查看</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-eye-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-check-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">许可</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-check-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-seal\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">审批</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-seal</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-erpbox\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">erp</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-erpbox</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rulerpen-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">定制</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rulerpen-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-role\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">角色</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-role</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-exc-c-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">提示叹号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-c-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pad\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">pad</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pad</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-treefolder-closed\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">tree-new-sbling-node</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treefolder-closed</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-reduce-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">减号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pass-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">通过</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-setting\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">维护</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-setting</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-close-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">ZSX号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-map-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">地图</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-map-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-move\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">移动</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-move</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-right\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-right</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-left\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-left</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-plus\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">plus</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-plus</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-right\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-right</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-list-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">暂无数据</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-list-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">云下载</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-nodata-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">无效数据</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-nodata-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-file-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">文档文件-01</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-notification\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">消息喇叭</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-notification</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-piechart\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">图表_饼</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-piechart</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">云_上传</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-close\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">取消</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-close</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-correct\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">对号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-correct</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-histogram-s-o-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">图表切换</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram-s-o-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-4square-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">应用中心</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4square-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sunny\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气 </div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sunny</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-link\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">复制链接</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-link</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-eye\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">查看</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-eye</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-eye-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">查看</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-eye-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-qian\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">签</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qian</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-widgetab\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">小部件授权</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-widgetab</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rmb-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">报价</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-link-off\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">断开链接</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-link-off</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-shang-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">上架</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-shang-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-xia-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">下架</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-xia-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-box-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">盒子full</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pass-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">授权</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">angle-arrow-down</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-right\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">angle-arrow-pointing-to-right</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-right</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-left\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">angle-pointing-to-left</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-left</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-box\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">archive-black-box</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-triangle-right\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">arrowhead-pointing-to-the-right</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-right</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-histogram-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">bar-graph-on-a-rectangle</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-book\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">book</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-book</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bookmark-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">bookmark-white</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bookmark-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-leaf\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">branch-with-leaves-black-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-leaf</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bullseye\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">bullseye</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bullseye</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-gridcaretdown\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">camera-retro</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gridcaretdown</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-triangle-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">caret-arrow-up</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-triangle-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">caret-down</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud-down\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">cloud-storage-download</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-down</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">cloud-storage-uploading-option</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bubble\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">comment-black-oval-bubble-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bubble</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bubble-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">comment-white-oval-bubble</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bubble-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-copy\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">copy-document</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-copy</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-correct-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">correct-symbol</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-correct-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-2arrow-left\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">double-left-chevron</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-2arrow-left</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-down-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">down-arrow</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-down-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-download\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">download-to-storage-drive</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-download</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-earth\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">earth-globe</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-earth</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mail-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">envelope-of-white-paper</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mail-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mail\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">envelope</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mail</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-exc\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">exclamation</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-externallink\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">external-link-symbol</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-externallink</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-video\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">facetime-button</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-video</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-films\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">film-strip-with-two-photograms</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-films</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-folder\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">folder-closed-black-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-folder</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-folder-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">folder-white-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-folder-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-4square\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">four-black-squares</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4square</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-gift\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">gift-box</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gift</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-github-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">github-logo</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-github-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-github-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">github-sign</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-github-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-heart-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">heart-shape-outline</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-heart-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-heart\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">heart-shape-silhouette</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-heart</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-home\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">home</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-home</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-i-c-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">information-button</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-i-c-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-i\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">information-symbol</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-i</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-triangle-left\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">left-arrow</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-triangle-left</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-symlist\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">listing-option</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-symlist</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-left-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">long-arrow-pointing-to-left</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-left-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-right-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">long-arrow-pointing-to-the-right</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-right-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-up-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">long-arrow-pointing-up</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-up-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-reduce-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">minus-sign-inside-a-black-circle</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-reduce-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">minus-sign-inside-a-black-rounded-square-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reduce-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-minus\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">minus-symbol</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-minus</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mobile\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">mobile-phone</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mobile</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bell-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">musical-bell-outline</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bell-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-9square\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">nine-black-tiles</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-9square</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-numlist\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">numbered-list</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-numlist</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-folderopen-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">open-folder-outline</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-folderopen-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-treefolderopen\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">open-folder</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treefolderopen</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mac\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">open-laptop-computer</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mac</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-camera\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">photo-camera</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-camera</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-picture\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">picture</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-picture</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-play\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">play-sign</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-play</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-play-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">play-video-button</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-play-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-qm-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">question-mark-on-a-circular-black-background</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qm-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-qm\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">question-sign</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qm</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-navmenu-light\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">reorder-option</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-navmenu-light</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-settings\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">settings</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-settings</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cart\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">shopping-cart-black-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cart</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-histogram\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">signal-bars</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-histogram</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-finetune\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sort-arrows-couple-pointing-up-and-down</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-finetune</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sortup\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sort-by-attributes-interface-button-option</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sortup</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sortdown\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sort-by-attributes</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sortdown</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sort19\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sort-by-numeric-order</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sort19</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sort91\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sort-by-order</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sort91</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-za\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sort-reverse-alphabetical-order</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-za</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-star-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">star-1</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-star-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-star-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">star-half-empty</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-star-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-star\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">star</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-star</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-luggage\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">suitcase-with-white-details</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-luggage</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-table\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">table-grid</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-table</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tel\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">telephone-handle-silhouette</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tel</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tel-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">telephone-symbol-button</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tel-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-terminal\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">terminal</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-terminal</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-file\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">text-file-1</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-file-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">text-file</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-3dot-h\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">three-small-square-shapes</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-3dot-h</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-time-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">time</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-time-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-upload\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">upload</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-upload</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-3dot-v\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">vertical-ellipsis</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-3dot-v</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rmb\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">yen-symbol</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-reject-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">驳回</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reject-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-barcode\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">barcode-1</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-barcode</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-zoom-out\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">zoom-out</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zoom-out</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-exc-t-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">三角叹号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-t-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-pass\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">通过</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-pass</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-flow\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">关系网络</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flow</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-add-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">加</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-add-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-right-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-right-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-shelf-on\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">上架</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-shelf-on</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-shelf-off\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">下架</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-shelf-off</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-file-o-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">文件</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-file-o-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-truck-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">到货确认</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-truck-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-super\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">功能强大</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-super</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-equipment\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">设备</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-equipment</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-c-o-left-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-c-o-left-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-files-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">资源文件</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-files-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cloud-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">云</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cloud-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rmb-s-o-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">对账</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-s-o-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-3dot-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">管理中心</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-3dot-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-dafeng\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_大风</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-dafeng</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-baoxue\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_暴雪</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-baoxue</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bingbao\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_冰雹</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bingbao</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-fengbao\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_风暴</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-fengbao</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-xiaoyu\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_小雨</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-xiaoyu</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-zhenxue\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_阵雪</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zhenxue</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-zhongyu\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">天气_中雨</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-zhongyu</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-es\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">ES</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-es</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-flow-o-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">流程</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flow-o-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-activate-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">激活-01</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-activate-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-flow-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">流程</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-flow-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bulb-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">技术支持</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bulb-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mi-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">必填</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mi-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-top-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">返回顶部</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-top-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-creditcard\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">credit-card</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-creditcard</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-align-center\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">align-center</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-center</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-align-justify\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">align-justify</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-justify</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-align-left\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">align-left</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-left</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-align-right\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">align-right</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-align-right</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-ju-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">拒</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ju-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-truck\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">货到付款</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-truck</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-setting-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">流程</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-setting-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-users-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">楼宇图标_用户组</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-users-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bag-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">商品</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bag-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cai-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">采购</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cai-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-listcheck\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">定标</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listcheck</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-users\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">群</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-users</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-i-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">查看详情</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-i-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-building-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">企业信息</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-building-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rmb-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">报价管理</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-reject\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">已驳回</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-reject</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-9dot\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">菜单</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-9dot</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-loadingstate\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">loading</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-loadingstate</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-gateway\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">网关</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gateway</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-ticket-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">发票</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-userset\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">管理中心</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-userset</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-puzzle-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">组件</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-puzzle-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-box-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">物料管理</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-box-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bulb\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">激活</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bulb</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-exc-t\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">感叹号_icon</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-t</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rmb-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">报价</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-rmb-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-table-s-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">发票</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-table-s-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-umbrella-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">伞</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-umbrella-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-dropbox\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">dropbox</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-dropbox</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-search-light\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">搜索-搜索</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-light</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-cart-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">shopping-cart-black-shape</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-cart-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-kero-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">kero</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-kero-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-uba-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">uba</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-uba-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tinperzc-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">tinperzc</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinperzc-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tinperzch-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">tinperzch</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinperzch-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-iuap-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">iuap</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-iuap-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-iuapdesign-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">iuapdesignz</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-iuapdesign-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bee-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">bee</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-bee-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-neoui-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">neoui</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-neoui-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-sparrow-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">sparrow</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-sparrow-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tinpercn-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">tinpercn</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinpercn-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-tinperen-col\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">tinperen</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-tinperen-col</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-arrow-up\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">angle-arrow-down</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-arrow-up</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mailsym\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">webmail</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mailsym</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-print\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">办公用品</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-print</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-ticket-3\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">报销</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket-3</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-loan\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">借款</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-loan</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-ticket-2\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">凭证中心</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket-2</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-offwork\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">请假</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-offwork</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-todolist\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">待办</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-todolist</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-personin\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">员工入职</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-personin</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-ticket\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">票务</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-ticket</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-linechart\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">小icon-图表</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-linechart</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-4leaf\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">应用中心</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-4leaf</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-listset\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">信息维护</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listset</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-qi-c-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">企业认证</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-qi-c-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-exc-c\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">叹号</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-exc-c</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-code\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">集成开发</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-code</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-plug-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">热拔插</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-plug-o</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-search-s\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-search-s</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-treeadd\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">tree-new-sbling-node</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treeadd</div>\r\n\t\t\t\t\t</li>\r\n\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-mi\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">必填</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-mi</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-treeline-copy\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">树形线</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-treeline-copy</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-listwithdots\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">列表项</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-listwithdots</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-gridlogo\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">Grid</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-gridlogo</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-magnifyingglass\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">搜索</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-magnifyingglass</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-anglearrowdown\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">向下箭头</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-anglearrowdown</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-yongyouyunchnen\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">用友云（小）</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-yongyouyunchnen</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-yycloud\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">用友云</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-yycloud</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-funnel-o\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">筛选</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-funnel-o</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-filter\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">过滤</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-filter</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-filterno\"></Icon>\r\n\t\t\t\t\t\t<div className=\"name\">取消过滤</div>\r\n\t\t\t\t\t\t<div className=\"fontclass\">.uf-filterno</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-clean\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">橡皮擦</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-clean</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-save\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">保存</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-save</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-export\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">导出</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-export</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-import\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">导入</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-import</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-stop-c\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">stop-c</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-stop-c</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-rubber\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">rubber</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-rubber</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-bediting\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">批次编辑</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-bediting</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"uf-maxmize\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">最大化</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-maxmize</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t<Icon type=\"icon uf uf-minimize\"></Icon>\r\n\t\t\t\t\t\t<div class=\"name\">最小化</div>\r\n\t\t\t\t\t\t<div class=\"fontclass\">.uf-minimize</div>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t)\r\n\t}\r\n}\r\n\r\n", "desc": " 在iuap字符库，`type`参数值均以-分隔。", "scss_code": ".tinper-icon-demo .uf{\r\n  font-size: 42px;\r\n  line-height: 100px;\r\n  margin: 10px 0;\r\n  color: #333;\r\n  -webkit-transition: font-size 0.25s ease-out 0s;\r\n  -moz-transition: font-size 0.25s ease-out 0s;\r\n  transition: font-size 0.25s ease-out 0s;\r\n}\r\n.tinper-icon-demo .uf:hover{\r\n  font-size: 80px;\r\n}\r\n.icon_lists:after {\r\n  clear:both;\r\n  display:block;\r\n  visibility: hidden;\r\n  content:'.';\r\n}\r\n.icon_lists li {\r\n  float: left;\r\n  width: 100px;\r\n  height: 180px;\r\n  text-align: center;\r\n  list-style: none !important;\r\n}" }];
 	
 	var Demo = function (_Component) {
 	    _inherits(Demo, _Component);
@@ -643,7 +643,7 @@
 	
 	var _Panel3 = _interopRequireDefault(_Panel2);
 	
-	var _PanelGroup2 = __webpack_require__(76);
+	var _PanelGroup2 = __webpack_require__(81);
 	
 	var _PanelGroup3 = _interopRequireDefault(_PanelGroup2);
 	
@@ -674,7 +674,7 @@
 	
 	var _beeTransition = __webpack_require__(10);
 	
-	var _beeMessage = __webpack_require__(64);
+	var _beeMessage = __webpack_require__(65);
 	
 	var _beeMessage2 = _interopRequireDefault(_beeMessage);
 	
@@ -682,7 +682,7 @@
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _copyToClipboard = __webpack_require__(74);
+	var _copyToClipboard = __webpack_require__(79);
 	
 	var _copyToClipboard2 = _interopRequireDefault(_copyToClipboard);
 	
@@ -877,7 +877,7 @@
 	        'div',
 	        { key: children.length, className: bodyClassName },
 	        bodyChildren,
-	        copyable && _react2["default"].createElement('i', { className: 'uf uf-files-o', onClick: self.copyDemo })
+	        copyable && _react2["default"].createElement('i', { className: clsPrefix + '-copy uf uf-files-o', onClick: self.copyDemo })
 	      ));
 	      bodyChildren = [];
 	    }
@@ -981,11 +981,11 @@
 	
 	var _Transition3 = _interopRequireDefault(_Transition2);
 	
-	var _Collapse2 = __webpack_require__(16);
+	var _Collapse2 = __webpack_require__(17);
 	
 	var _Collapse3 = _interopRequireDefault(_Collapse2);
 	
-	var _Fade2 = __webpack_require__(63);
+	var _Fade2 = __webpack_require__(64);
 	
 	var _Fade3 = _interopRequireDefault(_Fade2);
 	
@@ -1020,7 +1020,7 @@
 	
 	var _properties2 = _interopRequireDefault(_properties);
 	
-	var _on = __webpack_require__(15);
+	var _on = __webpack_require__(16);
 	
 	var _on2 = _interopRequireDefault(_on);
 	
@@ -1350,64 +1350,49 @@
 /* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
+	var _interopRequireDefault = __webpack_require__(14);
 	
-	var _inDOM = __webpack_require__(14);
+	exports.__esModule = true;
+	exports.default = exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = void 0;
 	
-	var _inDOM2 = _interopRequireDefault(_inDOM);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _inDOM = _interopRequireDefault(__webpack_require__(15));
 	
 	var transform = 'transform';
-	var prefix = void 0,
-	    transitionEnd = void 0,
-	    animationEnd = void 0;
-	var transitionProperty = void 0,
-	    transitionDuration = void 0,
-	    transitionTiming = void 0,
-	    transitionDelay = void 0;
-	var animationName = void 0,
-	    animationDuration = void 0,
-	    animationTiming = void 0,
-	    animationDelay = void 0;
+	exports.transform = transform;
+	var prefix, transitionEnd, animationEnd;
+	exports.animationEnd = animationEnd;
+	exports.transitionEnd = transitionEnd;
+	var transitionProperty, transitionDuration, transitionTiming, transitionDelay;
+	exports.transitionDelay = transitionDelay;
+	exports.transitionTiming = transitionTiming;
+	exports.transitionDuration = transitionDuration;
+	exports.transitionProperty = transitionProperty;
+	var animationName, animationDuration, animationTiming, animationDelay;
+	exports.animationDelay = animationDelay;
+	exports.animationTiming = animationTiming;
+	exports.animationDuration = animationDuration;
+	exports.animationName = animationName;
 	
-	if (_inDOM2.default) {
+	if (_inDOM.default) {
 	  var _getTransitionPropert = getTransitionProperties();
 	
 	  prefix = _getTransitionPropert.prefix;
 	  exports.transitionEnd = transitionEnd = _getTransitionPropert.transitionEnd;
 	  exports.animationEnd = animationEnd = _getTransitionPropert.animationEnd;
-	
-	
-	  exports.transform = transform = prefix + '-' + transform;
-	  exports.transitionProperty = transitionProperty = prefix + '-transition-property';
-	  exports.transitionDuration = transitionDuration = prefix + '-transition-duration';
-	  exports.transitionDelay = transitionDelay = prefix + '-transition-delay';
-	  exports.transitionTiming = transitionTiming = prefix + '-transition-timing-function';
-	
-	  exports.animationName = animationName = prefix + '-animation-name';
-	  exports.animationDuration = animationDuration = prefix + '-animation-duration';
-	  exports.animationTiming = animationTiming = prefix + '-animation-delay';
-	  exports.animationDelay = animationDelay = prefix + '-animation-timing-function';
+	  exports.transform = transform = prefix + "-" + transform;
+	  exports.transitionProperty = transitionProperty = prefix + "-transition-property";
+	  exports.transitionDuration = transitionDuration = prefix + "-transition-duration";
+	  exports.transitionDelay = transitionDelay = prefix + "-transition-delay";
+	  exports.transitionTiming = transitionTiming = prefix + "-transition-timing-function";
+	  exports.animationName = animationName = prefix + "-animation-name";
+	  exports.animationDuration = animationDuration = prefix + "-animation-duration";
+	  exports.animationTiming = animationTiming = prefix + "-animation-delay";
+	  exports.animationDelay = animationDelay = prefix + "-animation-timing-function";
 	}
 	
-	exports.transform = transform;
-	exports.transitionProperty = transitionProperty;
-	exports.transitionTiming = transitionTiming;
-	exports.transitionDelay = transitionDelay;
-	exports.transitionDuration = transitionDuration;
-	exports.transitionEnd = transitionEnd;
-	exports.animationName = animationName;
-	exports.animationDuration = animationDuration;
-	exports.animationTiming = animationTiming;
-	exports.animationDelay = animationDelay;
-	exports.animationEnd = animationEnd;
-	exports.default = {
+	var _default = {
 	  transform: transform,
 	  end: transitionEnd,
 	  property: transitionProperty,
@@ -1415,37 +1400,33 @@
 	  delay: transitionDelay,
 	  duration: transitionDuration
 	};
-	
+	exports.default = _default;
 	
 	function getTransitionProperties() {
 	  var style = document.createElement('div').style;
-	
 	  var vendorMap = {
 	    O: function O(e) {
-	      return 'o' + e.toLowerCase();
+	      return "o" + e.toLowerCase();
 	    },
 	    Moz: function Moz(e) {
 	      return e.toLowerCase();
 	    },
 	    Webkit: function Webkit(e) {
-	      return 'webkit' + e;
+	      return "webkit" + e;
 	    },
 	    ms: function ms(e) {
-	      return 'MS' + e;
+	      return "MS" + e;
 	    }
 	  };
-	
 	  var vendors = Object.keys(vendorMap);
-	
-	  var transitionEnd = void 0,
-	      animationEnd = void 0;
+	  var transitionEnd, animationEnd;
 	  var prefix = '';
 	
 	  for (var i = 0; i < vendors.length; i++) {
 	    var vendor = vendors[i];
 	
-	    if (vendor + 'TransitionProperty' in style) {
-	      prefix = '-' + vendor.toLowerCase();
+	    if (vendor + "TransitionProperty" in style) {
+	      prefix = "-" + vendor.toLowerCase();
 	      transitionEnd = vendorMap[vendor]('TransitionEnd');
 	      animationEnd = vendorMap[vendor]('AnimationEnd');
 	      break;
@@ -1453,46 +1434,58 @@
 	  }
 	
 	  if (!transitionEnd && 'transitionProperty' in style) transitionEnd = 'transitionend';
-	
 	  if (!animationEnd && 'animationName' in style) animationEnd = 'animationend';
-	
 	  style = null;
-	
-	  return { animationEnd: animationEnd, transitionEnd: transitionEnd, prefix: prefix };
+	  return {
+	    animationEnd: animationEnd,
+	    transitionEnd: transitionEnd,
+	    prefix: prefix
+	  };
 	}
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports) {
 
-	'use strict';
+	function _interopRequireDefault(obj) {
+	  return obj && obj.__esModule ? obj : {
+	    default: obj
+	  };
+	}
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
-	module.exports = exports['default'];
+	module.exports = _interopRequireDefault;
 
 /***/ }),
 /* 15 */
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	exports.__esModule = true;
+	exports.default = void 0;
+	
+	var _default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
+	
+	exports.default = _default;
+	module.exports = exports["default"];
+
+/***/ }),
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	var _interopRequireDefault = __webpack_require__(14);
 	
-	var _inDOM = __webpack_require__(14);
+	exports.__esModule = true;
+	exports.default = void 0;
 	
-	var _inDOM2 = _interopRequireDefault(_inDOM);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _inDOM = _interopRequireDefault(__webpack_require__(15));
 	
 	var on = function on() {};
-	if (_inDOM2.default) {
-	  on = function () {
 	
+	if (_inDOM.default) {
+	  on = function () {
 	    if (document.addEventListener) return function (node, eventName, handler, capture) {
 	      return node.addEventListener(eventName, handler, capture || false);
 	    };else if (document.attachEvent) return function (node, eventName, handler) {
@@ -1506,11 +1499,12 @@
 	  }();
 	}
 	
-	exports.default = on;
-	module.exports = exports['default'];
+	var _default = on;
+	exports.default = _default;
+	module.exports = exports["default"];
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1525,7 +1519,7 @@
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
-	var _style = __webpack_require__(17);
+	var _style = __webpack_require__(18);
 	
 	var _style2 = _interopRequireDefault(_style);
 	
@@ -1541,11 +1535,11 @@
 	
 	var _Transition2 = _interopRequireDefault(_Transition);
 	
-	var _capitalize = __webpack_require__(25);
+	var _capitalize = __webpack_require__(26);
 	
 	var _capitalize2 = _interopRequireDefault(_capitalize);
 	
-	var _tinperBeeCore = __webpack_require__(26);
+	var _tinperBeeCore = __webpack_require__(27);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 	
@@ -1767,39 +1761,27 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	var _interopRequireDefault = __webpack_require__(14);
+	
+	exports.__esModule = true;
 	exports.default = style;
 	
-	var _camelizeStyle = __webpack_require__(18);
+	var _camelizeStyle = _interopRequireDefault(__webpack_require__(19));
 	
-	var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
+	var _hyphenateStyle = _interopRequireDefault(__webpack_require__(21));
 	
-	var _hyphenateStyle = __webpack_require__(20);
+	var _getComputedStyle2 = _interopRequireDefault(__webpack_require__(23));
 	
-	var _hyphenateStyle2 = _interopRequireDefault(_hyphenateStyle);
-	
-	var _getComputedStyle2 = __webpack_require__(22);
-	
-	var _getComputedStyle3 = _interopRequireDefault(_getComputedStyle2);
-	
-	var _removeStyle = __webpack_require__(23);
-	
-	var _removeStyle2 = _interopRequireDefault(_removeStyle);
+	var _removeStyle = _interopRequireDefault(__webpack_require__(24));
 	
 	var _properties = __webpack_require__(13);
 	
-	var _isTransform = __webpack_require__(24);
-	
-	var _isTransform2 = _interopRequireDefault(_isTransform);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _isTransform = _interopRequireDefault(__webpack_require__(25));
 	
 	function style(node, property, value) {
 	  var css = '';
@@ -1808,7 +1790,7 @@
 	
 	  if (typeof property === 'string') {
 	    if (value === undefined) {
-	      return node.style[(0, _camelizeStyle2.default)(property)] || (0, _getComputedStyle3.default)(node).getPropertyValue((0, _hyphenateStyle2.default)(property));
+	      return node.style[(0, _camelizeStyle.default)(property)] || (0, _getComputedStyle2.default)(node).getPropertyValue((0, _hyphenateStyle.default)(property));
 	    } else {
 	      (props = {})[property] = value;
 	    }
@@ -1816,59 +1798,58 @@
 	
 	  Object.keys(props).forEach(function (key) {
 	    var value = props[key];
+	
 	    if (!value && value !== 0) {
-	      (0, _removeStyle2.default)(node, (0, _hyphenateStyle2.default)(key));
-	    } else if ((0, _isTransform2.default)(key)) {
-	      transforms += key + '(' + value + ') ';
+	      (0, _removeStyle.default)(node, (0, _hyphenateStyle.default)(key));
+	    } else if ((0, _isTransform.default)(key)) {
+	      transforms += key + "(" + value + ") ";
 	    } else {
-	      css += (0, _hyphenateStyle2.default)(key) + ': ' + value + ';';
+	      css += (0, _hyphenateStyle.default)(key) + ": " + value + ";";
 	    }
 	  });
 	
 	  if (transforms) {
-	    css += _properties.transform + ': ' + transforms + ';';
+	    css += _properties.transform + ": " + transforms + ";";
 	  }
 	
 	  node.style.cssText += ';' + css;
 	}
-	module.exports = exports['default'];
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = camelizeStyleName;
-	
-	var _camelize = __webpack_require__(19);
-	
-	var _camelize2 = _interopRequireDefault(_camelize);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var msPattern = /^-ms-/; /**
-	                          * Copyright 2014-2015, Facebook, Inc.
-	                          * All rights reserved.
-	                          * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/camelizeStyleName.js
-	                          */
-	function camelizeStyleName(string) {
-	  return (0, _camelize2.default)(string.replace(msPattern, 'ms-'));
-	}
-	module.exports = exports['default'];
+	module.exports = exports["default"];
 
 /***/ }),
 /* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _interopRequireDefault = __webpack_require__(14);
+	
+	exports.__esModule = true;
+	exports.default = camelizeStyleName;
+	
+	var _camelize = _interopRequireDefault(__webpack_require__(20));
+	
+	/**
+	 * Copyright 2014-2015, Facebook, Inc.
+	 * All rights reserved.
+	 * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/camelizeStyleName.js
+	 */
+	var msPattern = /^-ms-/;
+	
+	function camelizeStyleName(string) {
+	  return (0, _camelize.default)(string.replace(msPattern, 'ms-'));
+	}
+	
+	module.exports = exports["default"];
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports) {
 
 	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	exports.__esModule = true;
 	exports.default = camelize;
 	var rHyphen = /-(.)/g;
 	
@@ -1877,70 +1858,63 @@
 	    return chr.toUpperCase();
 	  });
 	}
+	
 	module.exports = exports["default"];
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	var _interopRequireDefault = __webpack_require__(14);
+	
+	exports.__esModule = true;
 	exports.default = hyphenateStyleName;
 	
-	var _hyphenate = __webpack_require__(21);
+	var _hyphenate = _interopRequireDefault(__webpack_require__(22));
 	
-	var _hyphenate2 = _interopRequireDefault(_hyphenate);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var msPattern = /^ms-/; /**
-	                         * Copyright 2013-2014, Facebook, Inc.
-	                         * All rights reserved.
-	                         * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/hyphenateStyleName.js
-	                         */
+	/**
+	 * Copyright 2013-2014, Facebook, Inc.
+	 * All rights reserved.
+	 * https://github.com/facebook/react/blob/2aeb8a2a6beb00617a4217f7f8284924fa2ad819/src/vendor/core/hyphenateStyleName.js
+	 */
+	var msPattern = /^ms-/;
 	
 	function hyphenateStyleName(string) {
-	  return (0, _hyphenate2.default)(string).replace(msPattern, '-ms-');
+	  return (0, _hyphenate.default)(string).replace(msPattern, '-ms-');
 	}
-	module.exports = exports['default'];
+	
+	module.exports = exports["default"];
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	exports.__esModule = true;
 	exports.default = hyphenate;
-	
 	var rUpper = /([A-Z])/g;
 	
 	function hyphenate(string) {
 	  return string.replace(rUpper, '-$1').toLowerCase();
 	}
-	module.exports = exports['default'];
+	
+	module.exports = exports["default"];
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	var _interopRequireDefault = __webpack_require__(14);
+	
+	exports.__esModule = true;
 	exports.default = _getComputedStyle;
 	
-	var _camelizeStyle = __webpack_require__(18);
-	
-	var _camelizeStyle2 = _interopRequireDefault(_camelizeStyle);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	var _camelizeStyle = _interopRequireDefault(__webpack_require__(19));
 	
 	var rposition = /^(top|right|bottom|left)$/;
 	var rnumnonpx = /^([+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|))(?!px)[a-z%]+$/i;
@@ -1948,33 +1922,25 @@
 	function _getComputedStyle(node) {
 	  if (!node) throw new TypeError('No Element passed to `getComputedStyle()`');
 	  var doc = node.ownerDocument;
-	
 	  return 'defaultView' in doc ? doc.defaultView.opener ? node.ownerDocument.defaultView.getComputedStyle(node, null) : window.getComputedStyle(node, null) : {
 	    //ie 8 "magic" from: https://github.com/jquery/jquery/blob/1.11-stable/src/css/curCSS.js#L72
 	    getPropertyValue: function getPropertyValue(prop) {
 	      var style = node.style;
-	
-	      prop = (0, _camelizeStyle2.default)(prop);
-	
+	      prop = (0, _camelizeStyle.default)(prop);
 	      if (prop == 'float') prop = 'styleFloat';
-	
 	      var current = node.currentStyle[prop] || null;
-	
 	      if (current == null && style && style[prop]) current = style[prop];
 	
 	      if (rnumnonpx.test(current) && !rposition.test(prop)) {
 	        // Remember the original values
 	        var left = style.left;
 	        var runStyle = node.runtimeStyle;
-	        var rsLeft = runStyle && runStyle.left;
+	        var rsLeft = runStyle && runStyle.left; // Put in the new values to get a computed value out
 	
-	        // Put in the new values to get a computed value out
 	        if (rsLeft) runStyle.left = node.currentStyle.left;
-	
 	        style.left = prop === 'fontSize' ? '1em' : current;
-	        current = style.pixelLeft + 'px';
+	        current = style.pixelLeft + 'px'; // Revert the changed values
 	
-	        // Revert the changed values
 	        style.left = left;
 	        if (rsLeft) runStyle.left = rsLeft;
 	      }
@@ -1983,22 +1949,8 @@
 	    }
 	  };
 	}
-	module.exports = exports['default'];
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports) {
-
-	'use strict';
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.default = removeStyle;
-	function removeStyle(node, key) {
-	  return 'removeProperty' in node.style ? node.style.removeProperty(key) : node.style.removeAttribute(key);
-	}
-	module.exports = exports['default'];
+	module.exports = exports["default"];
 
 /***/ }),
 /* 24 */
@@ -2006,19 +1958,33 @@
 
 	"use strict";
 	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
+	exports.__esModule = true;
+	exports.default = removeStyle;
+	
+	function removeStyle(node, key) {
+	  return 'removeProperty' in node.style ? node.style.removeProperty(key) : node.style.removeAttribute(key);
+	}
+	
+	module.exports = exports["default"];
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	exports.__esModule = true;
 	exports.default = isTransform;
 	var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
 	
 	function isTransform(property) {
 	  return !!(property && supportedTransforms.test(property));
 	}
+	
 	module.exports = exports["default"];
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -2033,7 +1999,7 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2041,55 +2007,55 @@
 	exports.__esModule = true;
 	exports.Align = exports.toArray = exports.cssAnimation = exports.addEventListener = exports.contains = exports.KeyCode = exports.createChainedFunction = exports.splitComponent = exports.isRequiredForA11y = exports.elementType = exports.deprecated = exports.componentOrElement = exports.all = undefined;
 	
-	var _all2 = __webpack_require__(27);
+	var _all2 = __webpack_require__(28);
 	
 	var _all3 = _interopRequireDefault(_all2);
 	
-	var _componentOrElement2 = __webpack_require__(29);
+	var _componentOrElement2 = __webpack_require__(30);
 	
 	var _componentOrElement3 = _interopRequireDefault(_componentOrElement2);
 	
-	var _deprecated2 = __webpack_require__(30);
+	var _deprecated2 = __webpack_require__(31);
 	
 	var _deprecated3 = _interopRequireDefault(_deprecated2);
 	
-	var _elementType2 = __webpack_require__(33);
+	var _elementType2 = __webpack_require__(34);
 	
 	var _elementType3 = _interopRequireDefault(_elementType2);
 	
-	var _isRequiredForA11y2 = __webpack_require__(34);
+	var _isRequiredForA11y2 = __webpack_require__(35);
 	
 	var _isRequiredForA11y3 = _interopRequireDefault(_isRequiredForA11y2);
 	
-	var _splitComponent2 = __webpack_require__(35);
+	var _splitComponent2 = __webpack_require__(36);
 	
 	var _splitComponent3 = _interopRequireDefault(_splitComponent2);
 	
-	var _createChainedFunction2 = __webpack_require__(36);
+	var _createChainedFunction2 = __webpack_require__(37);
 	
 	var _createChainedFunction3 = _interopRequireDefault(_createChainedFunction2);
 	
-	var _keyCode = __webpack_require__(37);
+	var _keyCode = __webpack_require__(38);
 	
 	var _keyCode2 = _interopRequireDefault(_keyCode);
 	
-	var _contains2 = __webpack_require__(38);
+	var _contains2 = __webpack_require__(39);
 	
 	var _contains3 = _interopRequireDefault(_contains2);
 	
-	var _addEventListener2 = __webpack_require__(39);
+	var _addEventListener2 = __webpack_require__(40);
 	
 	var _addEventListener3 = _interopRequireDefault(_addEventListener2);
 	
-	var _cssAnimation2 = __webpack_require__(44);
+	var _cssAnimation2 = __webpack_require__(45);
 	
 	var _cssAnimation3 = _interopRequireDefault(_cssAnimation2);
 	
-	var _toArray2 = __webpack_require__(48);
+	var _toArray2 = __webpack_require__(49);
 	
 	var _toArray3 = _interopRequireDefault(_toArray2);
 	
-	var _Align2 = __webpack_require__(49);
+	var _Align2 = __webpack_require__(50);
 	
 	var _Align3 = _interopRequireDefault(_Align2);
 	
@@ -2112,7 +2078,7 @@
 	exports.Align = _Align3.default;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2120,7 +2086,7 @@
 	exports.__esModule = true;
 	exports.default = all;
 	
-	var _createChainableTypeChecker = __webpack_require__(28);
+	var _createChainableTypeChecker = __webpack_require__(29);
 	
 	var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 	
@@ -2156,7 +2122,7 @@
 	}
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -2201,7 +2167,7 @@
 	}
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2214,7 +2180,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _createChainableTypeChecker = __webpack_require__(28);
+	var _createChainableTypeChecker = __webpack_require__(29);
 	
 	var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 	
@@ -2238,7 +2204,7 @@
 	exports.default = (0, _createChainableTypeChecker2.default)(validate);
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2246,7 +2212,7 @@
 	exports.__esModule = true;
 	exports.default = deprecated;
 	
-	var _warning = __webpack_require__(31);
+	var _warning = __webpack_require__(32);
 	
 	var _warning2 = _interopRequireDefault(_warning);
 	
@@ -2284,7 +2250,7 @@
 	/* eslint-enable no-underscore-dangle */
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -2348,10 +2314,10 @@
 	
 	module.exports = warning;
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(32)))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)))
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports) {
 
 	// shim for using process in browser
@@ -2541,7 +2507,7 @@
 
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2554,7 +2520,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _createChainableTypeChecker = __webpack_require__(28);
+	var _createChainableTypeChecker = __webpack_require__(29);
 	
 	var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 	
@@ -2578,7 +2544,7 @@
 	exports.default = (0, _createChainableTypeChecker2.default)(elementType);
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -2603,7 +2569,7 @@
 	}
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -2646,7 +2612,7 @@
 	}
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -2681,7 +2647,7 @@
 	exports.default = createChainedFunction;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -3206,7 +3172,7 @@
 	module.exports = KeyCode;
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -3226,7 +3192,7 @@
 	}
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3234,7 +3200,7 @@
 	exports.__esModule = true;
 	exports.default = addEventListenerWrap;
 	
-	var _addDomEventListener = __webpack_require__(40);
+	var _addDomEventListener = __webpack_require__(41);
 	
 	var _addDomEventListener2 = _interopRequireDefault(_addDomEventListener);
 	
@@ -3253,35 +3219,49 @@
 	}
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	Object.defineProperty(exports, "__esModule", {
+	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
-	exports["default"] = addEventListener;
+	exports['default'] = addEventListener;
 	
-	var _EventObject = __webpack_require__(41);
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _EventObject = __webpack_require__(42);
 	
 	var _EventObject2 = _interopRequireDefault(_EventObject);
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-	
-	function addEventListener(target, eventType, callback) {
+	function addEventListener(target, eventType, callback, option) {
 	  function wrapCallback(e) {
-	    var ne = new _EventObject2["default"](e);
+	    var ne = new _EventObject2['default'](e);
 	    callback.call(target, ne);
 	  }
 	
 	  if (target.addEventListener) {
-	    target.addEventListener(eventType, wrapCallback, false);
-	    return {
-	      remove: function remove() {
-	        target.removeEventListener(eventType, wrapCallback, false);
+	    var _ret = (function () {
+	      var useCapture = false;
+	      if (typeof option === 'object') {
+	        useCapture = option.capture || false;
+	      } else if (typeof option === 'boolean') {
+	        useCapture = option;
 	      }
-	    };
+	
+	      target.addEventListener(eventType, wrapCallback, option || false);
+	
+	      return {
+	        v: {
+	          remove: function remove() {
+	            target.removeEventListener(eventType, wrapCallback, useCapture);
+	          }
+	        }
+	      };
+	    })();
+	
+	    if (typeof _ret === 'object') return _ret.v;
 	  } else if (target.attachEvent) {
 	    target.attachEvent('on' + eventType, wrapCallback);
 	    return {
@@ -3291,33 +3271,34 @@
 	    };
 	  }
 	}
+	
 	module.exports = exports['default'];
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _EventBaseObject = __webpack_require__(42);
-	
-	var _EventBaseObject2 = _interopRequireDefault(_EventBaseObject);
-	
-	var _objectAssign = __webpack_require__(43);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-	
 	/**
 	 * @ignore
 	 * event object for dom
 	 * @author yiminghe@gmail.com
 	 */
+	
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _EventBaseObject = __webpack_require__(43);
+	
+	var _EventBaseObject2 = _interopRequireDefault(_EventBaseObject);
+	
+	var _objectAssign = __webpack_require__(44);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
 	
 	var TRUE = true;
 	var FALSE = false;
@@ -3353,9 +3334,9 @@
 	  reg: /^(mousewheel|DOMMouseScroll)$/,
 	  props: [],
 	  fix: function fix(event, nativeEvent) {
-	    var deltaX = void 0;
-	    var deltaY = void 0;
-	    var delta = void 0;
+	    var deltaX = undefined;
+	    var deltaY = undefined;
+	    var delta = undefined;
 	    var wheelDelta = nativeEvent.wheelDelta;
 	    var axis = nativeEvent.axis;
 	    var wheelDeltaY = nativeEvent.wheelDeltaY;
@@ -3428,9 +3409,9 @@
 	  reg: /^mouse|contextmenu|click|mspointer|(^DOMMouseScroll$)/i,
 	  props: ['buttons', 'clientX', 'clientY', 'button', 'offsetX', 'relatedTarget', 'which', 'fromElement', 'toElement', 'offsetY', 'pageX', 'pageY', 'screenX', 'screenY'],
 	  fix: function fix(event, nativeEvent) {
-	    var eventDoc = void 0;
-	    var doc = void 0;
-	    var body = void 0;
+	    var eventDoc = undefined;
+	    var doc = undefined;
+	    var body = undefined;
 	    var target = event.target;
 	    var button = nativeEvent.button;
 	
@@ -3479,7 +3460,7 @@
 	
 	  var isNative = typeof nativeEvent.stopPropagation === 'function' || typeof nativeEvent.cancelBubble === 'boolean';
 	
-	  _EventBaseObject2["default"].call(this);
+	  _EventBaseObject2['default'].call(this);
 	
 	  this.nativeEvent = nativeEvent;
 	
@@ -3497,9 +3478,9 @@
 	  this.isDefaultPrevented = isDefaultPrevented;
 	
 	  var fixFns = [];
-	  var fixFn = void 0;
-	  var l = void 0;
-	  var prop = void 0;
+	  var fixFn = undefined;
+	  var l = undefined;
+	  var prop = undefined;
 	  var props = commonProps.concat();
 	
 	  eventNormalizers.forEach(function (normalizer) {
@@ -3539,9 +3520,9 @@
 	  this.timeStamp = nativeEvent.timeStamp || Date.now();
 	}
 	
-	var EventBaseObjectProto = _EventBaseObject2["default"].prototype;
+	var EventBaseObjectProto = _EventBaseObject2['default'].prototype;
 	
-	(0, _objectAssign2["default"])(DomEventObject.prototype, EventBaseObjectProto, {
+	(0, _objectAssign2['default'])(DomEventObject.prototype, EventBaseObjectProto, {
 	  constructor: DomEventObject,
 	
 	  preventDefault: function preventDefault() {
@@ -3557,6 +3538,7 @@
 	
 	    EventBaseObjectProto.preventDefault.call(this);
 	  },
+	
 	  stopPropagation: function stopPropagation() {
 	    var e = this.nativeEvent;
 	
@@ -3572,24 +3554,24 @@
 	  }
 	});
 	
-	exports["default"] = DomEventObject;
+	exports['default'] = DomEventObject;
 	module.exports = exports['default'];
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports) {
 
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
 	/**
 	 * @ignore
 	 * base event object for custom and dom event.
 	 * @author yiminghe@gmail.com
 	 */
 	
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 	function returnFalse() {
 	  return false;
 	}
@@ -3618,15 +3600,18 @@
 	  preventDefault: function preventDefault() {
 	    this.isDefaultPrevented = returnTrue;
 	  },
+	
 	  stopPropagation: function stopPropagation() {
 	    this.isPropagationStopped = returnTrue;
 	  },
+	
 	  stopImmediatePropagation: function stopImmediatePropagation() {
 	    this.isImmediatePropagationStopped = returnTrue;
 	    // fixed 1.2
 	    // call stopPropagation implicitly
 	    this.stopPropagation();
 	  },
+	
 	  halt: function halt(immediate) {
 	    if (immediate) {
 	      this.stopImmediatePropagation();
@@ -3638,10 +3623,10 @@
 	};
 	
 	exports["default"] = EventBaseObject;
-	module.exports = exports['default'];
+	module.exports = exports["default"];
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports) {
 
 	/*
@@ -3737,7 +3722,7 @@
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3746,11 +3731,11 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 	
-	var _Event = __webpack_require__(45);
+	var _Event = __webpack_require__(46);
 	
 	var _Event2 = _interopRequireDefault(_Event);
 	
-	var _componentClasses = __webpack_require__(46);
+	var _componentClasses = __webpack_require__(47);
 	
 	var _componentClasses2 = _interopRequireDefault(_componentClasses);
 	
@@ -3929,7 +3914,7 @@
 	exports.default = cssAnimation;
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -4019,7 +4004,7 @@
 	exports.default = TransitionEvents;
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/**
@@ -4027,9 +4012,9 @@
 	 */
 	
 	try {
-	  var index = __webpack_require__(47);
+	  var index = __webpack_require__(48);
 	} catch (err) {
-	  var index = __webpack_require__(47);
+	  var index = __webpack_require__(48);
 	}
 	
 	/**
@@ -4216,7 +4201,7 @@
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports) {
 
 	module.exports = function(arr, obj){
@@ -4228,7 +4213,7 @@
 	};
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4251,7 +4236,7 @@
 	}
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4270,11 +4255,11 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _domAlign = __webpack_require__(50);
+	var _domAlign = __webpack_require__(51);
 	
 	var _domAlign2 = _interopRequireDefault(_domAlign);
 	
-	var _addEventListener = __webpack_require__(39);
+	var _addEventListener = __webpack_require__(40);
 	
 	var _addEventListener2 = _interopRequireDefault(_addEventListener);
 	
@@ -4447,7 +4432,7 @@
 	exports.default = Align;
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4457,11 +4442,11 @@
 	});
 	exports.alignPoint = exports.alignElement = undefined;
 	
-	var _alignElement = __webpack_require__(51);
+	var _alignElement = __webpack_require__(52);
 	
 	var _alignElement2 = _interopRequireDefault(_alignElement);
 	
-	var _alignPoint = __webpack_require__(62);
+	var _alignPoint = __webpack_require__(63);
 	
 	var _alignPoint2 = _interopRequireDefault(_alignPoint);
 	
@@ -4472,7 +4457,7 @@
 	exports['default'] = _alignElement2['default'];
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4481,19 +4466,19 @@
 	  value: true
 	});
 	
-	var _align = __webpack_require__(52);
+	var _align = __webpack_require__(53);
 	
 	var _align2 = _interopRequireDefault(_align);
 	
-	var _getOffsetParent = __webpack_require__(56);
+	var _getOffsetParent = __webpack_require__(57);
 	
 	var _getOffsetParent2 = _interopRequireDefault(_getOffsetParent);
 	
-	var _getVisibleRectForElement = __webpack_require__(55);
+	var _getVisibleRectForElement = __webpack_require__(56);
 	
 	var _getVisibleRectForElement2 = _interopRequireDefault(_getVisibleRectForElement);
 	
-	var _getRegion = __webpack_require__(59);
+	var _getRegion = __webpack_require__(60);
 	
 	var _getRegion2 = _interopRequireDefault(_getRegion);
 	
@@ -4523,7 +4508,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4532,23 +4517,23 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	var _getVisibleRectForElement = __webpack_require__(55);
+	var _getVisibleRectForElement = __webpack_require__(56);
 	
 	var _getVisibleRectForElement2 = _interopRequireDefault(_getVisibleRectForElement);
 	
-	var _adjustForViewport = __webpack_require__(58);
+	var _adjustForViewport = __webpack_require__(59);
 	
 	var _adjustForViewport2 = _interopRequireDefault(_adjustForViewport);
 	
-	var _getRegion = __webpack_require__(59);
+	var _getRegion = __webpack_require__(60);
 	
 	var _getRegion2 = _interopRequireDefault(_getRegion);
 	
-	var _getElFuturePos = __webpack_require__(60);
+	var _getElFuturePos = __webpack_require__(61);
 	
 	var _getElFuturePos2 = _interopRequireDefault(_getElFuturePos);
 	
@@ -4746,7 +4731,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4757,7 +4742,7 @@
 	
 	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 	
-	var _propertyUtils = __webpack_require__(54);
+	var _propertyUtils = __webpack_require__(55);
 	
 	var RE_NUM = /[\-+]?(?:\d*\.|)\d+(?:[eE][\-+]?\d+|)/.source;
 	
@@ -5341,7 +5326,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -5456,7 +5441,7 @@
 	}
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5465,15 +5450,15 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	var _getOffsetParent = __webpack_require__(56);
+	var _getOffsetParent = __webpack_require__(57);
 	
 	var _getOffsetParent2 = _interopRequireDefault(_getOffsetParent);
 	
-	var _isAncestorFixed = __webpack_require__(57);
+	var _isAncestorFixed = __webpack_require__(58);
 	
 	var _isAncestorFixed2 = _interopRequireDefault(_isAncestorFixed);
 	
@@ -5566,7 +5551,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5575,7 +5560,7 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -5627,7 +5612,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5637,7 +5622,7 @@
 	});
 	exports['default'] = isAncestorFixed;
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -5662,7 +5647,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5671,7 +5656,7 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -5722,7 +5707,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5731,7 +5716,7 @@
 	  value: true
 	});
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
@@ -5763,7 +5748,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5772,7 +5757,7 @@
 	  value: true
 	});
 	
-	var _getAlignOffset = __webpack_require__(61);
+	var _getAlignOffset = __webpack_require__(62);
 	
 	var _getAlignOffset2 = _interopRequireDefault(_getAlignOffset);
 	
@@ -5793,7 +5778,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -5836,7 +5821,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5847,11 +5832,11 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _utils = __webpack_require__(53);
+	var _utils = __webpack_require__(54);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	var _align = __webpack_require__(52);
+	var _align = __webpack_require__(53);
 	
 	var _align2 = _interopRequireDefault(_align);
 	
@@ -5905,7 +5890,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6026,7 +6011,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6035,7 +6020,7 @@
 	  value: true
 	});
 	
-	var _Message = __webpack_require__(65);
+	var _Message = __webpack_require__(66);
 	
 	var _Message2 = _interopRequireDefault(_Message);
 	
@@ -6045,7 +6030,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6062,7 +6047,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _beeNotification = __webpack_require__(66);
+	var _beeNotification = __webpack_require__(67);
 	
 	var _beeNotification2 = _interopRequireDefault(_beeNotification);
 	
@@ -6153,24 +6138,33 @@
 	function getMessageInstance() {
 	    var position = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'top';
 	    var callback = arguments[1];
+	    var keyboard = arguments[2];
+	    var onEscapeKeyUp = arguments[3];
 	
 	    if (messageInstance) {
 	        callback(messageInstance);
 	        return;
 	    }
 	    var style = positionObj[position].notificationStyle;
-	    _beeNotification2["default"].newInstance({
+	    var instanceObj = {
 	        clsPrefix: clsPrefix,
 	        transitionName: clsPrefix + '-' + positionObj[position].transitionName,
 	        style: style, // 覆盖原来的样式
 	        position: ''
-	    }, function (instance) {
+	    };
+	    if (typeof keyboard === 'boolean') {
+	        instanceObj.keyboard = keyboard;
+	    }
+	    if (typeof onEscapeKeyUp === 'function') {
+	        instanceObj.onEscapeKeyUp = onEscapeKeyUp;
+	    }
+	    _beeNotification2["default"].newInstance(instanceObj, function (instance) {
 	        messageInstance = instance;
 	        callback(instance);
 	    });
 	}
 	
-	function notice(content, duration, type, onClose, position, style) {
+	function notice(content, duration, type, onClose, position, style, keyboard, onEscapeKeyUp, showIcon) {
 	    var iconType = {
 	        info: 'uf uf-i-c-2',
 	        success: 'uf uf-correct',
@@ -6196,11 +6190,11 @@
 	            content: _react2["default"].createElement(
 	                'div',
 	                null,
-	                _react2["default"].createElement(
+	                showIcon ? _react2["default"].createElement(
 	                    'div',
 	                    { className: clsPrefix + '-notice-description-icon' },
 	                    _react2["default"].createElement('i', { className: (0, _classnames2["default"])(iconType) })
-	                ),
+	                ) : null,
 	                _react2["default"].createElement(
 	                    'div',
 	                    { className: clsPrefix + '-notice-description-content' },
@@ -6209,7 +6203,7 @@
 	            ),
 	            onClose: onClose
 	        });
-	    });
+	    }, keyboard, onEscapeKeyUp);
 	    return function () {
 	        var target = key++;
 	        return function () {
@@ -6228,7 +6222,8 @@
 	        var onClose = obj.onClose || noop;
 	        var position = obj.position || "top";
 	        var style = obj.style || {};
-	        return notice(content, duration, color, onClose, position, style);
+	        var showIcon = obj.showIcon || false;
+	        return notice(content, duration, color, onClose, position, style, obj.keyboard, obj.onEscapeKeyUp, showIcon);
 	    },
 	    config: function config(options) {
 	        if (options.top !== undefined) {
@@ -6260,7 +6255,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6269,7 +6264,7 @@
 	  value: true
 	});
 	
-	var _Notification = __webpack_require__(67);
+	var _Notification = __webpack_require__(68);
 	
 	var _Notification2 = _interopRequireDefault(_Notification);
 	
@@ -6279,7 +6274,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6302,19 +6297,27 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _beeAnimate = __webpack_require__(68);
+	var _beeAnimate = __webpack_require__(69);
 	
 	var _beeAnimate2 = _interopRequireDefault(_beeAnimate);
 	
-	var _createChainedFunction = __webpack_require__(36);
+	var _createChainedFunction = __webpack_require__(37);
 	
 	var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
+	
+	var _ownerDocument = __webpack_require__(74);
+	
+	var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
+	
+	var _addEventListener = __webpack_require__(76);
+	
+	var _addEventListener2 = _interopRequireDefault(_addEventListener);
 	
 	var _classnames = __webpack_require__(3);
 	
 	var _classnames2 = _interopRequireDefault(_classnames);
 	
-	var _Notice = __webpack_require__(73);
+	var _Notice = __webpack_require__(78);
 	
 	var _Notice2 = _interopRequireDefault(_Notice);
 	
@@ -6343,12 +6346,15 @@
 	  style: _propTypes2["default"].object,
 	  position: _propTypes2["default"].oneOf(['topRight', 'bottomRight', '']),
 	  transitionName: _propTypes2["default"].string,
+	  keyboard: _propTypes2["default"].bool, // 按esc键是否关闭notice
+	  onEscapeKeyUp: _propTypes2["default"].func, // 设置esc键特殊钩子函数
 	  animation: _propTypes2["default"].oneOfType([_propTypes2["default"].string, _propTypes2["default"].object])
 	};
 	
 	var defaultProps = {
 	  clsPrefix: 'u-notification',
 	  animation: 'fade',
+	  keyboard: true,
 	  position: 'topRight'
 	};
 	
@@ -6360,6 +6366,20 @@
 	
 	    var _this = _possibleConstructorReturn(this, _Component.call(this, props));
 	
+	    _this.handleDocumentKeyUp = function (e) {
+	      if (_this.props.keyboard && e.keyCode === 27 && _this.state.notices.length) {
+	        _this.setState(function (previousState) {
+	          previousState.notices.shift();
+	          return {
+	            notices: previousState.notices
+	          };
+	        });
+	        if (_this.props.onEscapeKeyUp) {
+	          _this.props.onEscapeKeyUp(e);
+	        }
+	      }
+	    };
+	
 	    _this.state = {
 	      notices: []
 	    };
@@ -6368,6 +6388,16 @@
 	
 	    return _this;
 	  }
+	
+	  Notification.prototype.componentDidMount = function componentDidMount() {
+	    // 给document绑定keyup事件
+	    var doc = (0, _ownerDocument2["default"])(this);
+	    this._onDocumentKeyupListener = (0, _addEventListener2["default"])(doc, 'keyup', this.handleDocumentKeyUp);
+	  };
+	
+	  Notification.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this._onDocumentKeyupListener.remove();
+	  };
 	
 	  Notification.prototype.getTransitionName = function getTransitionName() {
 	    var props = this.props;
@@ -6401,6 +6431,11 @@
 	      };
 	    });
 	  };
+	
+	  /**
+	   * 处理绑定在document上的keyup事件
+	   */
+	
 	
 	  Notification.prototype.render = function render() {
 	    var _this2 = this,
@@ -6449,6 +6484,10 @@
 	Notification.defaultProps = defaultProps;
 	
 	Notification.newInstance = function newNotificationInstance(properties, callback) {
+	  if (typeof callback !== 'function') {
+	    console.error('You must introduce callback as the second parameter of Notification.newInstance().');
+	    return;
+	  }
 	  var props = properties || {};
 	  var div = document.createElement('div');
 	  document.body.appendChild(div);
@@ -6481,7 +6520,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6490,7 +6529,7 @@
 	  value: true
 	});
 	
-	var _Animate = __webpack_require__(69);
+	var _Animate = __webpack_require__(70);
 	
 	var _Animate2 = _interopRequireDefault(_Animate);
 	
@@ -6500,7 +6539,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6517,13 +6556,13 @@
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _ChildrenUtils = __webpack_require__(70);
+	var _ChildrenUtils = __webpack_require__(71);
 	
-	var _AnimateChild = __webpack_require__(71);
+	var _AnimateChild = __webpack_require__(72);
 	
 	var _AnimateChild2 = _interopRequireDefault(_AnimateChild);
 	
-	var _util = __webpack_require__(72);
+	var _util = __webpack_require__(73);
 	
 	var _util2 = _interopRequireDefault(_util);
 	
@@ -6880,7 +6919,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7002,7 +7041,7 @@
 	}
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7025,9 +7064,9 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _tinperBeeCore = __webpack_require__(26);
+	var _tinperBeeCore = __webpack_require__(27);
 	
-	var _util = __webpack_require__(72);
+	var _util = __webpack_require__(73);
 	
 	var _util2 = _interopRequireDefault(_util);
 	
@@ -7145,7 +7184,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -7177,7 +7216,109 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 73 */
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	exports["default"] = function (componentOrElement) {
+	  return (0, _ownerDocument2["default"])(_reactDom2["default"].findDOMNode(componentOrElement));
+	};
+	
+	var _reactDom = __webpack_require__(12);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _ownerDocument = __webpack_require__(75);
+	
+	var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	module.exports = exports['default'];
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	exports.__esModule = true;
+	exports.default = ownerDocument;
+	
+	function ownerDocument(node) {
+	  return node && node.ownerDocument || document;
+	}
+	
+	module.exports = exports["default"];
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	exports["default"] = function (node, event, handler, capture) {
+	  (0, _on2["default"])(node, event, handler, capture);
+	
+	  return {
+	    remove: function remove() {
+	      (0, _off2["default"])(node, event, handler, capture);
+	    }
+	  };
+	};
+	
+	var _on = __webpack_require__(16);
+	
+	var _on2 = _interopRequireDefault(_on);
+	
+	var _off = __webpack_require__(77);
+	
+	var _off2 = _interopRequireDefault(_off);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	module.exports = exports['default'];
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	var _interopRequireDefault = __webpack_require__(14);
+	
+	exports.__esModule = true;
+	exports.default = void 0;
+	
+	var _inDOM = _interopRequireDefault(__webpack_require__(15));
+	
+	var off = function off() {};
+	
+	if (_inDOM.default) {
+	  off = function () {
+	    if (document.addEventListener) return function (node, eventName, handler, capture) {
+	      return node.removeEventListener(eventName, handler, capture || false);
+	    };else if (document.attachEvent) return function (node, eventName, handler) {
+	      return node.detachEvent('on' + eventName, handler);
+	    };
+	  }();
+	}
+	
+	var _default = off;
+	exports.default = _default;
+	module.exports = exports["default"];
+
+/***/ }),
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7214,7 +7355,7 @@
 	  duration: _propTypes2["default"].number,
 	  onClose: _propTypes2["default"].func,
 	  children: _propTypes2["default"].any,
-	  color: _propTypes2["default"].oneOf(['light']),
+	  color: _propTypes2["default"].oneOf(['info', 'success', 'danger', 'warning', 'light', 'dark', 'news', 'infolight', 'successlight', 'dangerlight', 'warninglight']),
 	  title: _propTypes2["default"].any
 	};
 	
@@ -7313,19 +7454,19 @@
 	
 	;
 	
-	Notice.PropTypes = _propTypes2["default"];
+	Notice.propTypes = propTypes;
 	Notice.defaultProps = defaultProps;
 	
 	exports["default"] = Notice;
 	module.exports = exports['default'];
 
 /***/ }),
-/* 74 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var deselectCurrent = __webpack_require__(75);
+	var deselectCurrent = __webpack_require__(80);
 	
 	var defaultMessage = 'Copy to clipboard: #{key}, Enter';
 	
@@ -7404,7 +7545,7 @@
 
 
 /***/ }),
-/* 75 */
+/* 80 */
 /***/ (function(module, exports) {
 
 	
@@ -7449,7 +7590,7 @@
 
 
 /***/ }),
-/* 76 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7472,7 +7613,7 @@
 	
 	var _propTypes2 = _interopRequireDefault(_propTypes);
 	
-	var _tinperBeeCore = __webpack_require__(26);
+	var _tinperBeeCore = __webpack_require__(27);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 	
@@ -7596,7 +7737,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 77 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7605,7 +7746,7 @@
 	  value: true
 	});
 	
-	var _Button = __webpack_require__(78);
+	var _Button = __webpack_require__(83);
 	
 	var _Button2 = _interopRequireDefault(_Button);
 	
@@ -7615,7 +7756,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 78 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7784,7 +7925,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 79 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7797,7 +7938,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _src = __webpack_require__(80);
+	var _src = __webpack_require__(85);
 	
 	var _src2 = _interopRequireDefault(_src);
 	
@@ -12539,6 +12680,141 @@
 							{ className: 'fontclass' },
 							'.uf-filterno'
 						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-clean' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u6A61\u76AE\u64E6'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-clean'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-save' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u4FDD\u5B58'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-save'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-export' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u5BFC\u51FA'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-export'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-import' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u5BFC\u5165'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-import'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-stop-c' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'stop-c'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-stop-c'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-rubber' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'rubber'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-rubber'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-bediting' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u6279\u6B21\u7F16\u8F91'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-bediting'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'uf-maxmize' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u6700\u5927\u5316'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-maxmize'
+						)
+					),
+					_react2['default'].createElement(
+						'li',
+						null,
+						_react2['default'].createElement(_src2['default'], { type: 'icon uf uf-minimize' }),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'name' },
+							'\u6700\u5C0F\u5316'
+						),
+						_react2['default'].createElement(
+							'div',
+							{ 'class': 'fontclass' },
+							'.uf-minimize'
+						)
 					)
 				)
 			);
@@ -12551,7 +12827,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 80 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12560,7 +12836,7 @@
 	  value: true
 	});
 	
-	var _Icon = __webpack_require__(81);
+	var _Icon = __webpack_require__(86);
 	
 	var _Icon2 = _interopRequireDefault(_Icon);
 	
@@ -12570,7 +12846,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 81 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';

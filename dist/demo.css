@@ -2418,9 +2418,6 @@ i.uf {
 /*
  * 选择时删除文本阴影，及设置默认选中颜色
  */
-::-moz-selection {
-  background: rgb(187,222,251);
-  text-shadow: none; }
 ::selection {
   background: rgb(187,222,251);
   text-shadow: none; }
@@ -3477,6 +3474,60 @@ a, .mdl-accordion, .mdl-button, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
 
 .uf-treeline-copy:before {
   content: "\e994"; }
+
+.uf-listwithdots:before {
+  content: "\e9cd"; }
+
+.uf-gridlogo:before {
+  content: "\e900"; }
+
+.uf-magnifyingglass:before {
+  content: "\e9ce"; }
+
+.uf-anglearrowdown:before {
+  content: "\e9cf"; }
+
+.uf-yongyouyunchnen:before {
+  content: "\e98d"; }
+
+.uf-yycloud:before {
+  content: "\e68f"; }
+
+.uf-funnel-o:before {
+  content: "\e63c"; }
+
+.uf-filter:before {
+  content: "\e9d0"; }
+
+.uf-filterno:before {
+  content: "\e9d1"; }
+
+.uf-clean:before {
+  content: "\e9d2"; }
+
+.uf-save:before {
+  content: "\e9d3"; }
+
+.uf-export:before {
+  content: "\e9d4"; }
+
+.uf-import:before {
+  content: "\e9d5"; }
+
+.uf-stop-c:before {
+  content: "\e9d6"; }
+
+.uf-rubber:before {
+  content: "\e9d7"; }
+
+.uf-bediting:before {
+  content: "\e9d8"; }
+
+.uf-maxmize:before {
+  content: "\e9d9"; }
+
+.uf-minimize:before {
+  content: "\e9da"; }
 
 /* FormGroup */
 /*  Navlayout  */
@@ -5257,7 +5308,7 @@ a, .mdl-accordion, .mdl-button, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
   .u-panel .u-panel-body {
     padding: 15px 15px;
     position: relative; }
-    .u-panel .u-panel-body .uf {
+    .u-panel .u-panel-body .u-panel-copy {
       position: absolute;
       right: 25px;
       top: 30px;
@@ -5267,7 +5318,7 @@ a, .mdl-accordion, .mdl-button, .mdl-card, .mdl-checkbox, .mdl-dropdown-menu,
       margin: 8px;
       border-radius: 4px;
       cursor: pointer; }
-      .u-panel .u-panel-body .uf:hover {
+      .u-panel .u-panel-body .u-panel-copy:hover {
         color: #a8a7a7; }
 
 .u-panel-default {
@@ -5971,7 +6022,7 @@ input.u-button[type="submit"] {
   width: 38px;
   padding: 0;
   line-height: normal;
-  border: 1px solid rgb(224,224,224); }
+  border: 1px solid rgb(189,189,189); }
   .u-button-floating.colored {
     background: rgb(67,160,71);
     color: rgb(255,255,255);
@@ -6134,7 +6185,7 @@ input.u-button[type="submit"] {
   width: 32px;
   padding: 0;
   line-height: normal;
-  border: 1px solid rgb(224,224,224); }
+  border: 1px solid rgb(189,189,189); }
 
 .u-button-lg {
   padding: 8px 15px;
@@ -7128,6 +7179,27 @@ input.u-button[type="submit"] {
 
 .uf-filterno:before {
   content: "\e9d1"; }
+
+.uf-clean:before {
+  content: "\e9d2"; }
+
+.uf-save:before {
+  content: "\e9d3"; }
+
+.uf-export:before {
+  content: "\e9d4"; }
+
+.uf-import:before {
+  content: "\e9d5"; }
+
+.uf-stop-c:before {
+  content: "\e9d6"; }
+
+.uf-rubber:before {
+  content: "\e9d7"; }
+
+.uf-bediting:before {
+  content: "\e9d8"; }
 
 .u-panel .u-panel-title {
   font-size: 14px; }
