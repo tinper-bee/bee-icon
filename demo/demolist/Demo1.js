@@ -1912,7 +1912,7 @@ class Demo1 extends Component {
 					</li>
 					<li>
 						<Icon type="uf-rubber"></Icon>
-						<div class="name">rubber</div>
+						<div class="name">橡皮擦</div>
 						<div class="fontclass">.uf-rubber</div>
 					</li>
 					<li>
