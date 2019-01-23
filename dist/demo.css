@@ -7201,6 +7201,9 @@ input.u-button[type="submit"] {
 .uf-bediting:before {
   content: "\e9d8"; }
 
+.uf-globe:before {
+  content: "\e666"; }
+
 .u-panel .u-panel-title {
   font-size: 14px; }
 

@@ -1926,9 +1926,14 @@ class Demo1 extends Component {
 						<div class="fontclass">.uf-maxmize</div>
 					</li>
 					<li>
-						<Icon type="icon uf uf-minimize"></Icon>
+						<Icon type="uf-minimize"></Icon>
 						<div class="name">最小化</div>
 						<div class="fontclass">.uf-minimize</div>
+					</li>
+					<li>
+						<Icon type="uf-globe"></Icon>
+						<div class="name">多语言</div>
+						<div class="fontclass">.uf-globe</div>
 					</li>
 				</ul>
 			</div>

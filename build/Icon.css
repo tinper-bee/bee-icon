@@ -982,3 +982,6 @@
 
 .uf-bediting:before {
   content: "\e9d8"; }
+
+.uf-globe:before {
+  content: "\e666"; }
